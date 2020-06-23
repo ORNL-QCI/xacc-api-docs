@@ -1,17 +1,17 @@
 var searchData=
 [
-  ['mainprogcontext',['MainprogContext',['../classoqasm_1_1_o_q_a_s_m2_parser_1_1_mainprog_context.html',1,'oqasm::OQASM2Parser']]],
-  ['mainprogcontext',['MainprogContext',['../classxasm_1_1xasm_parser_1_1_mainprog_context.html',1,'xasm::xasmParser']]],
-  ['maptophysical',['MapToPhysical',['../classxacc_1_1quantum_1_1_map_to_physical.html',1,'xacc::quantum']]],
-  ['matrixcontext',['MatrixContext',['../classquil_1_1_quil_parser_1_1_matrix_context.html',1,'quil::QuilParser']]],
-  ['matrixrowcontext',['MatrixRowContext',['../classquil_1_1_quil_parser_1_1_matrix_row_context.html',1,'quil::QuilParser']]],
-  ['measkernel',['MeasKernel',['../classxacc_1_1ibm__backend_1_1_meas_kernel.html',1,'xacc::ibm_backend']]],
-  ['measkernelparams',['MeasKernelParams',['../classxacc_1_1ibm__backend_1_1_meas_kernel_params.html',1,'xacc::ibm_backend']]],
-  ['measure',['Measure',['../classxacc_1_1quantum_1_1_measure.html',1,'xacc::quantum']]],
-  ['measurecontext',['MeasureContext',['../classoqasm_1_1_o_q_a_s_m2_parser_1_1_measure_context.html',1,'oqasm::OQASM2Parser']]],
-  ['measurecontext',['MeasureContext',['../classquil_1_1_quil_parser_1_1_measure_context.html',1,'quil::QuilParser']]],
-  ['mlpackfunction',['MLPACKFunction',['../classxacc_1_1_m_l_p_a_c_k_function.html',1,'xacc']]],
-  ['mlpackoptimizer',['MLPACKOptimizer',['../classxacc_1_1_m_l_p_a_c_k_optimizer.html',1,'xacc']]],
-  ['muldivexpcontext',['MulDivExpContext',['../classquil_1_1_quil_parser_1_1_mul_div_exp_context.html',1,'quil::QuilParser']]],
-  ['multiqubitgate',['MultiQubitGate',['../classxacc_1_1ibm__backend_1_1_multi_qubit_gate.html',1,'xacc::ibm_backend']]]
+  ['labelcontext',['LabelContext',['../classquil_1_1_quil_parser_1_1_label_context.html',1,'quil::QuilParser']]],
+  ['lattice',['Lattice',['../classqpp_1_1_lattice.html',1,'qpp']]],
+  ['lbfgsparam',['LBFGSParam',['../class_l_b_f_g_spp_1_1_l_b_f_g_s_param.html',1,'LBFGSpp']]],
+  ['lbfgssolver',['LBFGSSolver',['../class_l_b_f_g_spp_1_1_l_b_f_g_s_solver.html',1,'LBFGSpp']]],
+  ['less_3c_20_3a_3anlohmann_3a_3adetail_3a_3avalue_5ft_20_3e',['less&lt; ::nlohmann::detail::value_t &gt;',['../structstd_1_1less_3_01_1_1nlohmann_1_1detail_1_1value__t_01_4.html',1,'std']]],
+  ['lexer',['lexer',['../classnlohmann_1_1detail_1_1lexer.html',1,'nlohmann::detail']]],
+  ['lexer',['Lexer',['../classqpp_1_1qasm_1_1_lexer.html',1,'qpp::qasm']]],
+  ['lexicalerror',['LexicalError',['../classqpp_1_1exception_1_1_lexical_error.html',1,'qpp::exception']]],
+  ['linecontext',['LineContext',['../classxasm_1_1xasm_parser_1_1_line_context.html',1,'xasm::xasmParser']]],
+  ['linecontext',['LineContext',['../classoqasm_1_1_o_q_a_s_m2_parser_1_1_line_context.html',1,'oqasm::OQASM2Parser']]],
+  ['linesearchbacktracking',['LineSearchBacktracking',['../class_l_b_f_g_spp_1_1_line_search_backtracking.html',1,'LBFGSpp']]],
+  ['localibmaccelerator',['LocalIBMAccelerator',['../classxacc_1_1quantum_1_1_local_i_b_m_accelerator.html',1,'xacc::quantum']]],
+  ['location',['Location',['../classqpp_1_1qasm_1_1_location.html',1,'qpp::qasm']]],
+  ['lossstrategy',['LossStrategy',['../classxacc_1_1algorithm_1_1_loss_strategy.html',1,'xacc::algorithm']]]
 ];

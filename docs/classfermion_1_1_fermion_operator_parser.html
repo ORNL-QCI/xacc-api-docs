@@ -39,6 +39,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -107,6 +109,8 @@ Inheritance diagram for fermion::FermionOperatorParser:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfermion_1_1_fermion_operator_parser_1_1_carat_context.html">CaratContext</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfermion_1_1_fermion_operator_parser_1_1_coeff_context.html">CoeffContext</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfermion_1_1_fermion_operator_parser_1_1_comment_context.html">CommentContext</a></td></tr>
@@ -123,6 +127,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfermion_1_1_fermion_operator_parser_1_1_real_context.html">RealContext</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfermion_1_1_fermion_operator_parser_1_1_scientific_context.html">ScientificContext</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfermion_1_1_fermion_operator_parser_1_1_term_context.html">TermContext</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -136,12 +142,15 @@ Public Types</h2></td></tr>
 <br />
 &#160;&#160;<b>T__4</b> = 5, 
 <b>T__5</b> = 6, 
-<b>COMMENT</b> = 7, 
-<b>REAL</b> = 8, 
+<b>T__6</b> = 7, 
+<b>T__7</b> = 8, 
 <br />
-&#160;&#160;<b>INT</b> = 9, 
-<b>WS</b> = 10, 
-<b>EOL</b> = 11
+&#160;&#160;<b>COMMENT</b> = 9, 
+<b>REAL</b> = 10, 
+<b>INT</b> = 11, 
+<b>WS</b> = 12, 
+<br />
+&#160;&#160;<b>EOL</b> = 13
 <br />
  }</td></tr>
 <tr class="separator:a07e36211ec86626702a2a0cf865a9d29"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -152,11 +161,13 @@ Public Types</h2></td></tr>
 <b>RuleFermion</b> = 3, 
 <br />
 &#160;&#160;<b>RuleOp</b> = 4, 
-<b>RuleCoeff</b> = 5, 
-<b>RuleComplex</b> = 6, 
-<b>RuleReal</b> = 7, 
+<b>RuleCarat</b> = 5, 
+<b>RuleCoeff</b> = 6, 
+<b>RuleComplex</b> = 7, 
 <br />
-&#160;&#160;<b>RuleComment</b> = 8
+&#160;&#160;<b>RuleReal</b> = 8, 
+<b>RuleComment</b> = 9, 
+<b>RuleScientific</b> = 10
 <br />
  }</td></tr>
 <tr class="separator:a313344491bfde6f7901b776d57ea48d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -196,6 +207,9 @@ virtual antlr4::dfa::Vocabulary &amp;&#160;</td><td class="memItemRight" valign=
 <tr class="memitem:acc1ac76629d74334bb3e9c65bf1d59c8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acc1ac76629d74334bb3e9c65bf1d59c8"></a>
 <a class="el" href="classfermion_1_1_fermion_operator_parser_1_1_op_context.html">OpContext</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>op</b> ()</td></tr>
 <tr class="separator:acc1ac76629d74334bb3e9c65bf1d59c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50a82fd22ad5c77f331312d6107512d3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a50a82fd22ad5c77f331312d6107512d3"></a>
+<a class="el" href="classfermion_1_1_fermion_operator_parser_1_1_carat_context.html">CaratContext</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>carat</b> ()</td></tr>
+<tr class="separator:a50a82fd22ad5c77f331312d6107512d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abecc63ed0b70691feac3d05022d09fa5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abecc63ed0b70691feac3d05022d09fa5"></a>
 <a class="el" href="classfermion_1_1_fermion_operator_parser_1_1_coeff_context.html">CoeffContext</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>coeff</b> ()</td></tr>
 <tr class="separator:abecc63ed0b70691feac3d05022d09fa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -208,6 +222,9 @@ virtual antlr4::dfa::Vocabulary &amp;&#160;</td><td class="memItemRight" valign=
 <tr class="memitem:a975b78dba3aebeb92a5dcd5c8564b0cd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a975b78dba3aebeb92a5dcd5c8564b0cd"></a>
 <a class="el" href="classfermion_1_1_fermion_operator_parser_1_1_comment_context.html">CommentContext</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>comment</b> ()</td></tr>
 <tr class="separator:a975b78dba3aebeb92a5dcd5c8564b0cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab175c617f99d66166a4a11b5ad7b7671"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab175c617f99d66166a4a11b5ad7b7671"></a>
+<a class="el" href="classfermion_1_1_fermion_operator_parser_1_1_scientific_context.html">ScientificContext</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>scientific</b> ()</td></tr>
+<tr class="separator:ab175c617f99d66166a4a11b5ad7b7671"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>/home/cades/dev/xacc/quantum/observable/fermion/generated/<a class="el" href="_fermion_operator_parser_8h_source.html">FermionOperatorParser.h</a></li>

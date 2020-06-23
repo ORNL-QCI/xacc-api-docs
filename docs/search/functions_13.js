@@ -1,0 +1,27 @@
+var searchData=
+[
+  ['tfq',['TFQ',['../classqpp_1_1_q_circuit.html#af7e8b654007a90fa288c9d0ca3141677',1,'qpp::QCircuit::TFQ(const std::vector&lt; idx &gt; &amp;target, bool swap QPP_UNUSED_=true)'],['../classqpp_1_1_q_circuit.html#a51f5c8e629ae78653ece80fd7c167201',1,'qpp::QCircuit::TFQ(const std::initializer_list&lt; idx &gt; &amp;target, bool swap=true)'],['../classqpp_1_1_q_circuit.html#adee6efdd08052f20b8115559627f501a',1,'qpp::QCircuit::TFQ(bool swap=true)'],['../namespaceqpp.html#a02efeb14d6d1e6d11686f67572f86102',1,'qpp::TFQ()']]],
+  ['tic',['tic',['../classqpp_1_1_timer.html#a542e36ed65f84690db41d92f18bbf182',1,'qpp::Timer']]],
+  ['tics',['tics',['../classqpp_1_1_timer.html#af20efd87cf89264e9bc73c25abe6b69b',1,'qpp::Timer']]],
+  ['timer',['Timer',['../classqpp_1_1_timer.html#a508a8df2570ce6717e7e5db1edc345cc',1,'qpp::Timer']]],
+  ['to_5fcbor',['to_cbor',['../classnlohmann_1_1basic__json.html#a2566783e190dec524bf3445b322873b8',1,'nlohmann::basic_json']]],
+  ['to_5fchars',['to_chars',['../namespacenlohmann_1_1detail.html#a6192f1eab05fbbc5c35edb8368c8fc57',1,'nlohmann::detail']]],
+  ['to_5fcoordinates',['to_coordinates',['../classqpp_1_1_i_layout.html#a0433a8b8745b1f8a74baca5de7f63e40',1,'qpp::ILayout::to_coordinates()'],['../classqpp_1_1_lattice.html#ae62515ba7ed2ac016dd428dc93c2aef2',1,'qpp::Lattice::to_coordinates()']]],
+  ['to_5fjson',['to_JSON',['../classqpp_1_1_q_circuit.html#a7c52f4e2c0ab81f81fa900c08afa07f2',1,'qpp::QCircuit::to_JSON()'],['../classqpp_1_1_q_engine.html#a99b802169657dca3a1452b4870c1c53b',1,'qpp::QEngine::to_JSON()'],['../classqpp_1_1_i_j_s_o_n.html#ac460b44f815c722dbbec91ded27d8704',1,'qpp::IJSON::to_JSON()'],['../classqpp_1_1_bit__circuit.html#a30b7512afefeac8a71c24676d964b4a9',1,'qpp::Bit_circuit::to_JSON()'],['../structnlohmann_1_1adl__serializer.html#adf8cd96afe6ab243b67392dfe35ace89',1,'nlohmann::adl_serializer::to_json()']]],
+  ['to_5fmsgpack',['to_msgpack',['../classnlohmann_1_1basic__json.html#a09ca1dc273d226afe0ca83a9d7438d9c',1,'nlohmann::basic_json']]],
+  ['to_5fqcircuit',['to_QCircuit',['../classqpp_1_1qasm_1_1_q_a_s_m.html#a4e0ecbe99644785063df273d09c613be',1,'qpp::qasm::QASM']]],
+  ['to_5fstring',['to_string',['../classnlohmann_1_1json__pointer.html#ad7d3a3a215db8fe0964e644a918dcccb',1,'nlohmann::json_pointer::to_string()'],['../classqpp_1_1_dynamic__bitset.html#a30a7de891db7f91d19f9d1cf966ee11d',1,'qpp::Dynamic_bitset::to_string()']]],
+  ['to_5fubjson',['to_ubjson',['../classnlohmann_1_1basic__json.html#ae1ece6c2059114eac10873f13ef19185',1,'nlohmann::basic_json']]],
+  ['toc',['toc',['../classqpp_1_1_timer.html#a175fc462573b997609e6003056c046be',1,'qpp::Timer']]],
+  ['tof',['TOF',['../classqpp_1_1_bit__circuit.html#ab31cc2c51d3841fac423157b0e3ec7ae',1,'qpp::Bit_circuit']]],
+  ['token',['Token',['../classqpp_1_1qasm_1_1_token.html#a593dcd7217ce7f8c1a25cb8c8b5e420d',1,'qpp::qasm::Token::Token()=default'],['../classqpp_1_1qasm_1_1_token.html#afee041a9402398c5495b28e4cf0c1fa2',1,'qpp::qasm::Token::Token(Location loc, Kind k, const std::string &amp;value)']]],
+  ['token_5ftype_5fname',['token_type_name',['../classnlohmann_1_1detail_1_1lexer.html#ae514e2005f0ce185f1ad366139e541e8',1,'nlohmann::detail::lexer']]],
+  ['tostring',['toString',['../classxacc_1_1quantum_1_1_pauli_operator.html#a4e5aa7d1831c1d7da3cc0cdd6980c45b',1,'xacc::quantum::PauliOperator']]],
+  ['trace',['trace',['../namespaceqpp.html#a1e1daff5450728504da1fdfedf8d8b54',1,'qpp']]],
+  ['translate',['translate',['../classxacc_1_1quantum_1_1_quil_compiler.html#ae4aa946e06f289950fffe9ded0159109',1,'xacc::quantum::QuilCompiler']]],
+  ['transpose',['transpose',['../namespaceqpp.html#a2d40b2372b7537b8a5b9e0a92d729769',1,'qpp']]],
+  ['trivialembeddingalgorithm',['TrivialEmbeddingAlgorithm',['../classxacc_1_1quantum_1_1_trivial_embedding_algorithm.html#aa704a3dc5825db1b023c54d84ec0f883',1,'xacc::quantum::TrivialEmbeddingAlgorithm']]],
+  ['tsallis',['tsallis',['../namespaceqpp.html#aeff1197fe1e27f2dc5caeb032d80f6b4',1,'qpp::tsallis(const Eigen::MatrixBase&lt; Derived &gt; &amp;A, double q)'],['../namespaceqpp.html#a0439ba7f33753937fee671afe3250554',1,'qpp::tsallis(const std::vector&lt; double &gt; &amp;prob, double q)']]],
+  ['type',['type',['../classnlohmann_1_1basic__json.html#a2b2d781d7f2a4ee41bc0016e931cadf7',1,'nlohmann::basic_json']]],
+  ['type_5fname',['type_name',['../classnlohmann_1_1basic__json.html#a9d0a478571f82f0163b96b2424cd998f',1,'nlohmann::basic_json']]]
+];

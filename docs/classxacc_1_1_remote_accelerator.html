@@ -39,6 +39,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -102,12 +104,11 @@ Inheritance diagram for xacc::RemoteAccelerator:</div>
  <div class="center">
   <img src="classxacc_1_1_remote_accelerator.png" usemap="#xacc::RemoteAccelerator_map" alt=""/>
   <map id="xacc::RemoteAccelerator_map" name="xacc::RemoteAccelerator_map">
-<area href="classxacc_1_1_accelerator.html" alt="xacc::Accelerator" shape="rect" coords="306,56,500,80"/>
-<area href="classxacc_1_1_identifiable.html" alt="xacc::Identifiable" shape="rect" coords="306,0,500,24"/>
+<area href="classxacc_1_1_accelerator.html" alt="xacc::Accelerator" shape="rect" coords="204,56,398,80"/>
+<area href="classxacc_1_1_identifiable.html" alt="xacc::Identifiable" shape="rect" coords="204,0,398,24"/>
 <area href="classxacc_1_1quantum_1_1_d_w_accelerator.html" alt="xacc::quantum::DWAccelerator" shape="rect" coords="0,168,194,192"/>
-<area href="classxacc_1_1quantum_1_1_i_b_m_accelerator.html" alt="xacc::quantum::IBMAccelerator" shape="rect" coords="204,168,398,192"/>
-<area href="classxacc_1_1quantum_1_1_ion_q_accelerator.html" alt="xacc::quantum::IonQAccelerator" shape="rect" coords="408,168,602,192"/>
-<area href="classxacc_1_1quantum_1_1_q_v_m_accelerator.html" alt="xacc::quantum::QVMAccelerator" shape="rect" coords="612,168,806,192"/>
+<area href="classxacc_1_1quantum_1_1_ion_q_accelerator.html" alt="xacc::quantum::IonQAccelerator" shape="rect" coords="204,168,398,192"/>
+<area href="classxacc_1_1quantum_1_1_q_v_m_accelerator.html" alt="xacc::quantum::QVMAccelerator" shape="rect" coords="408,168,602,192"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -153,6 +154,9 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>contributeIns
 <tr class="memitem:aa43f52b577500f6489b479e4b886b4c4 inherit pub_methods_classxacc_1_1_accelerator"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa43f52b577500f6489b479e4b886b4c4"></a>
 virtual const std::string&#160;</td><td class="memItemRight" valign="bottom"><b>defaultPlacementTransformation</b> ()</td></tr>
 <tr class="separator:aa43f52b577500f6489b479e4b886b4c4 inherit pub_methods_classxacc_1_1_accelerator"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bcc1feb0a05dc04211c1ffcea5d6ba3 inherit pub_methods_classxacc_1_1_accelerator"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9bcc1feb0a05dc04211c1ffcea5d6ba3"></a>
+virtual BitOrder&#160;</td><td class="memItemRight" valign="bottom"><b>getBitOrder</b> ()</td></tr>
+<tr class="separator:a9bcc1feb0a05dc04211c1ffcea5d6ba3 inherit pub_methods_classxacc_1_1_accelerator"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c42da8ad0eb94482af0bffa35625118 inherit pub_methods_classxacc_1_1_accelerator"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6c42da8ad0eb94482af0bffa35625118"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>cancel</b> ()</td></tr>
 <tr class="separator:a6c42da8ad0eb94482af0bffa35625118 inherit pub_methods_classxacc_1_1_accelerator"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -199,6 +203,14 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>remoteUrl</b><
 <tr class="memitem:a44a07e5edac49e6cc32e1ed68c10c9ff"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a44a07e5edac49e6cc32e1ed68c10c9ff"></a>
 std::map&lt; std::string, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>headers</b></td></tr>
 <tr class="separator:a44a07e5edac49e6cc32e1ed68c10c9ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_types_classxacc_1_1_accelerator"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classxacc_1_1_accelerator')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classxacc_1_1_accelerator.html">xacc::Accelerator</a></td></tr>
+<tr class="memitem:a9caafb90c45e00066a2500af3a04cd04 inherit pub_types_classxacc_1_1_accelerator"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9caafb90c45e00066a2500af3a04cd04"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>BitOrder</b> { <b>LSB</b>, 
+<b>MSB</b>
+ }</td></tr>
+<tr class="separator:a9caafb90c45e00066a2500af3a04cd04 inherit pub_types_classxacc_1_1_accelerator"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>/home/cades/dev/xacc/xacc/accelerator/remote/<a class="el" href="_remote_accelerator_8hpp_source.html">RemoteAccelerator.hpp</a></li>

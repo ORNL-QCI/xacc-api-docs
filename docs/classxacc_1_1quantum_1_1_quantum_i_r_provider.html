@@ -39,6 +39,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -117,10 +119,10 @@ std::shared_ptr&lt; <a class="el" href="classxacc_1_1_instruction.html">Instruct
 std::shared_ptr&lt; <a class="el" href="classxacc_1_1_instruction.html">Instruction</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>createInstruction</b> (const std::string <a class="el" href="classxacc_1_1quantum_1_1_quantum_i_r_provider.html#a420f257215b9fbcf56d95499125c5799">name</a>, std::vector&lt; std::size_t &gt; bits, std::vector&lt; <a class="el" href="classxacc_1_1_variant.html">InstructionParameter</a> &gt; parameters=std::vector&lt; <a class="el" href="classxacc_1_1_variant.html">InstructionParameter</a> &gt;{}, const <a class="el" href="classxacc_1_1_heterogeneous_map.html">HeterogeneousMap</a> &amp;analog_options={}) override</td></tr>
 <tr class="separator:a283f867e89cf3900f058b33a2b26d40c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a40a9d712b9ac88a94a03968313f4636a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a40a9d712b9ac88a94a03968313f4636a"></a>
-std::shared_ptr&lt; <a class="el" href="classxacc_1_1_composite_instruction.html">CompositeInstruction</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>createComposite</b> (const std::string <a class="el" href="classxacc_1_1quantum_1_1_quantum_i_r_provider.html#a420f257215b9fbcf56d95499125c5799">name</a>, std::vector&lt; std::string &gt; variables={}, const std::string type=&quot;circuit&quot;) override</td></tr>
+std::shared_ptr&lt; <a class="el" href="classxacc_1_1_composite_instruction.html">CompositeInstruction</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>createComposite</b> (const std::string <a class="el" href="classxacc_1_1quantum_1_1_quantum_i_r_provider.html#a420f257215b9fbcf56d95499125c5799">name</a>, std::vector&lt; std::string &gt; variables={}, const std::string <a class="el" href="structtype.html">type</a>=&quot;circuit&quot;) override</td></tr>
 <tr class="separator:a40a9d712b9ac88a94a03968313f4636a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e0711a312c3869cc822eaa6121b2ee4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7e0711a312c3869cc822eaa6121b2ee4"></a>
-std::shared_ptr&lt; <a class="el" href="classxacc_1_1_i_r.html">IR</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>createIR</b> (const std::string type=&quot;circuit&quot;) override</td></tr>
+std::shared_ptr&lt; <a class="el" href="classxacc_1_1_i_r.html">IR</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>createIR</b> (const std::string <a class="el" href="structtype.html">type</a>=&quot;circuit&quot;) override</td></tr>
 <tr class="separator:a7e0711a312c3869cc822eaa6121b2ee4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d832d6af06c350807fabb95ebd4c5e2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6d832d6af06c350807fabb95ebd4c5e2"></a>
 std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>getInstructions</b> () override</td></tr>

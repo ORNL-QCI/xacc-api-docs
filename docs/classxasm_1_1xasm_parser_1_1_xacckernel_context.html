@@ -39,6 +39,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -112,21 +114,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7870288cc60710abe59c9ac19b20aa40"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7870288cc60710abe59c9ac19b20aa40"></a>
 virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><b>getRuleIndex</b> () const override</td></tr>
 <tr class="separator:a7870288cc60710abe59c9ac19b20aa40"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a131b3d00280bdfdffb3bbb25d1dfa578"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a131b3d00280bdfdffb3bbb25d1dfa578"></a>
-<a class="el" href="classxasm_1_1xasm_parser_1_1_mainprog_context.html">MainprogContext</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>mainprog</b> ()</td></tr>
-<tr class="separator:a131b3d00280bdfdffb3bbb25d1dfa578"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a345acbf8b28fc1c39a17e4a1ecdb49d0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a345acbf8b28fc1c39a17e4a1ecdb49d0"></a>
-std::vector&lt; <a class="el" href="classxasm_1_1xasm_parser_1_1_id_context.html">IdContext</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>id</b> ()</td></tr>
-<tr class="separator:a345acbf8b28fc1c39a17e4a1ecdb49d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6384fa7515a436f56558e8f1b6497ca5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6384fa7515a436f56558e8f1b6497ca5"></a>
-<a class="el" href="classxasm_1_1xasm_parser_1_1_id_context.html">IdContext</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>id</b> (size_t i)</td></tr>
-<tr class="separator:a6384fa7515a436f56558e8f1b6497ca5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05b0867b8644aff023f30aeb34a2d39e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a05b0867b8644aff023f30aeb34a2d39e"></a>
 std::vector&lt; <a class="el" href="classxasm_1_1xasm_parser_1_1_typedparam_context.html">TypedparamContext</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>typedparam</b> ()</td></tr>
 <tr class="separator:a05b0867b8644aff023f30aeb34a2d39e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b1f9def76cece115f47841942adf130"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6b1f9def76cece115f47841942adf130"></a>
 <a class="el" href="classxasm_1_1xasm_parser_1_1_typedparam_context.html">TypedparamContext</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>typedparam</b> (size_t i)</td></tr>
 <tr class="separator:a6b1f9def76cece115f47841942adf130"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3feae2d49876bbc4f65437099114411"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad3feae2d49876bbc4f65437099114411"></a>
+<a class="el" href="classxasm_1_1xasm_parser_1_1_id_context.html">IdContext</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>id</b> ()</td></tr>
+<tr class="separator:ad3feae2d49876bbc4f65437099114411"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a131b3d00280bdfdffb3bbb25d1dfa578"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a131b3d00280bdfdffb3bbb25d1dfa578"></a>
+<a class="el" href="classxasm_1_1xasm_parser_1_1_mainprog_context.html">MainprogContext</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>mainprog</b> ()</td></tr>
+<tr class="separator:a131b3d00280bdfdffb3bbb25d1dfa578"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad795cf036eb57bff6829d298bf94d9b4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad795cf036eb57bff6829d298bf94d9b4"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>enterRule</b> (antlr4::tree::ParseTreeListener *listener) override</td></tr>
 <tr class="separator:ad795cf036eb57bff6829d298bf94d9b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -139,9 +138,6 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a86d3d9935349e1ccdfb7de07e3c496db"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a86d3d9935349e1ccdfb7de07e3c496db"></a>
 <a class="el" href="classxasm_1_1xasm_parser_1_1_id_context.html">xasmParser::IdContext</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>kernelname</b> = nullptr</td></tr>
 <tr class="separator:a86d3d9935349e1ccdfb7de07e3c496db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e604fb22bc6e71671e6af05401e13ec"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0e604fb22bc6e71671e6af05401e13ec"></a>
-<a class="el" href="classxasm_1_1xasm_parser_1_1_id_context.html">xasmParser::IdContext</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>acceleratorbuffer</b> = nullptr</td></tr>
-<tr class="separator:a0e604fb22bc6e71671e6af05401e13ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>/home/cades/dev/xacc/quantum/plugins/xasm/generated/<a class="el" href="xasm_parser_8h_source.html">xasmParser.h</a></li>

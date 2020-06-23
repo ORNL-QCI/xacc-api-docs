@@ -39,6 +39,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -133,6 +135,12 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>enterTypedpar
 <tr class="memitem:aac9e8757d17c3bbe20cdb53789ce71b6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aac9e8757d17c3bbe20cdb53789ce71b6"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>exitTypedparam</b> (<a class="el" href="classxasm_1_1xasm_parser_1_1_typedparam_context.html">xasmParser::TypedparamContext</a> *) override</td></tr>
 <tr class="separator:aac9e8757d17c3bbe20cdb53789ce71b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd8fa7cb5019bb3f931e21e2e7f976a5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acd8fa7cb5019bb3f931e21e2e7f976a5"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>enterVariable_param_name</b> (<a class="el" href="classxasm_1_1xasm_parser_1_1_variable__param__name_context.html">xasmParser::Variable_param_nameContext</a> *) override</td></tr>
+<tr class="separator:acd8fa7cb5019bb3f931e21e2e7f976a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a180aab7b31d73bcb4e811038429a0e51"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a180aab7b31d73bcb4e811038429a0e51"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>exitVariable_param_name</b> (<a class="el" href="classxasm_1_1xasm_parser_1_1_variable__param__name_context.html">xasmParser::Variable_param_nameContext</a> *) override</td></tr>
+<tr class="separator:a180aab7b31d73bcb4e811038429a0e51"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad3ae78d3998338e5eceeb40f575a08ab"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad3ae78d3998338e5eceeb40f575a08ab"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>enterType</b> (<a class="el" href="classxasm_1_1xasm_parser_1_1_type_context.html">xasmParser::TypeContext</a> *) override</td></tr>
 <tr class="separator:ad3ae78d3998338e5eceeb40f575a08ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -175,24 +183,48 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>enterForstmt<
 <tr class="memitem:aebc7db70f1f91ee8085a8ee5c0e3b208"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aebc7db70f1f91ee8085a8ee5c0e3b208"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>exitForstmt</b> (<a class="el" href="classxasm_1_1xasm_parser_1_1_forstmt_context.html">xasmParser::ForstmtContext</a> *) override</td></tr>
 <tr class="separator:aebc7db70f1f91ee8085a8ee5c0e3b208"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd22e6df2ba1a94fc2dd2e5b4f1acfbc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abd22e6df2ba1a94fc2dd2e5b4f1acfbc"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>enterIfstmt</b> (<a class="el" href="classxasm_1_1xasm_parser_1_1_ifstmt_context.html">xasmParser::IfstmtContext</a> *) override</td></tr>
+<tr class="separator:abd22e6df2ba1a94fc2dd2e5b4f1acfbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad87329a29be5ba01fe252f604d98e918"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad87329a29be5ba01fe252f604d98e918"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>exitIfstmt</b> (<a class="el" href="classxasm_1_1xasm_parser_1_1_ifstmt_context.html">xasmParser::IfstmtContext</a> *) override</td></tr>
+<tr class="separator:ad87329a29be5ba01fe252f604d98e918"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aedb8f1242ce400fbd8a3c8175d42b3b7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aedb8f1242ce400fbd8a3c8175d42b3b7"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>enterInstruction</b> (<a class="el" href="classxasm_1_1xasm_parser_1_1_instruction_context.html">xasmParser::InstructionContext</a> *) override</td></tr>
 <tr class="separator:aedb8f1242ce400fbd8a3c8175d42b3b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a572781f6eddae7bf84e31ce70ed594a4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a572781f6eddae7bf84e31ce70ed594a4"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>exitInstruction</b> (<a class="el" href="classxasm_1_1xasm_parser_1_1_instruction_context.html">xasmParser::InstructionContext</a> *) override</td></tr>
 <tr class="separator:a572781f6eddae7bf84e31ce70ed594a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a353d607c2db0a038934fc786a596934e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a353d607c2db0a038934fc786a596934e"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>enterBufferList</b> (<a class="el" href="classxasm_1_1xasm_parser_1_1_buffer_list_context.html">xasmParser::BufferListContext</a> *) override</td></tr>
+<tr class="separator:a353d607c2db0a038934fc786a596934e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b2f318c6229072ad259032835155d19"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3b2f318c6229072ad259032835155d19"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>exitBufferList</b> (<a class="el" href="classxasm_1_1xasm_parser_1_1_buffer_list_context.html">xasmParser::BufferListContext</a> *) override</td></tr>
+<tr class="separator:a3b2f318c6229072ad259032835155d19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa52f280f871363d4836f7e482070c633"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa52f280f871363d4836f7e482070c633"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>enterParamList</b> (<a class="el" href="classxasm_1_1xasm_parser_1_1_param_list_context.html">xasmParser::ParamListContext</a> *) override</td></tr>
+<tr class="separator:aa52f280f871363d4836f7e482070c633"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a276e066fe6445d7e902f27064c225c16"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a276e066fe6445d7e902f27064c225c16"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>exitParamList</b> (<a class="el" href="classxasm_1_1xasm_parser_1_1_param_list_context.html">xasmParser::ParamListContext</a> *) override</td></tr>
+<tr class="separator:a276e066fe6445d7e902f27064c225c16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3792e4fe03e03fa1b022d4a1c4d33fe1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3792e4fe03e03fa1b022d4a1c4d33fe1"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>enterParameter</b> (<a class="el" href="classxasm_1_1xasm_parser_1_1_parameter_context.html">xasmParser::ParameterContext</a> *) override</td></tr>
+<tr class="separator:a3792e4fe03e03fa1b022d4a1c4d33fe1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad764b7a7acd03edfa8326380883fcffd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad764b7a7acd03edfa8326380883fcffd"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>exitParameter</b> (<a class="el" href="classxasm_1_1xasm_parser_1_1_parameter_context.html">xasmParser::ParameterContext</a> *) override</td></tr>
+<tr class="separator:ad764b7a7acd03edfa8326380883fcffd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8153f2ab8a58b151f380fb30327cb9ee"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8153f2ab8a58b151f380fb30327cb9ee"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>enterComposite_generator</b> (<a class="el" href="classxasm_1_1xasm_parser_1_1_composite__generator_context.html">xasmParser::Composite_generatorContext</a> *) override</td></tr>
+<tr class="separator:a8153f2ab8a58b151f380fb30327cb9ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e3cd4efbd8213779c574d05d08f542a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5e3cd4efbd8213779c574d05d08f542a"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>exitComposite_generator</b> (<a class="el" href="classxasm_1_1xasm_parser_1_1_composite__generator_context.html">xasmParser::Composite_generatorContext</a> *) override</td></tr>
+<tr class="separator:a5e3cd4efbd8213779c574d05d08f542a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac0b9b11978b17b74e054ee1156523616"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac0b9b11978b17b74e054ee1156523616"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>enterBufferIndex</b> (<a class="el" href="classxasm_1_1xasm_parser_1_1_buffer_index_context.html">xasmParser::BufferIndexContext</a> *) override</td></tr>
 <tr class="separator:ac0b9b11978b17b74e054ee1156523616"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa706b79c434837a525c425b39a8313f5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa706b79c434837a525c425b39a8313f5"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>exitBufferIndex</b> (<a class="el" href="classxasm_1_1xasm_parser_1_1_buffer_index_context.html">xasmParser::BufferIndexContext</a> *) override</td></tr>
 <tr class="separator:aa706b79c434837a525c425b39a8313f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa66b81ec5918d2df41d244d0f653b54d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa66b81ec5918d2df41d244d0f653b54d"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>enterBitsOrParamType</b> (<a class="el" href="classxasm_1_1xasm_parser_1_1_bits_or_param_type_context.html">xasmParser::BitsOrParamTypeContext</a> *) override</td></tr>
-<tr class="separator:aa66b81ec5918d2df41d244d0f653b54d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8121e661510760d725f54e88c063034e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8121e661510760d725f54e88c063034e"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>exitBitsOrParamType</b> (<a class="el" href="classxasm_1_1xasm_parser_1_1_bits_or_param_type_context.html">xasmParser::BitsOrParamTypeContext</a> *) override</td></tr>
-<tr class="separator:a8121e661510760d725f54e88c063034e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a09cde9826b1f77a11c4f77ffe2ab3375"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a09cde9826b1f77a11c4f77ffe2ab3375"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>enterOptionsMap</b> (<a class="el" href="classxasm_1_1xasm_parser_1_1_options_map_context.html">xasmParser::OptionsMapContext</a> *) override</td></tr>
 <tr class="separator:a09cde9826b1f77a11c4f77ffe2ab3375"><td class="memSeparator" colspan="2">&#160;</td></tr>

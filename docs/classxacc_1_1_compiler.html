@@ -39,6 +39,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -100,12 +102,14 @@ Inheritance diagram for xacc::Compiler:</div>
  <div class="center">
   <img src="classxacc_1_1_compiler.png" usemap="#xacc::Compiler_map" alt=""/>
   <map id="xacc::Compiler_map" name="xacc::Compiler_map">
-<area href="classxacc_1_1_options_provider.html" alt="xacc::OptionsProvider" shape="rect" coords="205,0,400,24"/>
-<area href="classxacc_1_1_identifiable.html" alt="xacc::Identifiable" shape="rect" coords="410,0,605,24"/>
+<area href="classxacc_1_1_options_provider.html" alt="xacc::OptionsProvider" shape="rect" coords="410,0,605,24"/>
+<area href="classxacc_1_1_identifiable.html" alt="xacc::Identifiable" shape="rect" coords="615,0,810,24"/>
 <area href="classxacc_1_1quantum_1_1_o_q_a_s_m_compiler.html" alt="xacc::quantum::OQASMCompiler" shape="rect" coords="0,112,195,136"/>
 <area href="classxacc_1_1quantum_1_1_q_object_compiler.html" alt="xacc::quantum::QObjectCompiler" shape="rect" coords="205,112,400,136"/>
 <area href="classxacc_1_1quantum_1_1_quil_compiler.html" alt="xacc::quantum::QuilCompiler" shape="rect" coords="410,112,605,136"/>
-<area href="classxacc_1_1_x_a_s_m_compiler.html" alt="xacc::XASMCompiler" shape="rect" coords="615,112,810,136"/>
+<area href="classxacc_1_1quilc_1_1_quilc.html" alt="xacc::quilc::Quilc" shape="rect" coords="615,112,810,136"/>
+<area href="classxacc_1_1_staq_compiler.html" alt="xacc::StaqCompiler" shape="rect" coords="820,112,1015,136"/>
+<area href="classxacc_1_1_x_a_s_m_compiler.html" alt="xacc::XASMCompiler" shape="rect" coords="1025,112,1220,136"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -117,12 +121,27 @@ virtual std::shared_ptr&lt; <a class="el" href="classxacc_1_1_i_r.html">IR</a> &
 <tr class="memitem:a9092f5f779b570c91569b59621280c04"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9092f5f779b570c91569b59621280c04"></a>
 virtual std::shared_ptr&lt; <a class="el" href="classxacc_1_1_i_r.html">IR</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>compile</b> (const std::string &amp;src)=0</td></tr>
 <tr class="separator:a9092f5f779b570c91569b59621280c04"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace3558754dd77081ca96ca60f0198f91"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ace3558754dd77081ca96ca60f0198f91"></a>
-virtual const std::string&#160;</td><td class="memItemRight" valign="bottom"><b>translate</b> (std::shared_ptr&lt; <a class="el" href="classxacc_1_1_composite_instruction.html">CompositeInstruction</a> &gt; <a class="el" href="classxacc_1_1_composite_instruction.html">CompositeInstruction</a>)=0</td></tr>
-<tr class="separator:ace3558754dd77081ca96ca60f0198f91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1da510b4ea8655824fc030acacb84f0c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1da510b4ea8655824fc030acacb84f0c"></a>
+virtual const std::string&#160;</td><td class="memItemRight" valign="bottom"><b>get_statement_terminator</b> ()</td></tr>
+<tr class="separator:a1da510b4ea8655824fc030acacb84f0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8d451d73d1e00be1f8a6ef9fdb69a07"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac8d451d73d1e00be1f8a6ef9fdb69a07"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>canParse</b> (const std::string &amp;src)</td></tr>
+<tr class="separator:ac8d451d73d1e00be1f8a6ef9fdb69a07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b2d526b9951a764fa17e1009729d583"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0b2d526b9951a764fa17e1009729d583"></a>
+virtual const std::string&#160;</td><td class="memItemRight" valign="bottom"><b>translate</b> (std::shared_ptr&lt; <a class="el" href="classxacc_1_1_composite_instruction.html">CompositeInstruction</a> &gt; program)=0</td></tr>
+<tr class="separator:a0b2d526b9951a764fa17e1009729d583"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab11e44fcb339bb872766ebe38f7ae730"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab11e44fcb339bb872766ebe38f7ae730"></a>
+virtual const std::string&#160;</td><td class="memItemRight" valign="bottom"><b>translate</b> (std::shared_ptr&lt; <a class="el" href="classxacc_1_1_composite_instruction.html">CompositeInstruction</a> &gt; program, <a class="el" href="classxacc_1_1_heterogeneous_map.html">HeterogeneousMap</a> &amp;options)</td></tr>
+<tr class="separator:ab11e44fcb339bb872766ebe38f7ae730"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5bf9c156a0c49d65581de3bae35ca7b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac5bf9c156a0c49d65581de3bae35ca7b"></a>
+virtual const std::string&#160;</td><td class="memItemRight" valign="bottom"><b>translate</b> (std::shared_ptr&lt; <a class="el" href="classxacc_1_1_composite_instruction.html">CompositeInstruction</a> &gt; program, <a class="el" href="classxacc_1_1_heterogeneous_map.html">HeterogeneousMap</a> &amp;&amp;options)</td></tr>
+<tr class="separator:ac5bf9c156a0c49d65581de3bae35ca7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd9aa9863c7d73cd35d47fbc608d1a79"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afd9aa9863c7d73cd35d47fbc608d1a79"></a>
 virtual const std::shared_ptr&lt; <a class="el" href="classxacc_1_1_composite_instruction.html">CompositeInstruction</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>compile</b> (std::shared_ptr&lt; <a class="el" href="classxacc_1_1_composite_instruction.html">CompositeInstruction</a> &gt; f, std::shared_ptr&lt; <a class="el" href="classxacc_1_1_accelerator.html">Accelerator</a> &gt; acc)</td></tr>
 <tr class="separator:afd9aa9863c7d73cd35d47fbc608d1a79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9dbd7d4ee70f8e1ef46698b7258af551"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9dbd7d4ee70f8e1ef46698b7258af551"></a>
+virtual std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>getKernelBufferNames</b> (const std::string &amp;src)</td></tr>
+<tr class="separator:a9dbd7d4ee70f8e1ef46698b7258af551"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7bd359229a45b2c5ca86c4634c7a9bda"><td class="memItemLeft" align="right" valign="top">virtual OptionPairs&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classxacc_1_1_compiler.html#a7bd359229a45b2c5ca86c4634c7a9bda">getOptions</a> ()</td></tr>
 <tr class="separator:a7bd359229a45b2c5ca86c4634c7a9bda"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ccab382dae75ba9c8139d64af3b83be"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classxacc_1_1_compiler.html#a4ccab382dae75ba9c8139d64af3b83be">handleOptions</a> (const std::map&lt; std::string, std::string &gt; &amp;arg_map)</td></tr>

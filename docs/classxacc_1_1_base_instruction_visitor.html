@@ -39,6 +39,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -103,16 +105,22 @@ Inheritance diagram for xacc::BaseInstructionVisitor:</div>
  <div class="center">
   <img src="classxacc_1_1_base_instruction_visitor.png" usemap="#xacc::BaseInstructionVisitor_map" alt=""/>
   <map id="xacc::BaseInstructionVisitor_map" name="xacc::BaseInstructionVisitor_map">
-<area href="classxacc_1_1_identifiable.html" alt="xacc::Identifiable" shape="rect" coords="1148,0,1466,24"/>
-<area href="classxacc_1_1quantum_1_1_all_gate_visitor.html" alt="xacc::quantum::AllGateVisitor" shape="rect" coords="820,112,1138,136"/>
-<area href="classxacc_1_1quantum_1_1_count_gates_of_type_visitor.html" alt="xacc::quantum::CountGatesOfTypeVisitor&lt; GateType &gt;" shape="rect" coords="1148,112,1466,136"/>
-<area href="classxacc_1_1quantum_1_1_open_pulse_visitor.html" alt="xacc::quantum::OpenPulseVisitor" shape="rect" coords="1476,112,1794,136"/>
-<area href="classxacc_1_1quantum_1_1_ion_q_program_visitor.html" alt="xacc::quantum::IonQProgramVisitor" shape="rect" coords="0,168,318,192"/>
-<area href="classxacc_1_1quantum_1_1_i_r_to_graph_visitor.html" alt="xacc::quantum::IRToGraphVisitor" shape="rect" coords="328,168,646,192"/>
-<area href="classxacc_1_1quantum_1_1_json_visitor.html" alt="xacc::quantum::JsonVisitor&lt; Writer, Buffer &gt;" shape="rect" coords="656,168,974,192"/>
-<area href="classxacc_1_1quantum_1_1_open_qasm_visitor.html" alt="xacc::quantum::OpenQasmVisitor" shape="rect" coords="984,168,1302,192"/>
-<area href="classxacc_1_1quantum_1_1_q_object_experiment_visitor.html" alt="xacc::quantum::QObjectExperimentVisitor" shape="rect" coords="1312,168,1630,192"/>
-<area href="classxacc_1_1quantum_1_1_quil_visitor.html" alt="xacc::quantum::QuilVisitor" shape="rect" coords="1640,168,1958,192"/>
+<area href="classxacc_1_1_identifiable.html" alt="xacc::Identifiable" shape="rect" coords="328,0,646,24"/>
+<area href="classxacc_1_1quantum_1_1_all_gate_visitor.html" alt="xacc::quantum::AllGateVisitor" shape="rect" coords="0,112,318,136"/>
+<area href="classxacc_1_1quantum_1_1_count_gates_of_type_visitor.html" alt="xacc::quantum::CountGatesOfTypeVisitor&lt; GateType &gt;" shape="rect" coords="328,112,646,136"/>
+<area href="classxacc_1_1quantum_1_1_open_pulse_visitor.html" alt="xacc::quantum::OpenPulseVisitor" shape="rect" coords="656,112,974,136"/>
+<area href="class_gate_fuser.html" alt="GateFuser" shape="rect" coords="328,168,646,192"/>
+<area href="classxacc_1_1circuits_1_1_controlled_u.html" alt="xacc::circuits::ControlledU" shape="rect" coords="328,224,646,248"/>
+<area href="classxacc_1_1internal__staq_1_1_x_a_c_c_to_staq_open_qasm.html" alt="xacc::internal_staq::XACCToStaqOpenQasm" shape="rect" coords="328,280,646,304"/>
+<area href="classxacc_1_1quantum_1_1_ion_q_program_visitor.html" alt="xacc::quantum::IonQProgramVisitor" shape="rect" coords="328,336,646,360"/>
+<area href="classxacc_1_1quantum_1_1_i_r_to_graph_visitor.html" alt="xacc::quantum::IRToGraphVisitor" shape="rect" coords="328,392,646,416"/>
+<area href="classxacc_1_1quantum_1_1_json_visitor.html" alt="xacc::quantum::JsonVisitor&lt; Writer, Buffer &gt;" shape="rect" coords="328,448,646,472"/>
+<area href="classxacc_1_1quantum_1_1_open_qasm_visitor.html" alt="xacc::quantum::OpenQasmVisitor" shape="rect" coords="328,504,646,528"/>
+<area href="classxacc_1_1quantum_1_1_q_object_experiment_visitor.html" alt="xacc::quantum::QObjectExperimentVisitor" shape="rect" coords="328,560,646,584"/>
+<area href="classxacc_1_1quantum_1_1_qpp_visitor.html" alt="xacc::quantum::QppVisitor" shape="rect" coords="328,616,646,640"/>
+<area href="classxacc_1_1quantum_1_1_qrack_visitor.html" alt="xacc::quantum::QrackVisitor" shape="rect" coords="328,672,646,696"/>
+<area href="classxacc_1_1quantum_1_1_quil_visitor.html" alt="xacc::quantum::QuilVisitor" shape="rect" coords="328,728,646,752"/>
+<area href="classxacc_1_1quantum_1_1_xasm_visitor.html" alt="xacc::quantum::XasmVisitor" shape="rect" coords="328,784,646,808"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -195,7 +203,7 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>native</b> = &
 
 <p>Implements <a class="el" href="classxacc_1_1_identifiable.html#ae6a9512fb66d7de5ce3e1d36ff3e7341">xacc::Identifiable</a>.</p>
 
-<p>Reimplemented in <a class="el" href="classxacc_1_1quantum_1_1_open_qasm_visitor.html#a9129919e5bac325c4190c1f7308ec3e3">xacc::quantum::OpenQasmVisitor</a>, <a class="el" href="classxacc_1_1quantum_1_1_open_pulse_visitor.html#a2d9eb3e4f62e8e064eed79a7d8540102">xacc::quantum::OpenPulseVisitor</a>, <a class="el" href="classxacc_1_1quantum_1_1_q_object_experiment_visitor.html#abdd00c6fbd4ea16965ed37bdb9ff0570">xacc::quantum::QObjectExperimentVisitor</a>, and <a class="el" href="classxacc_1_1quantum_1_1_ion_q_program_visitor.html#a06067c0e02277859d4e472902c550333">xacc::quantum::IonQProgramVisitor</a>.</p>
+<p>Reimplemented in <a class="el" href="classxacc_1_1quantum_1_1_open_qasm_visitor.html#a9129919e5bac325c4190c1f7308ec3e3">xacc::quantum::OpenQasmVisitor</a>, <a class="el" href="class_gate_fuser.html#afb1cedda9e87d6d4e519f13895cf0fee">GateFuser</a>, <a class="el" href="classxacc_1_1quantum_1_1_open_pulse_visitor.html#a2d9eb3e4f62e8e064eed79a7d8540102">xacc::quantum::OpenPulseVisitor</a>, <a class="el" href="classxacc_1_1quantum_1_1_q_object_experiment_visitor.html#abdd00c6fbd4ea16965ed37bdb9ff0570">xacc::quantum::QObjectExperimentVisitor</a>, and <a class="el" href="classxacc_1_1quantum_1_1_ion_q_program_visitor.html#a06067c0e02277859d4e472902c550333">xacc::quantum::IonQProgramVisitor</a>.</p>
 
 </div>
 </div>
@@ -224,7 +232,7 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>native</b> = &
 
 <p>Implements <a class="el" href="classxacc_1_1_identifiable.html#a598877123fb1da92aef93c449a0306cb">xacc::Identifiable</a>.</p>
 
-<p>Reimplemented in <a class="el" href="classxacc_1_1quantum_1_1_open_qasm_visitor.html#a6d4b74fd64f27cabd761143c455efb30">xacc::quantum::OpenQasmVisitor</a>, <a class="el" href="classxacc_1_1quantum_1_1_open_pulse_visitor.html#a6d8a79e68bd9988590fca01f6ff3a9f1">xacc::quantum::OpenPulseVisitor</a>, <a class="el" href="classxacc_1_1quantum_1_1_q_object_experiment_visitor.html#a49ae288810a11750504f52c92e472ab2">xacc::quantum::QObjectExperimentVisitor</a>, and <a class="el" href="classxacc_1_1quantum_1_1_ion_q_program_visitor.html#a902a800018c5b4c013d7ee4bcd4e34a8">xacc::quantum::IonQProgramVisitor</a>.</p>
+<p>Reimplemented in <a class="el" href="classxacc_1_1quantum_1_1_open_qasm_visitor.html#a6d4b74fd64f27cabd761143c455efb30">xacc::quantum::OpenQasmVisitor</a>, <a class="el" href="class_gate_fuser.html#a385f2f326954894531fafd7ccb31d46d">GateFuser</a>, <a class="el" href="classxacc_1_1quantum_1_1_open_pulse_visitor.html#a6d8a79e68bd9988590fca01f6ff3a9f1">xacc::quantum::OpenPulseVisitor</a>, <a class="el" href="classxacc_1_1quantum_1_1_q_object_experiment_visitor.html#a49ae288810a11750504f52c92e472ab2">xacc::quantum::QObjectExperimentVisitor</a>, and <a class="el" href="classxacc_1_1quantum_1_1_ion_q_program_visitor.html#a902a800018c5b4c013d7ee4bcd4e34a8">xacc::quantum::IonQProgramVisitor</a>.</p>
 
 </div>
 </div>

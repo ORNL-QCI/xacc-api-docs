@@ -39,6 +39,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -128,6 +130,9 @@ const std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign
 <tr class="memitem:a80be0658654a39eaa1d32cf02b8ea97e inherit pub_methods_classxacc_1_1quantum_1_1_circuit"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a80be0658654a39eaa1d32cf02b8ea97e"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>Circuit</b> (const std::string &amp;<a class="el" href="classxacc_1_1quantum_1_1_circuit.html#a19d9ba0031a99765552d274e51892d17">name</a>, std::vector&lt; std::string &gt; &amp;vars)</td></tr>
 <tr class="separator:a80be0658654a39eaa1d32cf02b8ea97e inherit pub_methods_classxacc_1_1quantum_1_1_circuit"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58a2fc730fbb1e512a4c5fe00cc3d69a inherit pub_methods_classxacc_1_1quantum_1_1_circuit"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a58a2fc730fbb1e512a4c5fe00cc3d69a"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Circuit</b> (const std::string &amp;<a class="el" href="classxacc_1_1quantum_1_1_circuit.html#a19d9ba0031a99765552d274e51892d17">name</a>, std::vector&lt; std::string &gt; &amp;vars, std::vector&lt; std::string &gt; buf_names)</td></tr>
+<tr class="separator:a58a2fc730fbb1e512a4c5fe00cc3d69a inherit pub_methods_classxacc_1_1quantum_1_1_circuit"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a36893a3a81f233a4a8eff3402cae9d23 inherit pub_methods_classxacc_1_1quantum_1_1_circuit"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a36893a3a81f233a4a8eff3402cae9d23"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>Circuit</b> (const std::string &amp;<a class="el" href="classxacc_1_1quantum_1_1_circuit.html#a19d9ba0031a99765552d274e51892d17">name</a>, std::vector&lt; std::string &gt; &amp;&amp;vars)</td></tr>
 <tr class="separator:a36893a3a81f233a4a8eff3402cae9d23 inherit pub_methods_classxacc_1_1quantum_1_1_circuit"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -141,6 +146,15 @@ const std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign
 <tr class="memitem:a050f440173b67575ec9f15cb5176a85e inherit pub_methods_classxacc_1_1quantum_1_1_circuit"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a050f440173b67575ec9f15cb5176a85e"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>setName</b> (const std::string <a class="el" href="classxacc_1_1quantum_1_1_circuit.html#a19d9ba0031a99765552d274e51892d17">name</a>) override</td></tr>
 <tr class="separator:a050f440173b67575ec9f15cb5176a85e inherit pub_methods_classxacc_1_1quantum_1_1_circuit"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff615ad0e370eae50256baaab866ad5d inherit pub_methods_classxacc_1_1quantum_1_1_circuit"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aff615ad0e370eae50256baaab866ad5d"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>applyRuntimeArguments</b> () override</td></tr>
+<tr class="separator:aff615ad0e370eae50256baaab866ad5d inherit pub_methods_classxacc_1_1quantum_1_1_circuit"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bc9eee4fff9888b1a6511954e323c3a inherit pub_methods_classxacc_1_1quantum_1_1_circuit"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0bc9eee4fff9888b1a6511954e323c3a"></a>
+const std::string&#160;</td><td class="memItemRight" valign="bottom"><b>getTag</b> () override</td></tr>
+<tr class="separator:a0bc9eee4fff9888b1a6511954e323c3a inherit pub_methods_classxacc_1_1quantum_1_1_circuit"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6970e2aa2207a3e293cc2d19f92d0aba inherit pub_methods_classxacc_1_1quantum_1_1_circuit"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6970e2aa2207a3e293cc2d19f92d0aba"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setTag</b> (const std::string &amp;tag) override</td></tr>
+<tr class="separator:a6970e2aa2207a3e293cc2d19f92d0aba inherit pub_methods_classxacc_1_1quantum_1_1_circuit"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8fb5cbab546c789e7276ccda933fc67d inherit pub_methods_classxacc_1_1quantum_1_1_circuit"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8fb5cbab546c789e7276ccda933fc67d"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>mapBits</b> (std::vector&lt; std::size_t &gt; bitMap) override</td></tr>
 <tr class="separator:a8fb5cbab546c789e7276ccda933fc67d inherit pub_methods_classxacc_1_1quantum_1_1_circuit"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -261,6 +275,21 @@ std::shared_ptr&lt; <a class="el" href="classxacc_1_1_composite_instruction.html
 <tr class="memitem:a12dd38ab3950289f5bdbfed3f1286123 inherit pub_methods_classxacc_1_1quantum_1_1_circuit"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a12dd38ab3950289f5bdbfed3f1286123"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>removeDisabled</b> () override</td></tr>
 <tr class="separator:a12dd38ab3950289f5bdbfed3f1286123 inherit pub_methods_classxacc_1_1quantum_1_1_circuit"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a829e856235ca1a718f17adb918c7e6e1 inherit pub_methods_classxacc_1_1quantum_1_1_circuit"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a829e856235ca1a718f17adb918c7e6e1"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>getBufferName</b> (const std::size_t bitIdx) override</td></tr>
+<tr class="separator:a829e856235ca1a718f17adb918c7e6e1 inherit pub_methods_classxacc_1_1quantum_1_1_circuit"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acec7e6316e1fa7608f0d8e1a2584960a inherit pub_methods_classxacc_1_1quantum_1_1_circuit"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acec7e6316e1fa7608f0d8e1a2584960a"></a>
+std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>getBufferNames</b> () override</td></tr>
+<tr class="separator:acec7e6316e1fa7608f0d8e1a2584960a inherit pub_methods_classxacc_1_1quantum_1_1_circuit"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee8043fea8c86ccfeede08365220b4c5 inherit pub_methods_classxacc_1_1quantum_1_1_circuit"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aee8043fea8c86ccfeede08365220b4c5"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setBufferNames</b> (const std::vector&lt; std::string &gt; bufferNamesPerIdx) override</td></tr>
+<tr class="separator:aee8043fea8c86ccfeede08365220b4c5 inherit pub_methods_classxacc_1_1quantum_1_1_circuit"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67ce3ae68ea966078586b8c911b40412 inherit pub_methods_classxacc_1_1quantum_1_1_circuit"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a67ce3ae68ea966078586b8c911b40412"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setBitExpression</b> (const std::size_t bit_idx, const std::string expr) override</td></tr>
+<tr class="separator:a67ce3ae68ea966078586b8c911b40412 inherit pub_methods_classxacc_1_1quantum_1_1_circuit"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43a9a5086228d7c6b2326f766c3ba737 inherit pub_methods_classxacc_1_1quantum_1_1_circuit"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a43a9a5086228d7c6b2326f766c3ba737"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>getBitExpression</b> (const std::size_t bit_idx) override</td></tr>
+<tr class="separator:a43a9a5086228d7c6b2326f766c3ba737 inherit pub_methods_classxacc_1_1quantum_1_1_circuit"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca9dda438ec83c892e06b8ba73c8917d inherit pub_methods_classxacc_1_1quantum_1_1_circuit"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aca9dda438ec83c892e06b8ba73c8917d"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>setCoefficient</b> (const std::complex&lt; double &gt; c) override</td></tr>
 <tr class="separator:aca9dda438ec83c892e06b8ba73c8917d inherit pub_methods_classxacc_1_1quantum_1_1_circuit"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -280,6 +309,28 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>set_accelerator_signa
 std::shared_ptr&lt; <a class="el" href="classxacc_1_1_instruction.html">Instruction</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>clone</b> () override</td></tr>
 <tr class="separator:a5b59ed00e79ca8a41af4810d2ce747f4 inherit pub_methods_classxacc_1_1quantum_1_1_circuit"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classxacc_1_1_composite_instruction"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classxacc_1_1_composite_instruction')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classxacc_1_1_composite_instruction.html">xacc::CompositeInstruction</a></td></tr>
+<tr class="memitem:a26f1c52e8ee11e5ce47099cea23b1014 inherit pub_methods_classxacc_1_1_composite_instruction"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a26f1c52e8ee11e5ce47099cea23b1014"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>CompositeInstruction</b> (const <a class="el" href="classxacc_1_1_composite_instruction.html">CompositeInstruction</a> &amp;other)</td></tr>
+<tr class="separator:a26f1c52e8ee11e5ce47099cea23b1014 inherit pub_methods_classxacc_1_1_composite_instruction"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a788f40a463dc089e02702c79a6785601 inherit pub_methods_classxacc_1_1_composite_instruction"><td class="memTemplParams" colspan="2"><a class="anchor" id="a788f40a463dc089e02702c79a6785601"></a>
+template&lt;typename... RuntimeArgs&gt; </td></tr>
+<tr class="memitem:a788f40a463dc089e02702c79a6785601 inherit pub_methods_classxacc_1_1_composite_instruction"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>updateRuntimeArguments</b> (RuntimeArgs...args)</td></tr>
+<tr class="separator:a788f40a463dc089e02702c79a6785601 inherit pub_methods_classxacc_1_1_composite_instruction"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f555205691250185cb8e992be552b90 inherit pub_methods_classxacc_1_1_composite_instruction"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7f555205691250185cb8e992be552b90"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setArgumentValues</b> (std::vector&lt; <a class="el" href="classxacc_1_1_heterogeneous_map.html">HeterogeneousMap</a> &gt; args)</td></tr>
+<tr class="separator:a7f555205691250185cb8e992be552b90 inherit pub_methods_classxacc_1_1_composite_instruction"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9e0651658eda77ee20c58fa46952e82 inherit pub_methods_classxacc_1_1_composite_instruction"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac9e0651658eda77ee20c58fa46952e82"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>addArgument</b> (std::shared_ptr&lt; <a class="el" href="classxacc_1_1_composite_argument.html">CompositeArgument</a> &gt; arg, const int idx_of_inst_param) override</td></tr>
+<tr class="separator:ac9e0651658eda77ee20c58fa46952e82 inherit pub_methods_classxacc_1_1_composite_instruction"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2637dd48b632b593ec8341e86298a884 inherit pub_methods_classxacc_1_1_composite_instruction"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2637dd48b632b593ec8341e86298a884"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>addArgument</b> (const std::string arg_name, const std::string arg_type)</td></tr>
+<tr class="separator:a2637dd48b632b593ec8341e86298a884 inherit pub_methods_classxacc_1_1_composite_instruction"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d34d14f12bdb702d5fa5bd4b23c62ca inherit pub_methods_classxacc_1_1_composite_instruction"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9d34d14f12bdb702d5fa5bd4b23c62ca"></a>
+virtual std::shared_ptr&lt; <a class="el" href="classxacc_1_1_composite_argument.html">CompositeArgument</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>getArgument</b> (const std::string &amp;<a class="el" href="classxacc_1_1_identifiable.html#a598877123fb1da92aef93c449a0306cb">name</a>)</td></tr>
+<tr class="separator:a9d34d14f12bdb702d5fa5bd4b23c62ca inherit pub_methods_classxacc_1_1_composite_instruction"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92249fd6e2db5d36e815de1c199c005b inherit pub_methods_classxacc_1_1_composite_instruction"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a92249fd6e2db5d36e815de1c199c005b"></a>
+virtual std::vector&lt; std::shared_ptr&lt; <a class="el" href="classxacc_1_1_composite_argument.html">CompositeArgument</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>getArguments</b> ()</td></tr>
+<tr class="separator:a92249fd6e2db5d36e815de1c199c005b inherit pub_methods_classxacc_1_1_composite_instruction"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a811b26c794e1c7140c9cf55476c1e73c inherit pub_methods_classxacc_1_1_composite_instruction"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a811b26c794e1c7140c9cf55476c1e73c"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>addInstructions</b> (const std::vector&lt; InstPtr &gt; &amp;&amp;insts)</td></tr>
 <tr class="separator:a811b26c794e1c7140c9cf55476c1e73c inherit pub_methods_classxacc_1_1_composite_instruction"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -290,6 +341,9 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>addVariables<
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>isComposite</b> () override</td></tr>
 <tr class="separator:a9d57c7e8e74d265b7cea47a84d9b4ba9 inherit pub_methods_classxacc_1_1_composite_instruction"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classxacc_1_1_instruction"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classxacc_1_1_instruction')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classxacc_1_1_instruction.html">xacc::Instruction</a></td></tr>
+<tr class="memitem:a7d495e72de9222616eaaeda7810846fc inherit pub_methods_classxacc_1_1_instruction"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7d495e72de9222616eaaeda7810846fc"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>addIndexMapping</b> (const int idx_1, const int idx_2)</td></tr>
+<tr class="separator:a7d495e72de9222616eaaeda7810846fc inherit pub_methods_classxacc_1_1_instruction"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8cb994c28e16b384313cfd52833b3279 inherit pub_methods_classxacc_1_1_instruction"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8cb994c28e16b384313cfd52833b3279"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>setParameter</b> (const std::size_t idx, <a class="el" href="classxacc_1_1_variant.html">InstructionParameter</a> &amp;&amp;inst)</td></tr>
 <tr class="separator:a8cb994c28e16b384313cfd52833b3279 inherit pub_methods_classxacc_1_1_instruction"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -337,11 +391,33 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>customVisitAc
 <tr class="memitem:a485789cda5d8386d9b13a984fe0a09d2 inherit pub_methods_classxacc_1_1_identifiable"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classxacc_1_1_identifiable.html#a485789cda5d8386d9b13a984fe0a09d2">~Identifiable</a> ()</td></tr>
 <tr class="separator:a485789cda5d8386d9b13a984fe0a09d2 inherit pub_methods_classxacc_1_1_identifiable"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classxacc_1_1_cloneable"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classxacc_1_1_cloneable')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classxacc_1_1_cloneable.html">xacc::Cloneable&lt; Instruction &gt;</a></td></tr>
+<tr class="memitem:abd28fb2291f1a3aaf107f8cc0b008120 inherit pub_methods_classxacc_1_1_cloneable"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abd28fb2291f1a3aaf107f8cc0b008120"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>shouldClone</b> ()</td></tr>
+<tr class="separator:abd28fb2291f1a3aaf107f8cc0b008120 inherit pub_methods_classxacc_1_1_cloneable"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a717a08b3ba07ca1614651bf1c904c557 inherit pub_methods_classxacc_1_1_cloneable"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classxacc_1_1_cloneable.html#a717a08b3ba07ca1614651bf1c904c557">~Cloneable</a> ()</td></tr>
 <tr class="separator:a717a08b3ba07ca1614651bf1c904c557 inherit pub_methods_classxacc_1_1_cloneable"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_methods_classxacc_1_1_composite_instruction"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classxacc_1_1_composite_instruction')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classxacc_1_1_composite_instruction.html">xacc::CompositeInstruction</a></td></tr>
+<tr class="memitem:acf239ac7843c053517579e318aa5827f inherit pro_methods_classxacc_1_1_composite_instruction"><td class="memTemplParams" colspan="2"><a class="anchor" id="acf239ac7843c053517579e318aa5827f"></a>
+template&lt;typename T &gt; </td></tr>
+<tr class="memitem:acf239ac7843c053517579e318aa5827f inherit pro_methods_classxacc_1_1_composite_instruction"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>updateArgs</b> (T &amp;value)</td></tr>
+<tr class="separator:acf239ac7843c053517579e318aa5827f inherit pro_methods_classxacc_1_1_composite_instruction"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a414d337bd149c62391400ad4d6a464b7 inherit pro_methods_classxacc_1_1_composite_instruction"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a414d337bd149c62391400ad4d6a464b7"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>constructArgs</b> ()</td></tr>
+<tr class="separator:a414d337bd149c62391400ad4d6a464b7 inherit pro_methods_classxacc_1_1_composite_instruction"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d3c00ff85945c72fb19ecf3ba64d4ca inherit pro_methods_classxacc_1_1_composite_instruction"><td class="memTemplParams" colspan="2"><a class="anchor" id="a5d3c00ff85945c72fb19ecf3ba64d4ca"></a>
+template&lt;typename First , typename... Rest&gt; </td></tr>
+<tr class="memitem:a5d3c00ff85945c72fb19ecf3ba64d4ca inherit pro_methods_classxacc_1_1_composite_instruction"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>constructArgs</b> (First firstArg, Rest...rest)</td></tr>
+<tr class="separator:a5d3c00ff85945c72fb19ecf3ba64d4ca inherit pro_methods_classxacc_1_1_composite_instruction"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2164ba5e51f56b50ec92e028d4a2b622 inherit pro_methods_classxacc_1_1_composite_instruction"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2164ba5e51f56b50ec92e028d4a2b622"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>countArgs</b> ()</td></tr>
+<tr class="separator:a2164ba5e51f56b50ec92e028d4a2b622 inherit pro_methods_classxacc_1_1_composite_instruction"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3bd1b0b960702bda2c8e254883327a9b inherit pro_methods_classxacc_1_1_composite_instruction"><td class="memTemplParams" colspan="2"><a class="anchor" id="a3bd1b0b960702bda2c8e254883327a9b"></a>
+template&lt;typename First , typename... Rest&gt; </td></tr>
+<tr class="memitem:a3bd1b0b960702bda2c8e254883327a9b inherit pro_methods_classxacc_1_1_composite_instruction"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>countArgs</b> (First firstArg, Rest...rest)</td></tr>
+<tr class="separator:a3bd1b0b960702bda2c8e254883327a9b inherit pro_methods_classxacc_1_1_composite_instruction"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_static_methods_classxacc_1_1_base_instruction_visitable"><td colspan="2" onclick="javascript:toggleInherit('pro_static_methods_classxacc_1_1_base_instruction_visitable')"><img src="closed.png" alt="-"/>&#160;Static Protected Member Functions inherited from <a class="el" href="classxacc_1_1_base_instruction_visitable.html">xacc::BaseInstructionVisitable</a></td></tr>
 <tr class="memitem:a2f18b9fcb48f42d190a9f5180b7b59c5 inherit pro_static_methods_classxacc_1_1_base_instruction_visitable"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:a2f18b9fcb48f42d190a9f5180b7b59c5 inherit pro_static_methods_classxacc_1_1_base_instruction_visitable"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classxacc_1_1_base_instruction_visitable.html#a2f18b9fcb48f42d190a9f5180b7b59c5">acceptImpl</a> (T &amp;visited, std::shared_ptr&lt; <a class="el" href="classxacc_1_1_base_instruction_visitor.html">BaseInstructionVisitor</a> &gt; visitor)</td></tr>
@@ -359,6 +435,9 @@ std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bott
 <tr class="memitem:abd41b21143aee9511216daf17d39b2d8 inherit pro_attribs_classxacc_1_1quantum_1_1_circuit"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abd41b21143aee9511216daf17d39b2d8"></a>
 std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>_requiredKeys</b> {}</td></tr>
 <tr class="separator:abd41b21143aee9511216daf17d39b2d8 inherit pro_attribs_classxacc_1_1quantum_1_1_circuit"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5bd368e5dcb1b19b4dac5735596a16f inherit pro_attribs_classxacc_1_1quantum_1_1_circuit"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad5bd368e5dcb1b19b4dac5735596a16f"></a>
+std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>buffer_names</b> = {}</td></tr>
+<tr class="separator:ad5bd368e5dcb1b19b4dac5735596a16f inherit pro_attribs_classxacc_1_1quantum_1_1_circuit"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a29c32a37c9f7ca42ab24930511d1e2c5 inherit pro_attribs_classxacc_1_1quantum_1_1_circuit"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a29c32a37c9f7ca42ab24930511d1e2c5"></a>
 std::string&#160;</td><td class="memItemRight" valign="bottom"><b>circuitName</b> = &quot;&quot;</td></tr>
 <tr class="separator:a29c32a37c9f7ca42ab24930511d1e2c5 inherit pro_attribs_classxacc_1_1quantum_1_1_circuit"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -371,6 +450,16 @@ std::complex&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom">
 <tr class="memitem:ad649993331bc577166d9a71adff1d22f inherit pro_attribs_classxacc_1_1quantum_1_1_circuit"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad649993331bc577166d9a71adff1d22f"></a>
 std::string&#160;</td><td class="memItemRight" valign="bottom"><b>acc_signature</b> = &quot;&quot;</td></tr>
 <tr class="separator:ad649993331bc577166d9a71adff1d22f inherit pro_attribs_classxacc_1_1quantum_1_1_circuit"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classxacc_1_1_composite_instruction"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classxacc_1_1_composite_instruction')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classxacc_1_1_composite_instruction.html">xacc::CompositeInstruction</a></td></tr>
+<tr class="memitem:a00b56e84ea34af39f87effb89fd40354 inherit pro_attribs_classxacc_1_1_composite_instruction"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a00b56e84ea34af39f87effb89fd40354"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>_internal_counter</b> = 0</td></tr>
+<tr class="separator:a00b56e84ea34af39f87effb89fd40354 inherit pro_attribs_classxacc_1_1_composite_instruction"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fd72b4571d395776cbc2994c8a401cd inherit pro_attribs_classxacc_1_1_composite_instruction"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7fd72b4571d395776cbc2994c8a401cd"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>_count_args_counter</b> = 0</td></tr>
+<tr class="separator:a7fd72b4571d395776cbc2994c8a401cd inherit pro_attribs_classxacc_1_1_composite_instruction"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8511268c7d0b8fd6eb01f4f87f7694df inherit pro_attribs_classxacc_1_1_composite_instruction"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8511268c7d0b8fd6eb01f4f87f7694df"></a>
+std::vector&lt; std::shared_ptr&lt; <a class="el" href="classxacc_1_1_composite_argument.html">CompositeArgument</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>arguments</b></td></tr>
+<tr class="separator:a8511268c7d0b8fd6eb01f4f87f7694df inherit pro_attribs_classxacc_1_1_composite_instruction"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>/home/cades/dev/xacc/quantum/plugins/circuits/ucc1/<a class="el" href="ucc1_8hpp_source.html">ucc1.hpp</a></li>

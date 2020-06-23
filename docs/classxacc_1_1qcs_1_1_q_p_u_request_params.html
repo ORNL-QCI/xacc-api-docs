@@ -39,6 +39,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -98,18 +100,24 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ac3270de3bfbfaf101d88e90b0947ed57"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac3270de3bfbfaf101d88e90b0947ed57"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>QPURequestParams</b> (<a class="el" href="classxacc_1_1qcs_1_1_q_p_u_request.html">QPURequest</a> &amp;a)</td></tr>
-<tr class="separator:ac3270de3bfbfaf101d88e90b0947ed57"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3871e8e19c7035e1e17d10b99af8e215"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3871e8e19c7035e1e17d10b99af8e215"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>MSGPACK_DEFINE_MAP</b> (MSGPACK_NVP(&quot;request&quot;, request))</td></tr>
-<tr class="separator:a3871e8e19c7035e1e17d10b99af8e215"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23831a17dbe804cec156b0ed24546996"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a23831a17dbe804cec156b0ed24546996"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>QPURequestParams</b> (<a class="el" href="classxacc_1_1qcs_1_1_q_p_u_request.html">QPURequest</a> &amp;a, std::string &amp;uid)</td></tr>
+<tr class="separator:a23831a17dbe804cec156b0ed24546996"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7cdcddb84804c5989590b6f0dcf529d9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7cdcddb84804c5989590b6f0dcf529d9"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>MSGPACK_DEFINE_MAP</b> (MSGPACK_NVP(&quot;request&quot;, request), user, priority)</td></tr>
+<tr class="separator:a7cdcddb84804c5989590b6f0dcf529d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:a28b9e45b962848fb57ffb71f42b16319"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a28b9e45b962848fb57ffb71f42b16319"></a>
 <a class="el" href="classxacc_1_1qcs_1_1_q_p_u_request.html">QPURequest</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>request</b></td></tr>
 <tr class="separator:a28b9e45b962848fb57ffb71f42b16319"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03f14489e84d14cc18b44e25dca6e9a0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a03f14489e84d14cc18b44e25dca6e9a0"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>user</b> = &quot;&quot;</td></tr>
+<tr class="separator:a03f14489e84d14cc18b44e25dca6e9a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77d9d3f74e35a832e69affb94313a2b0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a77d9d3f74e35a832e69affb94313a2b0"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>priority</b> = 1</td></tr>
+<tr class="separator:a77d9d3f74e35a832e69affb94313a2b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>/home/cades/dev/xacc/quantum/plugins/rigetti/qcs/<a class="el" href="messages_8hpp_source.html">messages.hpp</a></li>

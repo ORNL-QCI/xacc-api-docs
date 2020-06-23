@@ -39,6 +39,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -90,6 +92,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classxacc_1_1_x_a_s_m_listener-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -109,6 +112,9 @@ Inheritance diagram for xacc::XASMListener:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:ac05725e1d70abb6ac5ab6ba9938a1df7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac05725e1d70abb6ac5ab6ba9938a1df7"></a>
+std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>getBufferNames</b> ()</td></tr>
+<tr class="separator:ac05725e1d70abb6ac5ab6ba9938a1df7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c0e5c0e1a3ce12a0ccb339c850e8959"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9c0e5c0e1a3ce12a0ccb339c850e8959"></a>
 std::shared_ptr&lt; <a class="el" href="classxacc_1_1_composite_instruction.html">CompositeInstruction</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>getFunction</b> ()</td></tr>
 <tr class="separator:a9c0e5c0e1a3ce12a0ccb339c850e8959"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -121,15 +127,36 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>enterXacclambda</b> (
 <tr class="memitem:a7ea96afc9972aae79fefcb0f84cbe0a9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7ea96afc9972aae79fefcb0f84cbe0a9"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>enterInstruction</b> (<a class="el" href="classxasm_1_1xasm_parser_1_1_instruction_context.html">xasmParser::InstructionContext</a> *) override</td></tr>
 <tr class="separator:a7ea96afc9972aae79fefcb0f84cbe0a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa604d76c5308fece9c6b25e9fe41ff1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afa604d76c5308fece9c6b25e9fe41ff1"></a>
-InstPtr&#160;</td><td class="memItemRight" valign="bottom"><b>enterForLoopInstruction</b> (<a class="el" href="classxasm_1_1xasm_parser_1_1_instruction_context.html">xasmParser::InstructionContext</a> *ctx, std::string &amp;varname, const std::size_t idx)</td></tr>
-<tr class="separator:afa604d76c5308fece9c6b25e9fe41ff1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87cded8e884fc675526355dae3b34f18"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a87cded8e884fc675526355dae3b34f18"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>enterBufferList</b> (<a class="el" href="classxasm_1_1xasm_parser_1_1_buffer_list_context.html">xasmParser::BufferListContext</a> *) override</td></tr>
+<tr class="separator:a87cded8e884fc675526355dae3b34f18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a851c42e29bf0baef95acedf88c5f8956"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a851c42e29bf0baef95acedf88c5f8956"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>enterParamList</b> (<a class="el" href="classxasm_1_1xasm_parser_1_1_param_list_context.html">xasmParser::ParamListContext</a> *) override</td></tr>
+<tr class="separator:a851c42e29bf0baef95acedf88c5f8956"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa78a43a5926c1b9b49afe859d3290bbb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa78a43a5926c1b9b49afe859d3290bbb"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>exitInstruction</b> (<a class="el" href="classxasm_1_1xasm_parser_1_1_instruction_context.html">xasmParser::InstructionContext</a> *) override</td></tr>
+<tr class="separator:aa78a43a5926c1b9b49afe859d3290bbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a276409d07a4929fee05f1e00be8d23bc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a276409d07a4929fee05f1e00be8d23bc"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>enterComposite_generator</b> (<a class="el" href="classxasm_1_1xasm_parser_1_1_composite__generator_context.html">xasmParser::Composite_generatorContext</a> *) override</td></tr>
+<tr class="separator:a276409d07a4929fee05f1e00be8d23bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accfd48f627e02367a045be98597a40db"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="accfd48f627e02367a045be98597a40db"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>enterOptionsType</b> (<a class="el" href="classxasm_1_1xasm_parser_1_1_options_type_context.html">xasmParser::OptionsTypeContext</a> *) override</td></tr>
+<tr class="separator:accfd48f627e02367a045be98597a40db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8bde4d645485021f0f67b4eafd82f84b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8bde4d645485021f0f67b4eafd82f84b"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>exitComposite_generator</b> (<a class="el" href="classxasm_1_1xasm_parser_1_1_composite__generator_context.html">xasmParser::Composite_generatorContext</a> *) override</td></tr>
+<tr class="separator:a8bde4d645485021f0f67b4eafd82f84b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae78f85b4b53ce4b8383c89ebff36179d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae78f85b4b53ce4b8383c89ebff36179d"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>enterForstmt</b> (<a class="el" href="classxasm_1_1xasm_parser_1_1_forstmt_context.html">xasmParser::ForstmtContext</a> *) override</td></tr>
 <tr class="separator:ae78f85b4b53ce4b8383c89ebff36179d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab6a53fded50d7bbe39044cd5bb214a97"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab6a53fded50d7bbe39044cd5bb214a97"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>exitForstmt</b> (<a class="el" href="classxasm_1_1xasm_parser_1_1_forstmt_context.html">xasmParser::ForstmtContext</a> *) override</td></tr>
 <tr class="separator:ab6a53fded50d7bbe39044cd5bb214a97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0a100d209f65c2fb16d7c8395ff73c4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa0a100d209f65c2fb16d7c8395ff73c4"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>enterIfstmt</b> (<a class="el" href="classxasm_1_1xasm_parser_1_1_ifstmt_context.html">xasmParser::IfstmtContext</a> *) override</td></tr>
+<tr class="separator:aa0a100d209f65c2fb16d7c8395ff73c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc47dd9ee19932d5608296eec8f1dcd3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afc47dd9ee19932d5608296eec8f1dcd3"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>exitIfstmt</b> (<a class="el" href="classxasm_1_1xasm_parser_1_1_ifstmt_context.html">xasmParser::IfstmtContext</a> *) override</td></tr>
+<tr class="separator:afc47dd9ee19932d5608296eec8f1dcd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classxasm_1_1xasm_base_listener"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classxasm_1_1xasm_base_listener')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classxasm_1_1xasm_base_listener.html">xasm::xasmBaseListener</a></td></tr>
 <tr class="memitem:a47123c1a92b5bf6ce9a0e803cc3cec9a inherit pub_methods_classxasm_1_1xasm_base_listener"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a47123c1a92b5bf6ce9a0e803cc3cec9a"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>enterXaccsrc</b> (<a class="el" href="classxasm_1_1xasm_parser_1_1_xaccsrc_context.html">xasmParser::XaccsrcContext</a> *) override</td></tr>
@@ -149,6 +176,12 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>enterTypedpar
 <tr class="memitem:aac9e8757d17c3bbe20cdb53789ce71b6 inherit pub_methods_classxasm_1_1xasm_base_listener"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aac9e8757d17c3bbe20cdb53789ce71b6"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>exitTypedparam</b> (<a class="el" href="classxasm_1_1xasm_parser_1_1_typedparam_context.html">xasmParser::TypedparamContext</a> *) override</td></tr>
 <tr class="separator:aac9e8757d17c3bbe20cdb53789ce71b6 inherit pub_methods_classxasm_1_1xasm_base_listener"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd8fa7cb5019bb3f931e21e2e7f976a5 inherit pub_methods_classxasm_1_1xasm_base_listener"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acd8fa7cb5019bb3f931e21e2e7f976a5"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>enterVariable_param_name</b> (<a class="el" href="classxasm_1_1xasm_parser_1_1_variable__param__name_context.html">xasmParser::Variable_param_nameContext</a> *) override</td></tr>
+<tr class="separator:acd8fa7cb5019bb3f931e21e2e7f976a5 inherit pub_methods_classxasm_1_1xasm_base_listener"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a180aab7b31d73bcb4e811038429a0e51 inherit pub_methods_classxasm_1_1xasm_base_listener"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a180aab7b31d73bcb4e811038429a0e51"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>exitVariable_param_name</b> (<a class="el" href="classxasm_1_1xasm_parser_1_1_variable__param__name_context.html">xasmParser::Variable_param_nameContext</a> *) override</td></tr>
+<tr class="separator:a180aab7b31d73bcb4e811038429a0e51 inherit pub_methods_classxasm_1_1xasm_base_listener"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad3ae78d3998338e5eceeb40f575a08ab inherit pub_methods_classxasm_1_1xasm_base_listener"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad3ae78d3998338e5eceeb40f575a08ab"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>enterType</b> (<a class="el" href="classxasm_1_1xasm_parser_1_1_type_context.html">xasmParser::TypeContext</a> *) override</td></tr>
 <tr class="separator:ad3ae78d3998338e5eceeb40f575a08ab inherit pub_methods_classxasm_1_1xasm_base_listener"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -185,30 +218,30 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>enterComment<
 <tr class="memitem:a570c484adf5cb8ebd5ef8938848b3c16 inherit pub_methods_classxasm_1_1xasm_base_listener"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a570c484adf5cb8ebd5ef8938848b3c16"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>exitComment</b> (<a class="el" href="classxasm_1_1xasm_parser_1_1_comment_context.html">xasmParser::CommentContext</a> *) override</td></tr>
 <tr class="separator:a570c484adf5cb8ebd5ef8938848b3c16 inherit pub_methods_classxasm_1_1xasm_base_listener"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a572781f6eddae7bf84e31ce70ed594a4 inherit pub_methods_classxasm_1_1xasm_base_listener"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a572781f6eddae7bf84e31ce70ed594a4"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>exitInstruction</b> (<a class="el" href="classxasm_1_1xasm_parser_1_1_instruction_context.html">xasmParser::InstructionContext</a> *) override</td></tr>
-<tr class="separator:a572781f6eddae7bf84e31ce70ed594a4 inherit pub_methods_classxasm_1_1xasm_base_listener"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b2f318c6229072ad259032835155d19 inherit pub_methods_classxasm_1_1xasm_base_listener"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3b2f318c6229072ad259032835155d19"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>exitBufferList</b> (<a class="el" href="classxasm_1_1xasm_parser_1_1_buffer_list_context.html">xasmParser::BufferListContext</a> *) override</td></tr>
+<tr class="separator:a3b2f318c6229072ad259032835155d19 inherit pub_methods_classxasm_1_1xasm_base_listener"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a276e066fe6445d7e902f27064c225c16 inherit pub_methods_classxasm_1_1xasm_base_listener"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a276e066fe6445d7e902f27064c225c16"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>exitParamList</b> (<a class="el" href="classxasm_1_1xasm_parser_1_1_param_list_context.html">xasmParser::ParamListContext</a> *) override</td></tr>
+<tr class="separator:a276e066fe6445d7e902f27064c225c16 inherit pub_methods_classxasm_1_1xasm_base_listener"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3792e4fe03e03fa1b022d4a1c4d33fe1 inherit pub_methods_classxasm_1_1xasm_base_listener"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3792e4fe03e03fa1b022d4a1c4d33fe1"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>enterParameter</b> (<a class="el" href="classxasm_1_1xasm_parser_1_1_parameter_context.html">xasmParser::ParameterContext</a> *) override</td></tr>
+<tr class="separator:a3792e4fe03e03fa1b022d4a1c4d33fe1 inherit pub_methods_classxasm_1_1xasm_base_listener"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad764b7a7acd03edfa8326380883fcffd inherit pub_methods_classxasm_1_1xasm_base_listener"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad764b7a7acd03edfa8326380883fcffd"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>exitParameter</b> (<a class="el" href="classxasm_1_1xasm_parser_1_1_parameter_context.html">xasmParser::ParameterContext</a> *) override</td></tr>
+<tr class="separator:ad764b7a7acd03edfa8326380883fcffd inherit pub_methods_classxasm_1_1xasm_base_listener"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac0b9b11978b17b74e054ee1156523616 inherit pub_methods_classxasm_1_1xasm_base_listener"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac0b9b11978b17b74e054ee1156523616"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>enterBufferIndex</b> (<a class="el" href="classxasm_1_1xasm_parser_1_1_buffer_index_context.html">xasmParser::BufferIndexContext</a> *) override</td></tr>
 <tr class="separator:ac0b9b11978b17b74e054ee1156523616 inherit pub_methods_classxasm_1_1xasm_base_listener"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa706b79c434837a525c425b39a8313f5 inherit pub_methods_classxasm_1_1xasm_base_listener"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa706b79c434837a525c425b39a8313f5"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>exitBufferIndex</b> (<a class="el" href="classxasm_1_1xasm_parser_1_1_buffer_index_context.html">xasmParser::BufferIndexContext</a> *) override</td></tr>
 <tr class="separator:aa706b79c434837a525c425b39a8313f5 inherit pub_methods_classxasm_1_1xasm_base_listener"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa66b81ec5918d2df41d244d0f653b54d inherit pub_methods_classxasm_1_1xasm_base_listener"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa66b81ec5918d2df41d244d0f653b54d"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>enterBitsOrParamType</b> (<a class="el" href="classxasm_1_1xasm_parser_1_1_bits_or_param_type_context.html">xasmParser::BitsOrParamTypeContext</a> *) override</td></tr>
-<tr class="separator:aa66b81ec5918d2df41d244d0f653b54d inherit pub_methods_classxasm_1_1xasm_base_listener"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8121e661510760d725f54e88c063034e inherit pub_methods_classxasm_1_1xasm_base_listener"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8121e661510760d725f54e88c063034e"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>exitBitsOrParamType</b> (<a class="el" href="classxasm_1_1xasm_parser_1_1_bits_or_param_type_context.html">xasmParser::BitsOrParamTypeContext</a> *) override</td></tr>
-<tr class="separator:a8121e661510760d725f54e88c063034e inherit pub_methods_classxasm_1_1xasm_base_listener"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a09cde9826b1f77a11c4f77ffe2ab3375 inherit pub_methods_classxasm_1_1xasm_base_listener"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a09cde9826b1f77a11c4f77ffe2ab3375"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>enterOptionsMap</b> (<a class="el" href="classxasm_1_1xasm_parser_1_1_options_map_context.html">xasmParser::OptionsMapContext</a> *) override</td></tr>
 <tr class="separator:a09cde9826b1f77a11c4f77ffe2ab3375 inherit pub_methods_classxasm_1_1xasm_base_listener"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a665a9438d8e37e343e18af8f06e5c7d5 inherit pub_methods_classxasm_1_1xasm_base_listener"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a665a9438d8e37e343e18af8f06e5c7d5"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>exitOptionsMap</b> (<a class="el" href="classxasm_1_1xasm_parser_1_1_options_map_context.html">xasmParser::OptionsMapContext</a> *) override</td></tr>
 <tr class="separator:a665a9438d8e37e343e18af8f06e5c7d5 inherit pub_methods_classxasm_1_1xasm_base_listener"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa99564c14b299f2915974ed24bc4aa7e inherit pub_methods_classxasm_1_1xasm_base_listener"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa99564c14b299f2915974ed24bc4aa7e"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>enterOptionsType</b> (<a class="el" href="classxasm_1_1xasm_parser_1_1_options_type_context.html">xasmParser::OptionsTypeContext</a> *) override</td></tr>
-<tr class="separator:aa99564c14b299f2915974ed24bc4aa7e inherit pub_methods_classxasm_1_1xasm_base_listener"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a664a2cb5e4331dbc49c1339c1bbc1eff inherit pub_methods_classxasm_1_1xasm_base_listener"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a664a2cb5e4331dbc49c1339c1bbc1eff"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>exitOptionsType</b> (<a class="el" href="classxasm_1_1xasm_parser_1_1_options_type_context.html">xasmParser::OptionsTypeContext</a> *) override</td></tr>
 <tr class="separator:a664a2cb5e4331dbc49c1339c1bbc1eff inherit pub_methods_classxasm_1_1xasm_base_listener"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -267,6 +300,38 @@ Public Attributes</h2></td></tr>
 <a class="el" href="classxacc_1_1_heterogeneous_map.html">HeterogeneousMap</a>&#160;</td><td class="memItemRight" valign="bottom"><b>runtimeOptions</b></td></tr>
 <tr class="separator:aa378d72c428adf0fe7e48c57ccf30e75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a530982c30119b7649bd5e408bd318a2d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a530982c30119b7649bd5e408bd318a2d"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>for_stmt_update_inst_args</b> (<a class="el" href="classxacc_1_1_instruction.html">Instruction</a> *inst)</td></tr>
+<tr class="separator:a530982c30119b7649bd5e408bd318a2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9f822f21eec2a34caaf793c89b74eee"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af9f822f21eec2a34caaf793c89b74eee"></a>
+std::vector&lt; std::size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>for_stmt_update_bits</b> (<a class="el" href="classxacc_1_1_instruction.html">Instruction</a> *inst, const std::string varName, const int value)</td></tr>
+<tr class="separator:af9f822f21eec2a34caaf793c89b74eee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fa37e1dd667aca565b145d364be6124"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6fa37e1dd667aca565b145d364be6124"></a>
+std::vector&lt; <a class="el" href="classxacc_1_1_variant.html">InstructionParameter</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>for_stmt_update_params</b> (<a class="el" href="classxacc_1_1_instruction.html">Instruction</a> *inst, const std::string varName, const int value)</td></tr>
+<tr class="separator:a6fa37e1dd667aca565b145d364be6124"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6905b375fb336fab32bc3770ebb95f00"><td class="memTemplParams" colspan="2"><a class="anchor" id="a6905b375fb336fab32bc3770ebb95f00"></a>
+template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a6905b375fb336fab32bc3770ebb95f00"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>createForInstructions</b> (<a class="el" href="classxasm_1_1xasm_parser_1_1_forstmt_context.html">xasmParser::ForstmtContext</a> *ctx, std::vector&lt; InstPtr &gt; &amp;instructions, std::shared_ptr&lt; <a class="el" href="classxacc_1_1_composite_instruction.html">CompositeInstruction</a> &gt; function)</td></tr>
+<tr class="separator:a6905b375fb336fab32bc3770ebb95f00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae211361f3a2a25a5e9f09c759775231"><td class="memTemplParams" colspan="2"><a class="anchor" id="aae211361f3a2a25a5e9f09c759775231"></a>
+template&lt;&gt; </td></tr>
+<tr class="memitem:aae211361f3a2a25a5e9f09c759775231"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>createForInstructions</b> (<a class="el" href="classxasm_1_1xasm_parser_1_1_forstmt_context.html">xasmParser::ForstmtContext</a> *ctx, std::vector&lt; InstPtr &gt; &amp;instructions, std::shared_ptr&lt; <a class="el" href="classxacc_1_1_composite_instruction.html">CompositeInstruction</a> &gt; function)</td></tr>
+<tr class="separator:aae211361f3a2a25a5e9f09c759775231"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae211361f3a2a25a5e9f09c759775231"><td class="memTemplParams" colspan="2"><a class="anchor" id="aae211361f3a2a25a5e9f09c759775231"></a>
+template&lt;&gt; </td></tr>
+<tr class="memitem:aae211361f3a2a25a5e9f09c759775231"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>createForInstructions</b> (<a class="el" href="classxasm_1_1xasm_parser_1_1_forstmt_context.html">xasmParser::ForstmtContext</a> *ctx, std::vector&lt; InstPtr &gt; &amp;instructions, std::shared_ptr&lt; <a class="el" href="classxacc_1_1_composite_instruction.html">CompositeInstruction</a> &gt; function)</td></tr>
+<tr class="separator:aae211361f3a2a25a5e9f09c759775231"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae211361f3a2a25a5e9f09c759775231"><td class="memTemplParams" colspan="2"><a class="anchor" id="aae211361f3a2a25a5e9f09c759775231"></a>
+template&lt;&gt; </td></tr>
+<tr class="memitem:aae211361f3a2a25a5e9f09c759775231"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>createForInstructions</b> (<a class="el" href="classxasm_1_1xasm_parser_1_1_forstmt_context.html">xasmParser::ForstmtContext</a> *ctx, std::vector&lt; InstPtr &gt; &amp;instructions, std::shared_ptr&lt; <a class="el" href="classxacc_1_1_composite_instruction.html">CompositeInstruction</a> &gt; function)</td></tr>
+<tr class="separator:aae211361f3a2a25a5e9f09c759775231"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae211361f3a2a25a5e9f09c759775231"><td class="memTemplParams" colspan="2"><a class="anchor" id="aae211361f3a2a25a5e9f09c759775231"></a>
+template&lt;&gt; </td></tr>
+<tr class="memitem:aae211361f3a2a25a5e9f09c759775231"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>createForInstructions</b> (<a class="el" href="classxasm_1_1xasm_parser_1_1_forstmt_context.html">xasmParser::ForstmtContext</a> *ctx, std::vector&lt; InstPtr &gt; &amp;instructions, std::shared_ptr&lt; <a class="el" href="classxacc_1_1_composite_instruction.html">CompositeInstruction</a> &gt; function)</td></tr>
+<tr class="separator:aae211361f3a2a25a5e9f09c759775231"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:ab8f7c3b3e073ca7dea5433fa6d3f5526"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab8f7c3b3e073ca7dea5433fa6d3f5526"></a>
@@ -275,21 +340,51 @@ std::shared_ptr&lt; <a class="el" href="classxacc_1_1_i_r_provider.html">IRProvi
 <tr class="memitem:a0fd18e80c8cb2569ac83fa1f4af87f75"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0fd18e80c8cb2569ac83fa1f4af87f75"></a>
 std::shared_ptr&lt; <a class="el" href="classxacc_1_1_composite_instruction.html">CompositeInstruction</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>function</b></td></tr>
 <tr class="separator:a0fd18e80c8cb2569ac83fa1f4af87f75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7d9ddc2b056bb04e2ea9498dcb8318e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa7d9ddc2b056bb04e2ea9498dcb8318e"></a>
+std::shared_ptr&lt; <a class="el" href="classxacc_1_1_composite_instruction.html">CompositeInstruction</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>for_function</b></td></tr>
+<tr class="separator:aa7d9ddc2b056bb04e2ea9498dcb8318e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c8e36afb1672965d1da7d9c8a09ed5c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9c8e36afb1672965d1da7d9c8a09ed5c"></a>
+std::shared_ptr&lt; <a class="el" href="classxacc_1_1_composite_instruction.html">CompositeInstruction</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>if_stmt</b></td></tr>
+<tr class="separator:a9c8e36afb1672965d1da7d9c8a09ed5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac42b0890dda2f671676830d63bc50769"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac42b0890dda2f671676830d63bc50769"></a>
 std::string&#160;</td><td class="memItemRight" valign="bottom"><b>bufferName</b> = &quot;&quot;</td></tr>
 <tr class="separator:ac42b0890dda2f671676830d63bc50769"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af943e29bbbe15729f1a630c3e5cc59ee"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af943e29bbbe15729f1a630c3e5cc59ee"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>hasVecDouble</b> = false</td></tr>
-<tr class="separator:af943e29bbbe15729f1a630c3e5cc59ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad469a7334d03c41a7b2df963f520726e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad469a7334d03c41a7b2df963f520726e"></a>
-std::string&#160;</td><td class="memItemRight" valign="bottom"><b>param_id</b> = &quot;t&quot;</td></tr>
-<tr class="separator:ad469a7334d03c41a7b2df963f520726e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ee3d45e36092cdc512d366568e72126"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8ee3d45e36092cdc512d366568e72126"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>inForLoop</b> = false</td></tr>
 <tr class="separator:a8ee3d45e36092cdc512d366568e72126"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab8a0d0153898de3f0295dbc8e2c333c3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab8a0d0153898de3f0295dbc8e2c333c3"></a>
-std::vector&lt; <a class="el" href="classxasm_1_1xasm_parser_1_1_instruction_context.html">xasmParser::InstructionContext</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>forInstructions</b></td></tr>
-<tr class="separator:ab8a0d0153898de3f0295dbc8e2c333c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe4ce5988d0323567efb557d7e4718b5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afe4ce5988d0323567efb557d7e4718b5"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>inIfStmt</b> = false</td></tr>
+<tr class="separator:afe4ce5988d0323567efb557d7e4718b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3941d22d8466d21af50c2716f93c42f0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3941d22d8466d21af50c2716f93c42f0"></a>
+std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>functionBufferNames</b></td></tr>
+<tr class="separator:a3941d22d8466d21af50c2716f93c42f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92f8e849ab6d66e07b3a36a14fcab2c3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a92f8e849ab6d66e07b3a36a14fcab2c3"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>currentInstructionName</b></td></tr>
+<tr class="separator:a92f8e849ab6d66e07b3a36a14fcab2c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4dd5a19e63b82fc5055e8df01fcf3b6a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4dd5a19e63b82fc5055e8df01fcf3b6a"></a>
+std::vector&lt; std::size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>currentBits</b></td></tr>
+<tr class="separator:a4dd5a19e63b82fc5055e8df01fcf3b6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae496e2b2af65eb80b6ee0cf0e7409928"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae496e2b2af65eb80b6ee0cf0e7409928"></a>
+std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>currentBufferNames</b></td></tr>
+<tr class="separator:ae496e2b2af65eb80b6ee0cf0e7409928"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57a09e1f7c794254eb9d2113b3e27f97"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a57a09e1f7c794254eb9d2113b3e27f97"></a>
+std::vector&lt; <a class="el" href="classxacc_1_1_variant.html">InstructionParameter</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>currentParameters</b></td></tr>
+<tr class="separator:a57a09e1f7c794254eb9d2113b3e27f97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab36bbe5a95d8d327b0d8b0d7abf3dc52"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab36bbe5a95d8d327b0d8b0d7abf3dc52"></a>
+std::map&lt; int, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>currentBitIdxExpressions</b></td></tr>
+<tr class="separator:ab36bbe5a95d8d327b0d8b0d7abf3dc52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4220e688da98f05029ade2414e267f1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab4220e688da98f05029ade2414e267f1"></a>
+std::map&lt; std::string, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>new_var_to_vector_idx</b></td></tr>
+<tr class="separator:ab4220e688da98f05029ade2414e267f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa60d598cdeab25f74e4ef774a25de91d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa60d598cdeab25f74e4ef774a25de91d"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>currentCompositeName</b></td></tr>
+<tr class="separator:aa60d598cdeab25f74e4ef774a25de91d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb0ce3068715217a3fa5600e39ea874d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adb0ce3068715217a3fa5600e39ea874d"></a>
+<a class="el" href="classxacc_1_1_heterogeneous_map.html">HeterogeneousMap</a>&#160;</td><td class="memItemRight" valign="bottom"><b>currentOptions</b></td></tr>
+<tr class="separator:adb0ce3068715217a3fa5600e39ea874d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55f39430563215ad3e2c60e474412a7a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a55f39430563215ad3e2c60e474412a7a"></a>
+std::shared_ptr&lt; <a class="el" href="classxacc_1_1_expression_parsing_util.html">ExpressionParsingUtil</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>parsingUtil</b></td></tr>
+<tr class="separator:a55f39430563215ad3e2c60e474412a7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>/home/cades/dev/xacc/quantum/plugins/xasm/<a class="el" href="xasm__listener_8hpp_source.html">xasm_listener.hpp</a></li>

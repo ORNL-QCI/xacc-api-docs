@@ -39,6 +39,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -101,24 +103,36 @@ Inheritance diagram for xacc::Optimizer:</div>
  <div class="center">
   <img src="classxacc_1_1_optimizer.png" usemap="#xacc::Optimizer_map" alt=""/>
   <map id="xacc::Optimizer_map" name="xacc::Optimizer_map">
-<area href="classxacc_1_1_identifiable.html" alt="xacc::Identifiable" shape="rect" coords="80,0,230,24"/>
-<area href="classxacc_1_1_m_l_p_a_c_k_optimizer.html" alt="xacc::MLPACKOptimizer" shape="rect" coords="0,112,150,136"/>
-<area href="classxacc_1_1_n_l_optimizer.html" alt="xacc::NLOptimizer" shape="rect" coords="160,112,310,136"/>
+<area href="classxacc_1_1_identifiable.html" alt="xacc::Identifiable" shape="rect" coords="320,0,470,24"/>
+<area href="classxacc_1_1_control_optimizer.html" alt="xacc::ControlOptimizer" shape="rect" coords="0,112,150,136"/>
+<area href="classxacc_1_1_m_l_p_a_c_k_optimizer.html" alt="xacc::MLPACKOptimizer" shape="rect" coords="160,112,310,136"/>
+<area href="classxacc_1_1_n_l_optimizer.html" alt="xacc::NLOptimizer" shape="rect" coords="320,112,470,136"/>
+<area href="classxacc_1_1_pulse_optim_g_o_a_t.html" alt="xacc::PulseOptimGOAT" shape="rect" coords="480,112,630,136"/>
+<area href="classxacc_1_1_pulse_optim_g_r_a_p_e.html" alt="xacc::PulseOptimGRAPE" shape="rect" coords="640,112,790,136"/>
 </map>
  </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a52d6a720759be6394ea0ec3133202f56"><td class="memTemplParams" colspan="2"><a class="anchor" id="a52d6a720759be6394ea0ec3133202f56"></a>
+<tr class="memitem:aec43a5e391ed5ebeba48e9fe6c3544c4"><td class="memTemplParams" colspan="2"><a class="anchor" id="aec43a5e391ed5ebeba48e9fe6c3544c4"></a>
 template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a52d6a720759be6394ea0ec3133202f56"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>appendOption</b> (const std::string key, T &amp;value)</td></tr>
-<tr class="separator:a52d6a720759be6394ea0ec3133202f56"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae3cdc8dba69c789f5a24cd50e9acf9e3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae3cdc8dba69c789f5a24cd50e9acf9e3"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setOptions</b> (const <a class="el" href="classxacc_1_1_heterogeneous_map.html">HeterogeneousMap</a> &amp;opts)</td></tr>
-<tr class="separator:ae3cdc8dba69c789f5a24cd50e9acf9e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec43a5e391ed5ebeba48e9fe6c3544c4"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>appendOption</b> (const std::string key, T &amp;&amp;value)</td></tr>
+<tr class="separator:aec43a5e391ed5ebeba48e9fe6c3544c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e4eaabdd8e374ab939c0932125a4b29"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0e4eaabdd8e374ab939c0932125a4b29"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>setOptions</b> (const <a class="el" href="classxacc_1_1_heterogeneous_map.html">HeterogeneousMap</a> &amp;opts)</td></tr>
+<tr class="separator:a0e4eaabdd8e374ab939c0932125a4b29"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a639bcef7a683d98761f471b33182f8d4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a639bcef7a683d98761f471b33182f8d4"></a>
 virtual OptResult&#160;</td><td class="memItemRight" valign="bottom"><b>optimize</b> (<a class="el" href="classxacc_1_1_opt_function.html">OptFunction</a> &amp;function)=0</td></tr>
 <tr class="separator:a639bcef7a683d98761f471b33182f8d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2436d3b9204b170754e604e67869e6ed"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2436d3b9204b170754e604e67869e6ed"></a>
+virtual OptResult&#160;</td><td class="memItemRight" valign="bottom"><b>optimize</b> ()</td></tr>
+<tr class="separator:a2436d3b9204b170754e604e67869e6ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9dd42a92708b377e0686d842cf67cc4f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9dd42a92708b377e0686d842cf67cc4f"></a>
+const std::string&#160;</td><td class="memItemRight" valign="bottom"><b>get_algorithm</b> () const </td></tr>
+<tr class="separator:a9dd42a92708b377e0686d842cf67cc4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3565338fbd7cfbf9477286841f2c65d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac3565338fbd7cfbf9477286841f2c65d"></a>
+const bool&#160;</td><td class="memItemRight" valign="bottom"><b>isGradientBased</b> () const </td></tr>
+<tr class="separator:ac3565338fbd7cfbf9477286841f2c65d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classxacc_1_1_identifiable"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classxacc_1_1_identifiable')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classxacc_1_1_identifiable.html">xacc::Identifiable</a></td></tr>
 <tr class="memitem:a598877123fb1da92aef93c449a0306cb inherit pub_methods_classxacc_1_1_identifiable"><td class="memItemLeft" align="right" valign="top">virtual const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classxacc_1_1_identifiable.html#a598877123fb1da92aef93c449a0306cb">name</a> () const =0</td></tr>
 <tr class="separator:a598877123fb1da92aef93c449a0306cb inherit pub_methods_classxacc_1_1_identifiable"><td class="memSeparator" colspan="2">&#160;</td></tr>

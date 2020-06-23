@@ -39,6 +39,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -101,9 +103,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:afd1a79433858f51cee06e26933b01c64"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afd1a79433858f51cee06e26933b01c64"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>RPCRequestQPURequest</b> (std::string i, <a class="el" href="classxacc_1_1qcs_1_1_q_p_u_request_params.html">QPURequestParams</a> &amp;p)</td></tr>
 <tr class="separator:afd1a79433858f51cee06e26933b01c64"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92d8cd7029591ff9b4906e1eee865637"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a92d8cd7029591ff9b4906e1eee865637"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>MSGPACK_DEFINE_MAP</b> (method, id, jsonrpc, params, _type)</td></tr>
-<tr class="separator:a92d8cd7029591ff9b4906e1eee865637"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d08f86eb8e585ac04c83f0b94053c6d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2d08f86eb8e585ac04c83f0b94053c6d"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>MSGPACK_DEFINE_MAP</b> (method, <a class="el" href="structid.html">id</a>, jsonrpc, params, _type, client_key)</td></tr>
+<tr class="separator:a2d08f86eb8e585ac04c83f0b94053c6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -122,6 +124,9 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>method</b> = &
 <tr class="memitem:ac8e6e9ed217cb74ceae51196877fde39"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac8e6e9ed217cb74ceae51196877fde39"></a>
 std::string&#160;</td><td class="memItemRight" valign="bottom"><b>_type</b> = &quot;RPCRequest&quot;</td></tr>
 <tr class="separator:ac8e6e9ed217cb74ceae51196877fde39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3af5c78c58cdebf69ce034c5c7e2b51"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad3af5c78c58cdebf69ce034c5c7e2b51"></a>
+msgpack::type::nil_t&#160;</td><td class="memItemRight" valign="bottom"><b>client_key</b></td></tr>
+<tr class="separator:ad3af5c78c58cdebf69ce034c5c7e2b51"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>/home/cades/dev/xacc/quantum/plugins/rigetti/qcs/<a class="el" href="messages_8hpp_source.html">messages.hpp</a></li>

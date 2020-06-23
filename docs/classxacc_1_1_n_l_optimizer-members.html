@@ -39,6 +39,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -94,13 +96,16 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <p>This is the complete list of members for <a class="el" href="classxacc_1_1_n_l_optimizer.html">xacc::NLOptimizer</a>, including all inherited members.</p>
 <table class="directory">
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>appendOption</b>(const std::string key, T &amp;value) (defined in <a class="el" href="classxacc_1_1_optimizer.html">xacc::Optimizer</a>)</td><td class="entry"><a class="el" href="classxacc_1_1_optimizer.html">xacc::Optimizer</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>appendOption</b>(const std::string key, T &amp;&amp;value) (defined in <a class="el" href="classxacc_1_1_optimizer.html">xacc::Optimizer</a>)</td><td class="entry"><a class="el" href="classxacc_1_1_optimizer.html">xacc::Optimizer</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr><td class="entry"><a class="el" href="classxacc_1_1_n_l_optimizer.html#ac47c4190c723fd84255c68c25e104184">description</a>() const override</td><td class="entry"><a class="el" href="classxacc_1_1_n_l_optimizer.html">xacc::NLOptimizer</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>get_algorithm</b>() const  (defined in <a class="el" href="classxacc_1_1_optimizer.html">xacc::Optimizer</a>)</td><td class="entry"><a class="el" href="classxacc_1_1_optimizer.html">xacc::Optimizer</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr bgcolor="#f0f0f0"><td class="entry"><b>isGradientBased</b>() const  (defined in <a class="el" href="classxacc_1_1_optimizer.html">xacc::Optimizer</a>)</td><td class="entry"><a class="el" href="classxacc_1_1_optimizer.html">xacc::Optimizer</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classxacc_1_1_n_l_optimizer.html#ab8eb0dfef6746f95908d66da685c8f29">name</a>() const override</td><td class="entry"><a class="el" href="classxacc_1_1_n_l_optimizer.html">xacc::NLOptimizer</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
   <tr bgcolor="#f0f0f0"><td class="entry"><b>optimize</b>(OptFunction &amp;function) override (defined in <a class="el" href="classxacc_1_1_n_l_optimizer.html">xacc::NLOptimizer</a>)</td><td class="entry"><a class="el" href="classxacc_1_1_n_l_optimizer.html">xacc::NLOptimizer</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>options</b> (defined in <a class="el" href="classxacc_1_1_optimizer.html">xacc::Optimizer</a>)</td><td class="entry"><a class="el" href="classxacc_1_1_optimizer.html">xacc::Optimizer</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>setOptions</b>(const HeterogeneousMap &amp;opts) (defined in <a class="el" href="classxacc_1_1_optimizer.html">xacc::Optimizer</a>)</td><td class="entry"><a class="el" href="classxacc_1_1_optimizer.html">xacc::Optimizer</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classxacc_1_1_identifiable.html#a485789cda5d8386d9b13a984fe0a09d2">~Identifiable</a>()</td><td class="entry"><a class="el" href="classxacc_1_1_identifiable.html">xacc::Identifiable</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>optimize</b>() (defined in <a class="el" href="classxacc_1_1_optimizer.html">xacc::Optimizer</a>)</td><td class="entry"><a class="el" href="classxacc_1_1_optimizer.html">xacc::Optimizer</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr bgcolor="#f0f0f0"><td class="entry"><b>options</b> (defined in <a class="el" href="classxacc_1_1_optimizer.html">xacc::Optimizer</a>)</td><td class="entry"><a class="el" href="classxacc_1_1_optimizer.html">xacc::Optimizer</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>setOptions</b>(const HeterogeneousMap &amp;opts) (defined in <a class="el" href="classxacc_1_1_optimizer.html">xacc::Optimizer</a>)</td><td class="entry"><a class="el" href="classxacc_1_1_optimizer.html">xacc::Optimizer</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classxacc_1_1_identifiable.html#a485789cda5d8386d9b13a984fe0a09d2">~Identifiable</a>()</td><td class="entry"><a class="el" href="classxacc_1_1_identifiable.html">xacc::Identifiable</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

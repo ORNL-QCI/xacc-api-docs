@@ -39,6 +39,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -115,13 +117,22 @@ OptResult&#160;</td><td class="memItemRight" valign="bottom"><b>optimize</b> (<a
 <tr class="memitem:ac47c4190c723fd84255c68c25e104184"><td class="memItemLeft" align="right" valign="top">const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classxacc_1_1_n_l_optimizer.html#ac47c4190c723fd84255c68c25e104184">description</a> () const override</td></tr>
 <tr class="separator:ac47c4190c723fd84255c68c25e104184"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classxacc_1_1_optimizer"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classxacc_1_1_optimizer')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classxacc_1_1_optimizer.html">xacc::Optimizer</a></td></tr>
-<tr class="memitem:a52d6a720759be6394ea0ec3133202f56 inherit pub_methods_classxacc_1_1_optimizer"><td class="memTemplParams" colspan="2"><a class="anchor" id="a52d6a720759be6394ea0ec3133202f56"></a>
+<tr class="memitem:aec43a5e391ed5ebeba48e9fe6c3544c4 inherit pub_methods_classxacc_1_1_optimizer"><td class="memTemplParams" colspan="2"><a class="anchor" id="aec43a5e391ed5ebeba48e9fe6c3544c4"></a>
 template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a52d6a720759be6394ea0ec3133202f56 inherit pub_methods_classxacc_1_1_optimizer"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>appendOption</b> (const std::string key, T &amp;value)</td></tr>
-<tr class="separator:a52d6a720759be6394ea0ec3133202f56 inherit pub_methods_classxacc_1_1_optimizer"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae3cdc8dba69c789f5a24cd50e9acf9e3 inherit pub_methods_classxacc_1_1_optimizer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae3cdc8dba69c789f5a24cd50e9acf9e3"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setOptions</b> (const <a class="el" href="classxacc_1_1_heterogeneous_map.html">HeterogeneousMap</a> &amp;opts)</td></tr>
-<tr class="separator:ae3cdc8dba69c789f5a24cd50e9acf9e3 inherit pub_methods_classxacc_1_1_optimizer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec43a5e391ed5ebeba48e9fe6c3544c4 inherit pub_methods_classxacc_1_1_optimizer"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>appendOption</b> (const std::string key, T &amp;&amp;value)</td></tr>
+<tr class="separator:aec43a5e391ed5ebeba48e9fe6c3544c4 inherit pub_methods_classxacc_1_1_optimizer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e4eaabdd8e374ab939c0932125a4b29 inherit pub_methods_classxacc_1_1_optimizer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0e4eaabdd8e374ab939c0932125a4b29"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>setOptions</b> (const <a class="el" href="classxacc_1_1_heterogeneous_map.html">HeterogeneousMap</a> &amp;opts)</td></tr>
+<tr class="separator:a0e4eaabdd8e374ab939c0932125a4b29 inherit pub_methods_classxacc_1_1_optimizer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2436d3b9204b170754e604e67869e6ed inherit pub_methods_classxacc_1_1_optimizer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2436d3b9204b170754e604e67869e6ed"></a>
+virtual OptResult&#160;</td><td class="memItemRight" valign="bottom"><b>optimize</b> ()</td></tr>
+<tr class="separator:a2436d3b9204b170754e604e67869e6ed inherit pub_methods_classxacc_1_1_optimizer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9dd42a92708b377e0686d842cf67cc4f inherit pub_methods_classxacc_1_1_optimizer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9dd42a92708b377e0686d842cf67cc4f"></a>
+const std::string&#160;</td><td class="memItemRight" valign="bottom"><b>get_algorithm</b> () const </td></tr>
+<tr class="separator:a9dd42a92708b377e0686d842cf67cc4f inherit pub_methods_classxacc_1_1_optimizer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3565338fbd7cfbf9477286841f2c65d inherit pub_methods_classxacc_1_1_optimizer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac3565338fbd7cfbf9477286841f2c65d"></a>
+const bool&#160;</td><td class="memItemRight" valign="bottom"><b>isGradientBased</b> () const </td></tr>
+<tr class="separator:ac3565338fbd7cfbf9477286841f2c65d inherit pub_methods_classxacc_1_1_optimizer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classxacc_1_1_identifiable"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classxacc_1_1_identifiable')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classxacc_1_1_identifiable.html">xacc::Identifiable</a></td></tr>
 <tr class="memitem:a485789cda5d8386d9b13a984fe0a09d2 inherit pub_methods_classxacc_1_1_identifiable"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classxacc_1_1_identifiable.html#a485789cda5d8386d9b13a984fe0a09d2">~Identifiable</a> ()</td></tr>
 <tr class="separator:a485789cda5d8386d9b13a984fe0a09d2 inherit pub_methods_classxacc_1_1_identifiable"><td class="memSeparator" colspan="2">&#160;</td></tr>

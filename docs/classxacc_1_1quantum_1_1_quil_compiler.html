@@ -39,6 +39,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -110,6 +112,9 @@ Inheritance diagram for xacc::quantum::QuilCompiler:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a2421482415ca4e09963ea4ecddff8100"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classxacc_1_1_i_r.html">xacc::IR</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classxacc_1_1quantum_1_1_quil_compiler.html#a2421482415ca4e09963ea4ecddff8100">compile</a> (const std::string &amp;src, std::shared_ptr&lt; <a class="el" href="classxacc_1_1_accelerator.html">Accelerator</a> &gt; acc)</td></tr>
 <tr class="separator:a2421482415ca4e09963ea4ecddff8100"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9640ee4eb9c8dfd28ad446a988b299d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab9640ee4eb9c8dfd28ad446a988b299d"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>canParse</b> (const std::string &amp;src) override</td></tr>
+<tr class="separator:ab9640ee4eb9c8dfd28ad446a988b299d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf4d321ecb0df3fa7728999f941c83b2"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classxacc_1_1_i_r.html">xacc::IR</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classxacc_1_1quantum_1_1_quil_compiler.html#adf4d321ecb0df3fa7728999f941c83b2">compile</a> (const std::string &amp;src)</td></tr>
 <tr class="separator:adf4d321ecb0df3fa7728999f941c83b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae4aa946e06f289950fffe9ded0159109"><td class="memItemLeft" align="right" valign="top">virtual const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classxacc_1_1quantum_1_1_quil_compiler.html#ae4aa946e06f289950fffe9ded0159109">translate</a> (std::shared_ptr&lt; <a class="el" href="classxacc_1_1_composite_instruction.html">CompositeInstruction</a> &gt; function)</td></tr>
@@ -121,9 +126,21 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0866a9f695f28c90ac1f4754374f3bfe"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classxacc_1_1quantum_1_1_quil_compiler.html#a0866a9f695f28c90ac1f4754374f3bfe">~QuilCompiler</a> ()</td></tr>
 <tr class="separator:a0866a9f695f28c90ac1f4754374f3bfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classxacc_1_1_compiler"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classxacc_1_1_compiler')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classxacc_1_1_compiler.html">xacc::Compiler</a></td></tr>
+<tr class="memitem:a1da510b4ea8655824fc030acacb84f0c inherit pub_methods_classxacc_1_1_compiler"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1da510b4ea8655824fc030acacb84f0c"></a>
+virtual const std::string&#160;</td><td class="memItemRight" valign="bottom"><b>get_statement_terminator</b> ()</td></tr>
+<tr class="separator:a1da510b4ea8655824fc030acacb84f0c inherit pub_methods_classxacc_1_1_compiler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab11e44fcb339bb872766ebe38f7ae730 inherit pub_methods_classxacc_1_1_compiler"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab11e44fcb339bb872766ebe38f7ae730"></a>
+virtual const std::string&#160;</td><td class="memItemRight" valign="bottom"><b>translate</b> (std::shared_ptr&lt; <a class="el" href="classxacc_1_1_composite_instruction.html">CompositeInstruction</a> &gt; program, <a class="el" href="classxacc_1_1_heterogeneous_map.html">HeterogeneousMap</a> &amp;options)</td></tr>
+<tr class="separator:ab11e44fcb339bb872766ebe38f7ae730 inherit pub_methods_classxacc_1_1_compiler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5bf9c156a0c49d65581de3bae35ca7b inherit pub_methods_classxacc_1_1_compiler"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac5bf9c156a0c49d65581de3bae35ca7b"></a>
+virtual const std::string&#160;</td><td class="memItemRight" valign="bottom"><b>translate</b> (std::shared_ptr&lt; <a class="el" href="classxacc_1_1_composite_instruction.html">CompositeInstruction</a> &gt; program, <a class="el" href="classxacc_1_1_heterogeneous_map.html">HeterogeneousMap</a> &amp;&amp;options)</td></tr>
+<tr class="separator:ac5bf9c156a0c49d65581de3bae35ca7b inherit pub_methods_classxacc_1_1_compiler"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd9aa9863c7d73cd35d47fbc608d1a79 inherit pub_methods_classxacc_1_1_compiler"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afd9aa9863c7d73cd35d47fbc608d1a79"></a>
 virtual const std::shared_ptr&lt; <a class="el" href="classxacc_1_1_composite_instruction.html">CompositeInstruction</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>compile</b> (std::shared_ptr&lt; <a class="el" href="classxacc_1_1_composite_instruction.html">CompositeInstruction</a> &gt; f, std::shared_ptr&lt; <a class="el" href="classxacc_1_1_accelerator.html">Accelerator</a> &gt; acc)</td></tr>
 <tr class="separator:afd9aa9863c7d73cd35d47fbc608d1a79 inherit pub_methods_classxacc_1_1_compiler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9dbd7d4ee70f8e1ef46698b7258af551 inherit pub_methods_classxacc_1_1_compiler"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9dbd7d4ee70f8e1ef46698b7258af551"></a>
+virtual std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>getKernelBufferNames</b> (const std::string &amp;src)</td></tr>
+<tr class="separator:a9dbd7d4ee70f8e1ef46698b7258af551 inherit pub_methods_classxacc_1_1_compiler"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7bd359229a45b2c5ca86c4634c7a9bda inherit pub_methods_classxacc_1_1_compiler"><td class="memItemLeft" align="right" valign="top">virtual OptionPairs&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classxacc_1_1_compiler.html#a7bd359229a45b2c5ca86c4634c7a9bda">getOptions</a> ()</td></tr>
 <tr class="separator:a7bd359229a45b2c5ca86c4634c7a9bda inherit pub_methods_classxacc_1_1_compiler"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ccab382dae75ba9c8139d64af3b83be inherit pub_methods_classxacc_1_1_compiler"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classxacc_1_1_compiler.html#a4ccab382dae75ba9c8139d64af3b83be">handleOptions</a> (const std::map&lt; std::string, std::string &gt; &amp;arg_map)</td></tr>

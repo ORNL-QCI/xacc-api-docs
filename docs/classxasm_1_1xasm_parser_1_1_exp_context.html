@@ -39,6 +39,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -89,6 +91,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="classxasm_1_1xasm_parser_1_1_exp_context-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">xasm::xasmParser::ExpContext Class Reference</div>  </div>
@@ -132,15 +135,24 @@ std::vector&lt; <a class="el" href="classxasm_1_1xasm_parser_1_1_exp_context.htm
 <tr class="memitem:a0150185c31c9145fa316843f834c81c7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0150185c31c9145fa316843f834c81c7"></a>
 antlr4::tree::TerminalNode *&#160;</td><td class="memItemRight" valign="bottom"><b>INT</b> ()</td></tr>
 <tr class="separator:a0150185c31c9145fa316843f834c81c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa53a4e37433912c877f62e674cd58b8c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa53a4e37433912c877f62e674cd58b8c"></a>
-<a class="el" href="classxasm_1_1xasm_parser_1_1_buffer_index_context.html">BufferIndexContext</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>bufferIndex</b> ()</td></tr>
-<tr class="separator:aa53a4e37433912c877f62e674cd58b8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a733ff6f96430dfa0493530500cb810b5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a733ff6f96430dfa0493530500cb810b5"></a>
+antlr4::tree::TerminalNode *&#160;</td><td class="memItemRight" valign="bottom"><b>ID</b> ()</td></tr>
+<tr class="separator:a733ff6f96430dfa0493530500cb810b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a85305f9cbab986aab4a3f367962b5bd1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a85305f9cbab986aab4a3f367962b5bd1"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>enterRule</b> (antlr4::tree::ParseTreeListener *listener) override</td></tr>
 <tr class="separator:a85305f9cbab986aab4a3f367962b5bd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b13a51de0989a8017027e4ef8faa427"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6b13a51de0989a8017027e4ef8faa427"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>exitRule</b> (antlr4::tree::ParseTreeListener *listener) override</td></tr>
 <tr class="separator:a6b13a51de0989a8017027e4ef8faa427"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:ae8f73b55ab59b6b9a96bcbc6037acc24"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae8f73b55ab59b6b9a96bcbc6037acc24"></a>
+<a class="el" href="classxasm_1_1xasm_parser_1_1_id_context.html">xasmParser::IdContext</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>var_name</b> = nullptr</td></tr>
+<tr class="separator:ae8f73b55ab59b6b9a96bcbc6037acc24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab570c43c6670593742c39148d2736aae"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab570c43c6670593742c39148d2736aae"></a>
+antlr4::Token *&#160;</td><td class="memItemRight" valign="bottom"><b>idx</b> = nullptr</td></tr>
+<tr class="separator:ab570c43c6670593742c39148d2736aae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>/home/cades/dev/xacc/quantum/plugins/xasm/generated/<a class="el" href="xasm_parser_8h_source.html">xasmParser.h</a></li>

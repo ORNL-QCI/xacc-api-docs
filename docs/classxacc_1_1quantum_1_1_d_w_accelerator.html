@@ -39,6 +39,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -167,6 +169,9 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>contributeIns
 <tr class="memitem:aa43f52b577500f6489b479e4b886b4c4 inherit pub_methods_classxacc_1_1_accelerator"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa43f52b577500f6489b479e4b886b4c4"></a>
 virtual const std::string&#160;</td><td class="memItemRight" valign="bottom"><b>defaultPlacementTransformation</b> ()</td></tr>
 <tr class="separator:aa43f52b577500f6489b479e4b886b4c4 inherit pub_methods_classxacc_1_1_accelerator"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bcc1feb0a05dc04211c1ffcea5d6ba3 inherit pub_methods_classxacc_1_1_accelerator"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9bcc1feb0a05dc04211c1ffcea5d6ba3"></a>
+virtual BitOrder&#160;</td><td class="memItemRight" valign="bottom"><b>getBitOrder</b> ()</td></tr>
+<tr class="separator:a9bcc1feb0a05dc04211c1ffcea5d6ba3 inherit pub_methods_classxacc_1_1_accelerator"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c42da8ad0eb94482af0bffa35625118 inherit pub_methods_classxacc_1_1_accelerator"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6c42da8ad0eb94482af0bffa35625118"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>cancel</b> ()</td></tr>
 <tr class="separator:a6c42da8ad0eb94482af0bffa35625118 inherit pub_methods_classxacc_1_1_accelerator"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -199,7 +204,7 @@ Protected Attributes</h2></td></tr>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>shots</b> = 1000</td></tr>
 <tr class="separator:a190dca6367d98bff066cb880f99aba5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a060d09258d1f83ff1d1a17233036d7fe"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a060d09258d1f83ff1d1a17233036d7fe"></a>
-std::string&#160;</td><td class="memItemRight" valign="bottom"><b>backend</b> = &quot;DW_2000Q_VFYC_2_1&quot;</td></tr>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>backend</b> = &quot;DW_2000Q_5&quot;</td></tr>
 <tr class="separator:a060d09258d1f83ff1d1a17233036d7fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b9ca421d7efeed09ff9acb9f77d9dd8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6b9ca421d7efeed09ff9acb9f77d9dd8"></a>
 std::string&#160;</td><td class="memItemRight" valign="bottom"><b>apiKey</b></td></tr>
@@ -210,6 +215,15 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>url</b></td></
 <tr class="memitem:ac19954e3df9e77184717c9be8a2ed4c5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac19954e3df9e77184717c9be8a2ed4c5"></a>
 std::map&lt; std::string, <a class="el" href="structxacc_1_1quantum_1_1_d_w_solver.html">DWSolver</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>availableSolvers</b></td></tr>
 <tr class="separator:ac19954e3df9e77184717c9be8a2ed4c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1701254fedbbdf81098bfb59c4f7f8b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae1701254fedbbdf81098bfb59c4f7f8b"></a>
+sapi_Connection *&#160;</td><td class="memItemRight" valign="bottom"><b>connection</b> = nullptr</td></tr>
+<tr class="separator:ae1701254fedbbdf81098bfb59c4f7f8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86cae922be440da5947b28f8a698ac44"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a86cae922be440da5947b28f8a698ac44"></a>
+sapi_Solver *&#160;</td><td class="memItemRight" valign="bottom"><b>solver</b> = nullptr</td></tr>
+<tr class="separator:a86cae922be440da5947b28f8a698ac44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0d2bf1ba859daea00cdc92cef38be74"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae0d2bf1ba859daea00cdc92cef38be74"></a>
+const sapi_SolverProperties *&#160;</td><td class="memItemRight" valign="bottom"><b>solver_properties</b> = nullptr</td></tr>
+<tr class="separator:ae0d2bf1ba859daea00cdc92cef38be74"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classxacc_1_1_remote_accelerator"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classxacc_1_1_remote_accelerator')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classxacc_1_1_remote_accelerator.html">xacc::RemoteAccelerator</a></td></tr>
 <tr class="memitem:a832bea4cc6adfe51b0827511a392659c inherit pro_attribs_classxacc_1_1_remote_accelerator"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a832bea4cc6adfe51b0827511a392659c"></a>
 std::shared_ptr&lt; <a class="el" href="classxacc_1_1_client.html">Client</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>restClient</b></td></tr>
@@ -223,6 +237,14 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>remoteUrl</b><
 <tr class="memitem:a44a07e5edac49e6cc32e1ed68c10c9ff inherit pro_attribs_classxacc_1_1_remote_accelerator"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a44a07e5edac49e6cc32e1ed68c10c9ff"></a>
 std::map&lt; std::string, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>headers</b></td></tr>
 <tr class="separator:a44a07e5edac49e6cc32e1ed68c10c9ff inherit pro_attribs_classxacc_1_1_remote_accelerator"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_types_classxacc_1_1_accelerator"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classxacc_1_1_accelerator')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classxacc_1_1_accelerator.html">xacc::Accelerator</a></td></tr>
+<tr class="memitem:a9caafb90c45e00066a2500af3a04cd04 inherit pub_types_classxacc_1_1_accelerator"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9caafb90c45e00066a2500af3a04cd04"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>BitOrder</b> { <b>LSB</b>, 
+<b>MSB</b>
+ }</td></tr>
+<tr class="separator:a9caafb90c45e00066a2500af3a04cd04 inherit pub_types_classxacc_1_1_accelerator"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="a36cf9599bd386ddc866f275e63f59df8"></a>
@@ -279,8 +301,8 @@ std::map&lt; std::string, std::string &gt;&#160;</td><td class="memItemRight" va
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>/home/cades/dev/xacc/quantum/plugins/dwave/accelerator/<a class="el" href="_d_w_accelerator_8hpp_source.html">DWAccelerator.hpp</a></li>
-<li>/home/cades/dev/xacc/quantum/plugins/dwave/accelerator/DWAccelerator.cpp</li>
+<li>/home/cades/dev/xacc/quantum/plugins/dwave/accelerator/<a class="el" href="old___d_w_accelerator_8hpp_source.html">old_DWAccelerator.hpp</a></li>
+<li>/home/cades/dev/xacc/quantum/plugins/dwave/accelerator/old_DWAccelerator.cpp</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

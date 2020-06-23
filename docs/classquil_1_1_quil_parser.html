@@ -39,6 +39,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -143,6 +145,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classquil_1_1_quil_parser_1_1_halt_context.html">HaltContext</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classquil_1_1_quil_parser_1_1_id_context.html">IdContext</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classquil_1_1_quil_parser_1_1_identifier_exp_context.html">IdentifierExpContext</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classquil_1_1_quil_parser_1_1_imaginary_n_context.html">ImaginaryNContext</a></td></tr>
@@ -209,9 +213,13 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classquil_1_1_quil_parser_1_1_typedparam_context.html">TypedparamContext</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classquil_1_1_quil_parser_1_1_variable__param__name_context.html">Variable_param_nameContext</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classquil_1_1_quil_parser_1_1_variable_context.html">VariableContext</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classquil_1_1_quil_parser_1_1_variable_exp_context.html">VariableExpContext</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classquil_1_1_quil_parser_1_1_variablewithbracket_context.html">VariablewithbracketContext</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classquil_1_1_quil_parser_1_1_wait_context.html">WaitContext</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -222,7 +230,7 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a1e893b4a110aceedaa217eafa8bb983b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1e893b4a110aceedaa217eafa8bb983b"></a>enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
+<tr class="memitem:a4af1fc61dee5ce551c08cd8ed1d0c121"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4af1fc61dee5ce551c08cd8ed1d0c121"></a>enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
 &#160;&#160;<b>T__0</b> = 1, 
 <b>T__1</b> = 2, 
 <b>T__2</b> = 3, 
@@ -233,134 +241,139 @@ Public Types</h2></td></tr>
 <b>T__6</b> = 7, 
 <b>T__7</b> = 8, 
 <br />
-&#160;&#160;<b>DEFGATE</b> = 9, 
-<b>DEFCIRCUIT</b> = 10, 
-<b>MEASURE</b> = 11, 
-<b>LABEL</b> = 12, 
+&#160;&#160;<b>T__8</b> = 9, 
+<b>T__9</b> = 10, 
+<b>DEFGATE</b> = 11, 
+<b>DEFCIRCUIT</b> = 12, 
 <br />
-&#160;&#160;<b>HALT</b> = 13, 
-<b>JUMP</b> = 14, 
-<b>JUMPWHEN</b> = 15, 
-<b>JUMPUNLESS</b> = 16, 
+&#160;&#160;<b>MEASURE</b> = 13, 
+<b>LABEL</b> = 14, 
+<b>HALT</b> = 15, 
+<b>JUMP</b> = 16, 
 <br />
-&#160;&#160;<b>RESET</b> = 17, 
-<b>WAIT</b> = 18, 
-<b>NOP</b> = 19, 
-<b>INCLUDE</b> = 20, 
+&#160;&#160;<b>JUMPWHEN</b> = 17, 
+<b>JUMPUNLESS</b> = 18, 
+<b>RESET</b> = 19, 
+<b>WAIT</b> = 20, 
 <br />
-&#160;&#160;<b>PRAGMA</b> = 21, 
-<b>FALSE</b> = 22, 
-<b>TRUE</b> = 23, 
-<b>NOT</b> = 24, 
+&#160;&#160;<b>NOP</b> = 21, 
+<b>INCLUDE</b> = 22, 
+<b>PRAGMA</b> = 23, 
+<b>FALSE</b> = 24, 
 <br />
-&#160;&#160;<b>AND</b> = 25, 
-<b>OR</b> = 26, 
-<b>MOVE</b> = 27, 
-<b>EXCHANGE</b> = 28, 
+&#160;&#160;<b>TRUE</b> = 25, 
+<b>NOT</b> = 26, 
+<b>AND</b> = 27, 
+<b>OR</b> = 28, 
 <br />
-&#160;&#160;<b>PI</b> = 29, 
-<b>I</b> = 30, 
-<b>SIN</b> = 31, 
-<b>COS</b> = 32, 
+&#160;&#160;<b>MOVE</b> = 29, 
+<b>EXCHANGE</b> = 30, 
+<b>PI</b> = 31, 
+<b>I</b> = 32, 
 <br />
-&#160;&#160;<b>SQRT</b> = 33, 
-<b>EXP</b> = 34, 
-<b>CIS</b> = 35, 
-<b>PLUS</b> = 36, 
+&#160;&#160;<b>SIN</b> = 33, 
+<b>COS</b> = 34, 
+<b>SQRT</b> = 35, 
+<b>EXP</b> = 36, 
 <br />
-&#160;&#160;<b>MINUS</b> = 37, 
-<b>TIMES</b> = 38, 
-<b>DIVIDE</b> = 39, 
-<b>POWER</b> = 40, 
+&#160;&#160;<b>CIS</b> = 37, 
+<b>PLUS</b> = 38, 
+<b>MINUS</b> = 39, 
+<b>TIMES</b> = 40, 
 <br />
-&#160;&#160;<b>IDENTIFIER</b> = 41, 
-<b>INT</b> = 42, 
-<b>FLOAT</b> = 43, 
-<b>STRING</b> = 44, 
+&#160;&#160;<b>DIVIDE</b> = 41, 
+<b>POWER</b> = 42, 
+<b>IDENTIFIER</b> = 43, 
+<b>INT</b> = 44, 
 <br />
-&#160;&#160;<b>PERIOD</b> = 45, 
-<b>COMMA</b> = 46, 
-<b>LPAREN</b> = 47, 
-<b>RPAREN</b> = 48, 
+&#160;&#160;<b>FLOAT</b> = 45, 
+<b>STRING</b> = 46, 
+<b>PERIOD</b> = 47, 
+<b>COMMA</b> = 48, 
 <br />
-&#160;&#160;<b>LBRACKET</b> = 49, 
-<b>RBRACKET</b> = 50, 
-<b>COLON</b> = 51, 
-<b>PERCENTAGE</b> = 52, 
+&#160;&#160;<b>LPAREN</b> = 49, 
+<b>RPAREN</b> = 50, 
+<b>LBRACKET</b> = 51, 
+<b>RBRACKET</b> = 52, 
 <br />
-&#160;&#160;<b>AT</b> = 53, 
-<b>QUOTE</b> = 54, 
-<b>UNDERSCORE</b> = 55, 
-<b>TAB</b> = 56, 
+&#160;&#160;<b>COLON</b> = 53, 
+<b>PERCENTAGE</b> = 54, 
+<b>AT</b> = 55, 
+<b>QUOTE</b> = 56, 
 <br />
-&#160;&#160;<b>NEWLINE</b> = 57, 
-<b>COMMENT</b> = 58, 
-<b>SPACE</b> = 59, 
-<b>INVALID</b> = 60
+&#160;&#160;<b>UNDERSCORE</b> = 57, 
+<b>TAB</b> = 58, 
+<b>NEWLINE</b> = 59, 
+<b>COMMENT</b> = 60, 
 <br />
- }</td></tr>
-<tr class="separator:a1e893b4a110aceedaa217eafa8bb983b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4af1fc61dee5ce551c08cd8ed1d0c121"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4af1fc61dee5ce551c08cd8ed1d0c121"></a>enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
-&#160;&#160;<b>RuleXaccsrc</b> = 0, 
-<b>RuleXacckernel</b> = 1, 
-<b>RuleTypedparam</b> = 2, 
-<b>RuleType</b> = 3, 
-<br />
-&#160;&#160;<b>RuleKernelcall</b> = 4, 
-<b>RuleQuil</b> = 5, 
-<b>RuleAllInstr</b> = 6, 
-<b>RuleInstr</b> = 7, 
-<br />
-&#160;&#160;<b>RuleGate</b> = 8, 
-<b>RuleName</b> = 9, 
-<b>RuleQubit</b> = 10, 
-<b>RuleParam</b> = 11, 
-<br />
-&#160;&#160;<b>RuleDefGate</b> = 12, 
-<b>RuleVariable</b> = 13, 
-<b>RuleMatrix</b> = 14, 
-<b>RuleMatrixRow</b> = 15, 
-<br />
-&#160;&#160;<b>RuleDefCircuit</b> = 16, 
-<b>RuleQubitVariable</b> = 17, 
-<b>RuleCircuitQubit</b> = 18, 
-<b>RuleCircuitGate</b> = 19, 
-<br />
-&#160;&#160;<b>RuleCircuitInstr</b> = 20, 
-<b>RuleCircuit</b> = 21, 
-<b>RuleMeasure</b> = 22, 
-<b>RuleAddr</b> = 23, 
-<br />
-&#160;&#160;<b>RuleClassicalBit</b> = 24, 
-<b>RuleDefLabel</b> = 25, 
-<b>RuleLabel</b> = 26, 
-<b>RuleHalt</b> = 27, 
-<br />
-&#160;&#160;<b>RuleJump</b> = 28, 
-<b>RuleJumpWhen</b> = 29, 
-<b>RuleJumpUnless</b> = 30, 
-<b>RuleResetState</b> = 31, 
-<br />
-&#160;&#160;<b>RuleWait</b> = 32, 
-<b>RuleClassicalUnary</b> = 33, 
-<b>RuleClassicalBinary</b> = 34, 
-<b>RuleNop</b> = 35, 
-<br />
-&#160;&#160;<b>RuleInclude</b> = 36, 
-<b>RulePragma</b> = 37, 
-<b>RulePragma_name</b> = 38, 
-<b>RuleExpression</b> = 39, 
-<br />
-&#160;&#160;<b>RuleSegment</b> = 40, 
-<b>RuleFunction</b> = 41, 
-<b>RuleSign</b> = 42, 
-<b>RuleNumber</b> = 43, 
-<br />
-&#160;&#160;<b>RuleImaginaryN</b> = 44, 
-<b>RuleRealN</b> = 45
+&#160;&#160;<b>SPACE</b> = 61, 
+<b>INVALID</b> = 62
 <br />
  }</td></tr>
 <tr class="separator:a4af1fc61dee5ce551c08cd8ed1d0c121"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58d7122a48f44ce087ea63cde621db73"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a58d7122a48f44ce087ea63cde621db73"></a>enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
+&#160;&#160;<b>RuleXaccsrc</b> = 0, 
+<b>RuleXacckernel</b> = 1, 
+<b>RuleTypedparam</b> = 2, 
+<b>RuleVariable_param_name</b> = 3, 
+<br />
+&#160;&#160;<b>RuleType</b> = 4, 
+<b>RuleId</b> = 5, 
+<b>RuleKernelcall</b> = 6, 
+<b>RuleQuil</b> = 7, 
+<br />
+&#160;&#160;<b>RuleAllInstr</b> = 8, 
+<b>RuleInstr</b> = 9, 
+<b>RuleGate</b> = 10, 
+<b>RuleName</b> = 11, 
+<br />
+&#160;&#160;<b>RuleQubit</b> = 12, 
+<b>RuleParam</b> = 13, 
+<b>RuleDefGate</b> = 14, 
+<b>RuleVariable</b> = 15, 
+<br />
+&#160;&#160;<b>RuleMatrix</b> = 16, 
+<b>RuleMatrixRow</b> = 17, 
+<b>RuleDefCircuit</b> = 18, 
+<b>RuleQubitVariable</b> = 19, 
+<br />
+&#160;&#160;<b>RuleCircuitQubit</b> = 20, 
+<b>RuleCircuitGate</b> = 21, 
+<b>RuleCircuitInstr</b> = 22, 
+<b>RuleCircuit</b> = 23, 
+<br />
+&#160;&#160;<b>RuleMeasure</b> = 24, 
+<b>RuleAddr</b> = 25, 
+<b>RuleClassicalBit</b> = 26, 
+<b>RuleDefLabel</b> = 27, 
+<br />
+&#160;&#160;<b>RuleLabel</b> = 28, 
+<b>RuleHalt</b> = 29, 
+<b>RuleJump</b> = 30, 
+<b>RuleJumpWhen</b> = 31, 
+<br />
+&#160;&#160;<b>RuleJumpUnless</b> = 32, 
+<b>RuleResetState</b> = 33, 
+<b>RuleWait</b> = 34, 
+<b>RuleClassicalUnary</b> = 35, 
+<br />
+&#160;&#160;<b>RuleClassicalBinary</b> = 36, 
+<b>RuleNop</b> = 37, 
+<b>RuleInclude</b> = 38, 
+<b>RulePragma</b> = 39, 
+<br />
+&#160;&#160;<b>RulePragma_name</b> = 40, 
+<b>RuleExpression</b> = 41, 
+<b>RuleSegment</b> = 42, 
+<b>RuleFunction</b> = 43, 
+<br />
+&#160;&#160;<b>RuleSign</b> = 44, 
+<b>RuleNumber</b> = 45, 
+<b>RuleImaginaryN</b> = 46, 
+<b>RuleRealN</b> = 47
+<br />
+ }</td></tr>
+<tr class="separator:a58d7122a48f44ce087ea63cde621db73"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -391,9 +404,15 @@ virtual antlr4::dfa::Vocabulary &amp;&#160;</td><td class="memItemRight" valign=
 <tr class="memitem:a3b606e876e5c5c81f896a2e8fded80ec"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3b606e876e5c5c81f896a2e8fded80ec"></a>
 <a class="el" href="classquil_1_1_quil_parser_1_1_typedparam_context.html">TypedparamContext</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>typedparam</b> ()</td></tr>
 <tr class="separator:a3b606e876e5c5c81f896a2e8fded80ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae622896e084cb4266ddc307b06c5a31f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae622896e084cb4266ddc307b06c5a31f"></a>
+<a class="el" href="classquil_1_1_quil_parser_1_1_variable__param__name_context.html">Variable_param_nameContext</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>variable_param_name</b> ()</td></tr>
+<tr class="separator:ae622896e084cb4266ddc307b06c5a31f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5c1ed7dc1b8debcb7b7841b596fe039"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af5c1ed7dc1b8debcb7b7841b596fe039"></a>
 <a class="el" href="classquil_1_1_quil_parser_1_1_type_context.html">TypeContext</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>type</b> ()</td></tr>
 <tr class="separator:af5c1ed7dc1b8debcb7b7841b596fe039"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec233b8fbb66785d2e344c6bc7e9b6d7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aec233b8fbb66785d2e344c6bc7e9b6d7"></a>
+<a class="el" href="classquil_1_1_quil_parser_1_1_id_context.html">IdContext</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>id</b> ()</td></tr>
+<tr class="separator:aec233b8fbb66785d2e344c6bc7e9b6d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa4399f4064778b8c852f75eeccb2baf8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa4399f4064778b8c852f75eeccb2baf8"></a>
 <a class="el" href="classquil_1_1_quil_parser_1_1_kernelcall_context.html">KernelcallContext</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>kernelcall</b> ()</td></tr>
 <tr class="separator:aa4399f4064778b8c852f75eeccb2baf8"><td class="memSeparator" colspan="2">&#160;</td></tr>

@@ -39,6 +39,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -90,6 +92,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classxacc_1_1_x_a_c_c_logger-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -108,6 +111,18 @@ Inheritance diagram for xacc::XACCLogger:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a0e329154ee362bce332045d1db80d0fb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0e329154ee362bce332045d1db80d0fb"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>logToFile</b> (bool enable)</td></tr>
+<tr class="separator:a0e329154ee362bce332045d1db80d0fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72aaac20e3a1d7293a6d105d83e87a51"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a72aaac20e3a1d7293a6d105d83e87a51"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setLoggingLevel</b> (int level)</td></tr>
+<tr class="separator:a72aaac20e3a1d7293a6d105d83e87a51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30cd79e5abaa395910b502dc74a3ea9e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a30cd79e5abaa395910b502dc74a3ea9e"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>getLoggingLevel</b> ()</td></tr>
+<tr class="separator:a30cd79e5abaa395910b502dc74a3ea9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4094f229217126656e60136a6c8afcb4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4094f229217126656e60136a6c8afcb4"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>subscribeLoggingLevel</b> (LoggingLevelNotification onLevelChangeFn)</td></tr>
+<tr class="separator:a4094f229217126656e60136a6c8afcb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a016a0b319521b64212d98c7113f959e6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a016a0b319521b64212d98c7113f959e6"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>enqueueLog</b> (const std::string log)</td></tr>
 <tr class="separator:a016a0b319521b64212d98c7113f959e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -141,31 +156,49 @@ static <a class="el" href="classxacc_1_1_x_a_c_c_logger.html">XACCLogger</a> *&#
 <tr class="memitem:abbc654f5f90a2abc85f0010496335942 inherit pub_static_methods_classxacc_1_1_singleton"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classxacc_1_1_singleton.html#abbc654f5f90a2abc85f0010496335942">destroy</a> ()</td></tr>
 <tr class="separator:abbc654f5f90a2abc85f0010496335942 inherit pub_static_methods_classxacc_1_1_singleton"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a6c6e097512b5128db79057c9f18a897d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6c6e097512b5128db79057c9f18a897d"></a>
+std::shared_ptr&lt; spdlog::logger &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>getLogger</b> ()</td></tr>
+<tr class="separator:a6c6e097512b5128db79057c9f18a897d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3564c4ddc2947ba8c912c25b0c063ac0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3564c4ddc2947ba8c912c25b0c063ac0"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>createFileLogger</b> ()</td></tr>
+<tr class="separator:a3564c4ddc2947ba8c912c25b0c063ac0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_classxacc_1_1_singleton"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classxacc_1_1_singleton')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classxacc_1_1_singleton.html">xacc::Singleton&lt; XACCLogger &gt;</a></td></tr>
+<tr class="memitem:afd62caabc41babdd98ab9af2253ec371 inherit pro_methods_classxacc_1_1_singleton"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classxacc_1_1_singleton.html#afd62caabc41babdd98ab9af2253ec371">Singleton</a> ()</td></tr>
+<tr class="separator:afd62caabc41babdd98ab9af2253ec371 inherit pro_methods_classxacc_1_1_singleton"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75a032ec71f88d6986461b47f3fb2600 inherit pro_methods_classxacc_1_1_singleton"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classxacc_1_1_singleton.html#a75a032ec71f88d6986461b47f3fb2600">~Singleton</a> ()</td></tr>
+<tr class="separator:a75a032ec71f88d6986461b47f3fb2600 inherit pro_methods_classxacc_1_1_singleton"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a72edad37ea0cbb88c374f68b77b4d96d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a72edad37ea0cbb88c374f68b77b4d96d"></a>
-std::shared_ptr&lt; spdlog::logger &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>logger</b></td></tr>
-<tr class="separator:a72edad37ea0cbb88c374f68b77b4d96d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2cf34f2b980681c6f8eee5ae2fd59730"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2cf34f2b980681c6f8eee5ae2fd59730"></a>
+std::shared_ptr&lt; spdlog::logger &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>stdOutLogger</b></td></tr>
+<tr class="separator:a2cf34f2b980681c6f8eee5ae2fd59730"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44bc121c28d38afdb308ab9fad30468c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a44bc121c28d38afdb308ab9fad30468c"></a>
+std::shared_ptr&lt; spdlog::logger &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>fileLogger</b></td></tr>
+<tr class="separator:a44bc121c28d38afdb308ab9fad30468c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5355232ba81adfe8400fb007df0d03fa"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5355232ba81adfe8400fb007df0d03fa"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>useCout</b> = false</td></tr>
 <tr class="separator:a5355232ba81adfe8400fb007df0d03fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a164397c37f26bef015879a596c87b032"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a164397c37f26bef015879a596c87b032"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>useFile</b> = false</td></tr>
+<tr class="separator:a164397c37f26bef015879a596c87b032"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaec456c7579481915e31109e461e8927"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aaec456c7579481915e31109e461e8927"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>useColor</b> = true</td></tr>
 <tr class="separator:aaec456c7579481915e31109e461e8927"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af325c14ef55e3f0cf5a15754a8d6187b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af325c14ef55e3f0cf5a15754a8d6187b"></a>
 MessagePredicate&#160;</td><td class="memItemRight" valign="bottom"><b>globalPredicate</b> = []() { return true; }</td></tr>
 <tr class="separator:af325c14ef55e3f0cf5a15754a8d6187b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab01d07c3cf2b3094763ad4d3fe0aafe2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab01d07c3cf2b3094763ad4d3fe0aafe2"></a>
+std::vector&lt; LoggingLevelNotification &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>loggingLevelSubscribers</b></td></tr>
+<tr class="separator:ab01d07c3cf2b3094763ad4d3fe0aafe2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add352059f566a16792ad687e4f255d61"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="add352059f566a16792ad687e4f255d61"></a>
 std::queue&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>logQueue</b></td></tr>
 <tr class="separator:add352059f566a16792ad687e4f255d61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pro_methods_classxacc_1_1_singleton"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classxacc_1_1_singleton')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classxacc_1_1_singleton.html">xacc::Singleton&lt; XACCLogger &gt;</a></td></tr>
-<tr class="memitem:afd62caabc41babdd98ab9af2253ec371 inherit pro_methods_classxacc_1_1_singleton"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classxacc_1_1_singleton.html#afd62caabc41babdd98ab9af2253ec371">Singleton</a> ()</td></tr>
-<tr class="separator:afd62caabc41babdd98ab9af2253ec371 inherit pro_methods_classxacc_1_1_singleton"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75a032ec71f88d6986461b47f3fb2600 inherit pro_methods_classxacc_1_1_singleton"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classxacc_1_1_singleton.html#a75a032ec71f88d6986461b47f3fb2600">~Singleton</a> ()</td></tr>
-<tr class="separator:a75a032ec71f88d6986461b47f3fb2600 inherit pro_methods_classxacc_1_1_singleton"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_static_attribs_classxacc_1_1_singleton"><td colspan="2" onclick="javascript:toggleInherit('pro_static_attribs_classxacc_1_1_singleton')"><img src="closed.png" alt="-"/>&#160;Static Protected Attributes inherited from <a class="el" href="classxacc_1_1_singleton.html">xacc::Singleton&lt; XACCLogger &gt;</a></td></tr>
 <tr class="memitem:a863885efab9990f06f699567648dfa26 inherit pro_static_attribs_classxacc_1_1_singleton"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classxacc_1_1_x_a_c_c_logger.html">XACCLogger</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classxacc_1_1_singleton.html#a863885efab9990f06f699567648dfa26">instance_</a></td></tr>
 <tr class="separator:a863885efab9990f06f699567648dfa26 inherit pro_static_attribs_classxacc_1_1_singleton"><td class="memSeparator" colspan="2">&#160;</td></tr>

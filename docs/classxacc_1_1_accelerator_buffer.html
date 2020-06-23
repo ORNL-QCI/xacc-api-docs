@@ -39,6 +39,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -161,6 +163,9 @@ std::vector&lt; <a class="el" href="classxacc_1_1_variant.html">ExtraInfo</a> &g
 <tr class="memitem:ac9dc2d5e64b02d14e0ff2edbcaaa638d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac9dc2d5e64b02d14e0ff2edbcaaa638d"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>removeChild</b> (const std::size_t idx)</td></tr>
 <tr class="separator:ac9dc2d5e64b02d14e0ff2edbcaaa638d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8a8bb81a1c816a519f8765734b0c34f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac8a8bb81a1c816a519f8765734b0c34f"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setSize</b> (const int s)</td></tr>
+<tr class="separator:ac8a8bb81a1c816a519f8765734b0c34f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe864907c568ee552bbea74abd3b71a6"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classxacc_1_1_accelerator_buffer.html#afe864907c568ee552bbea74abd3b71a6">size</a> () const </td></tr>
 <tr class="separator:afe864907c568ee552bbea74abd3b71a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a3999349f24f95bf4377f11e3df3260"><td class="memItemLeft" align="right" valign="top">const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classxacc_1_1_accelerator_buffer.html#a6a3999349f24f95bf4377f11e3df3260">name</a> () const </td></tr>
@@ -197,6 +202,12 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>setMeasuremen
 <tr class="memitem:adb9088649174a4e8421b4ffcc914dd0f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adb9088649174a4e8421b4ffcc914dd0f"></a>
 const std::string&#160;</td><td class="memItemRight" valign="bottom"><b>toString</b> ()</td></tr>
 <tr class="separator:adb9088649174a4e8421b4ffcc914dd0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af03a423cb8e54f65a4592ac8189f3c75"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af03a423cb8e54f65a4592ac8189f3c75"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>measure</b> (std::size_t bit_idx, int bit)</td></tr>
+<tr class="separator:af03a423cb8e54f65a4592ac8189f3c75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad256a2e610fdef6fd223cc9487f3cbc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aad256a2e610fdef6fd223cc9487f3cbc"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>reset_single_measurements</b> ()</td></tr>
+<tr class="separator:aad256a2e610fdef6fd223cc9487f3cbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a442d9cbe0bb9d30ed46299059e4683cc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a442d9cbe0bb9d30ed46299059e4683cc"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>setName</b> (const std::string n)</td></tr>
 <tr class="separator:a442d9cbe0bb9d30ed46299059e4683cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -205,9 +216,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setName</b> (const st
 <tr class="memitem:a25531b5dc5c41f8f53e03fb76bc87ca6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a25531b5dc5c41f8f53e03fb76bc87ca6"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>load</b> (std::istream &amp;stream)</td></tr>
 <tr class="separator:a25531b5dc5c41f8f53e03fb76bc87ca6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0471ce4ace0eea1831559166f4735c1b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0471ce4ace0eea1831559166f4735c1b"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>operator[]</b> (const int &amp;i)</td></tr>
-<tr class="separator:a0471ce4ace0eea1831559166f4735c1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a112bd32a331266a4e89fd91edea487c8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a112bd32a331266a4e89fd91edea487c8"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator[]</b> (const std::size_t &amp;i)</td></tr>
+<tr class="separator:a112bd32a331266a4e89fd91edea487c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae5ad64621a43ff5603f0fa97f8860980"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae5ad64621a43ff5603f0fa97f8860980"></a>
 const <a class="el" href="classxacc_1_1_variant.html">ExtraInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><b>operator[]</b> (const std::string &amp;key)</td></tr>
 <tr class="separator:ae5ad64621a43ff5603f0fa97f8860980"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -235,6 +246,9 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>cacheFile</b> = false
 <tr class="memitem:a5d0df5ee2bc102ecee4f582d4be7a4f4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5d0df5ee2bc102ecee4f582d4be7a4f4"></a>
 std::map&lt; int, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>bit2IndexMap</b></td></tr>
 <tr class="separator:a5d0df5ee2bc102ecee4f582d4be7a4f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7774d1af93fc7e77a1dbfe6377e71a03"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7774d1af93fc7e77a1dbfe6377e71a03"></a>
+std::map&lt; std::size_t, bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>single_measurements</b></td></tr>
+<tr class="separator:a7774d1af93fc7e77a1dbfe6377e71a03"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="a7d94af07f0871bb336ea09e9638e3665"></a>

@@ -39,6 +39,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -121,6 +123,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpauli_1_1_pauli_operator_parser_1_1_real_context.html">RealContext</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpauli_1_1_pauli_operator_parser_1_1_scientific_context.html">ScientificContext</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpauli_1_1_pauli_operator_parser_1_1_term_context.html">TermContext</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -138,12 +142,14 @@ Public Types</h2></td></tr>
 <b>T__7</b> = 8, 
 <br />
 &#160;&#160;<b>T__8</b> = 9, 
-<b>COMMENT</b> = 10, 
-<b>REAL</b> = 11, 
-<b>INT</b> = 12, 
+<b>T__9</b> = 10, 
+<b>T__10</b> = 11, 
+<b>COMMENT</b> = 12, 
 <br />
-&#160;&#160;<b>WS</b> = 13, 
-<b>EOL</b> = 14
+&#160;&#160;<b>REAL</b> = 13, 
+<b>INT</b> = 14, 
+<b>WS</b> = 15, 
+<b>EOL</b> = 16
 <br />
  }</td></tr>
 <tr class="separator:a8dd02040eeb04e9ceeb0689751f10396"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -156,7 +162,9 @@ Public Types</h2></td></tr>
 &#160;&#160;<b>RuleCoeff</b> = 4, 
 <b>RuleComplex</b> = 5, 
 <b>RuleReal</b> = 6, 
-<b>RuleComment</b> = 7
+<b>RuleComment</b> = 7, 
+<br />
+&#160;&#160;<b>RuleScientific</b> = 8
 <br />
  }</td></tr>
 <tr class="separator:a3767f5d528cc90a0b470e6e188c65015"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -205,6 +213,9 @@ virtual antlr4::dfa::Vocabulary &amp;&#160;</td><td class="memItemRight" valign=
 <tr class="memitem:a653f5aeeabd82062aab06de97b70661b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a653f5aeeabd82062aab06de97b70661b"></a>
 <a class="el" href="classpauli_1_1_pauli_operator_parser_1_1_comment_context.html">CommentContext</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>comment</b> ()</td></tr>
 <tr class="separator:a653f5aeeabd82062aab06de97b70661b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5de57a90f6d22b8a3ec64b230dcec4f9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5de57a90f6d22b8a3ec64b230dcec4f9"></a>
+<a class="el" href="classpauli_1_1_pauli_operator_parser_1_1_scientific_context.html">ScientificContext</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>scientific</b> ()</td></tr>
+<tr class="separator:a5de57a90f6d22b8a3ec64b230dcec4f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>/home/cades/dev/xacc/quantum/observable/pauli/generated/<a class="el" href="_pauli_operator_parser_8h_source.html">PauliOperatorParser.h</a></li>

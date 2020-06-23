@@ -39,6 +39,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -117,10 +119,10 @@ virtual std::shared_ptr&lt; <a class="el" href="classxacc_1_1_instruction.html">
 virtual std::shared_ptr&lt; <a class="el" href="classxacc_1_1_instruction.html">Instruction</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>createInstruction</b> (const std::string <a class="el" href="classxacc_1_1_identifiable.html#a598877123fb1da92aef93c449a0306cb">name</a>, std::vector&lt; std::size_t &gt; bits, std::vector&lt; <a class="el" href="classxacc_1_1_variant.html">InstructionParameter</a> &gt; parameters=std::vector&lt; <a class="el" href="classxacc_1_1_variant.html">InstructionParameter</a> &gt;{}, const <a class="el" href="classxacc_1_1_heterogeneous_map.html">HeterogeneousMap</a> &amp;analog_options={})=0</td></tr>
 <tr class="separator:ad72b0061e172e1e7f84aeb0c2c7b6349"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a35120179b28aec22bd744869b322db49"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a35120179b28aec22bd744869b322db49"></a>
-virtual std::shared_ptr&lt; <a class="el" href="classxacc_1_1_composite_instruction.html">CompositeInstruction</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>createComposite</b> (const std::string <a class="el" href="classxacc_1_1_identifiable.html#a598877123fb1da92aef93c449a0306cb">name</a>, std::vector&lt; std::string &gt; variables={}, const std::string type=&quot;circuit&quot;)=0</td></tr>
+virtual std::shared_ptr&lt; <a class="el" href="classxacc_1_1_composite_instruction.html">CompositeInstruction</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>createComposite</b> (const std::string <a class="el" href="classxacc_1_1_identifiable.html#a598877123fb1da92aef93c449a0306cb">name</a>, std::vector&lt; std::string &gt; variables={}, const std::string <a class="el" href="structtype.html">type</a>=&quot;circuit&quot;)=0</td></tr>
 <tr class="separator:a35120179b28aec22bd744869b322db49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afda41cf873c824359421f40d1bd0b094"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afda41cf873c824359421f40d1bd0b094"></a>
-virtual std::shared_ptr&lt; <a class="el" href="classxacc_1_1_i_r.html">IR</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>createIR</b> (const std::string type=&quot;circuit&quot;)=0</td></tr>
+virtual std::shared_ptr&lt; <a class="el" href="classxacc_1_1_i_r.html">IR</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>createIR</b> (const std::string <a class="el" href="structtype.html">type</a>=&quot;circuit&quot;)=0</td></tr>
 <tr class="separator:afda41cf873c824359421f40d1bd0b094"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0bbe01a46943c7f68591832db9232703"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0bbe01a46943c7f68591832db9232703"></a>
 virtual std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>getInstructions</b> ()=0</td></tr>
