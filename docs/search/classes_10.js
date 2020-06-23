@@ -1,0 +1,24 @@
+var searchData=
+[
+  ['range',['Range',['../classxacc_1_1circuits_1_1_range.html',1,'xacc::circuits']]],
+  ['rbm',['RBM',['../classxacc_1_1dwave_1_1_r_b_m.html',1,'xacc::dwave']]],
+  ['rbmascircuittype',['RBMAsCircuitType',['../classxacc_1_1dwave_1_1_r_b_m_as_circuit_type.html',1,'xacc::dwave']]],
+  ['rbmclassification',['RBMClassification',['../classxacc_1_1algorithm_1_1_r_b_m_classification.html',1,'xacc::algorithm']]],
+  ['rdm',['RDM',['../classxacc_1_1algorithm_1_1_r_d_m.html',1,'xacc::algorithm']]],
+  ['rdmpurificationdecorator',['RDMPurificationDecorator',['../classxacc_1_1quantum_1_1_r_d_m_purification_decorator.html',1,'xacc::quantum']]],
+  ['remoteaccelerator',['RemoteAccelerator',['../classxacc_1_1_remote_accelerator.html',1,'xacc']]],
+  ['restclient',['RestClient',['../classxacc_1_1quantum_1_1_rest_client.html',1,'xacc::quantum']]],
+  ['result',['Result',['../classxacc_1_1ibm_1_1_result.html',1,'xacc::ibm']]],
+  ['resultsdecoder',['ResultsDecoder',['../classxacc_1_1quantum_1_1_results_decoder.html',1,'xacc::quantum']]],
+  ['richextrapdecorator',['RichExtrapDecorator',['../classxacc_1_1quantum_1_1_rich_extrap_decorator.html',1,'xacc::quantum']]],
+  ['roerrordecorator',['ROErrorDecorator',['../classxacc_1_1quantum_1_1_r_o_error_decorator.html',1,'xacc::quantum']]],
+  ['rotationfolding',['RotationFolding',['../classxacc_1_1quantum_1_1_rotation_folding.html',1,'xacc::quantum']]],
+  ['rotoselect',['Rotoselect',['../classxacc_1_1algorithm_1_1_rotoselect.html',1,'xacc::algorithm']]],
+  ['rpcrequestbinaryexecutable',['RPCRequestBinaryExecutable',['../classxacc_1_1qcs_1_1_r_p_c_request_binary_executable.html',1,'xacc::qcs']]],
+  ['rpcrequestgetbuffers',['RPCRequestGetBuffers',['../classxacc_1_1qcs_1_1_r_p_c_request_get_buffers.html',1,'xacc::qcs']]],
+  ['rpcrequestqpurequest',['RPCRequestQPURequest',['../classxacc_1_1qcs_1_1_r_p_c_request_q_p_u_request.html',1,'xacc::qcs']]],
+  ['runtimeoptions',['RuntimeOptions',['../classxacc_1_1_runtime_options.html',1,'xacc']]],
+  ['rx',['Rx',['../classxacc_1_1quantum_1_1_rx.html',1,'xacc::quantum']]],
+  ['ry',['Ry',['../classxacc_1_1quantum_1_1_ry.html',1,'xacc::quantum']]],
+  ['rz',['Rz',['../classxacc_1_1quantum_1_1_rz.html',1,'xacc::quantum']]]
+];
