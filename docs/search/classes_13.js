@@ -6,14 +6,9 @@ var searchData=
   ['ucc3',['UCC3',['../classxacc_1_1circuits_1_1_u_c_c3.html',1,'xacc::circuits']]],
   ['uccsd',['UCCSD',['../classxacc_1_1circuits_1_1_u_c_c_s_d.html',1,'xacc::circuits']]],
   ['uchannello',['UChannelLo',['../classxacc_1_1ibm__backend_1_1_u_channel_lo.html',1,'xacc::ibm_backend']]],
-  ['uexpr',['UExpr',['../classqpp_1_1qasm_1_1_u_expr.html',1,'qpp::qasm']]],
-  ['ugate',['UGate',['../classqpp_1_1qasm_1_1_u_gate.html',1,'qpp::qasm']]],
-  ['undeclared',['Undeclared',['../classqpp_1_1exception_1_1_undeclared.html',1,'qpp::exception']]],
-  ['undefinedtype',['UndefinedType',['../classqpp_1_1exception_1_1_undefined_type.html',1,'qpp::exception']]],
   ['undirectedboostgraph',['UndirectedBoostGraph',['../classxacc_1_1_undirected_boost_graph.html',1,'xacc']]],
   ['undirectedboostvertex',['UndirectedBoostVertex',['../classxacc_1_1_undirected_boost_vertex.html',1,'xacc']]],
   ['undirectedvertexpropertieswriter',['UndirectedVertexPropertiesWriter',['../classxacc_1_1_undirected_boost_graph_1_1_undirected_vertex_properties_writer.html',1,'xacc::UndirectedBoostGraph']]],
   ['unitarymatrixutil',['UnitaryMatrixUtil',['../classxacc_1_1_unitary_matrix_util.html',1,'xacc']]],
-  ['unknown',['Unknown',['../classqpp_1_1exception_1_1_unknown.html',1,'qpp::exception']]],
   ['utilsactivator',['UtilsActivator',['../class_utils_activator.html',1,'']]]
 ];

@@ -1,14 +1,10 @@
 var searchData=
 [
-  ['gate',['Gate',['../classqpp_1_1qasm_1_1_gate.html',1,'qpp::qasm']]],
   ['gate',['Gate',['../classxacc_1_1ibm__backend_1_1_gate.html',1,'xacc::ibm_backend']]],
   ['gate',['Gate',['../classxacc_1_1quantum_1_1_gate.html',1,'xacc::quantum']]],
-  ['gatedecl',['GateDecl',['../classqpp_1_1qasm_1_1_gate_decl.html',1,'qpp::qasm']]],
   ['gateelement',['GateElement',['../classxacc_1_1ibm__properties_1_1_gate_element.html',1,'xacc::ibm_properties']]],
   ['gatefuser',['GateFuser',['../class_gate_fuser.html',1,'']]],
   ['gateir',['GateIR',['../classxacc_1_1quantum_1_1_gate_i_r.html',1,'xacc::quantum']]],
-  ['gates',['Gates',['../classqpp_1_1_gates.html',1,'qpp']]],
-  ['gatestep',['GateStep',['../structqpp_1_1_q_circuit_1_1_gate_step.html',1,'qpp::QCircuit']]],
   ['generatorsactivator',['GeneratorsActivator',['../class_generators_activator.html',1,'']]],
   ['getbuffersrequest',['GetBuffersRequest',['../classxacc_1_1qcs_1_1_get_buffers_request.html',1,'xacc::qcs']]],
   ['getbuffersresponse',['GetBuffersResponse',['../classxacc_1_1qcs_1_1_get_buffers_response.html',1,'xacc::qcs']]],

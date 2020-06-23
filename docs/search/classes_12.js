@@ -5,11 +5,8 @@ var searchData=
   ['teardown',['TearDown',['../classxacc_1_1_tear_down.html',1,'xacc']]],
   ['temperature',['Temperature',['../classxacc_1_1ibm__backend_1_1_temperature.html',1,'xacc::ibm_backend']]],
   ['term',['Term',['../classxacc_1_1quantum_1_1_term.html',1,'xacc::quantum']]],
-  ['timer',['Timer',['../classqpp_1_1_timer.html',1,'qpp']]],
   ['tojsonvisitor',['ToJsonVisitor',['../classxacc_1_1_to_json_visitor.html',1,'xacc']]],
-  ['token',['Token',['../classqpp_1_1qasm_1_1_token.html',1,'qpp::qasm']]],
   ['topologytopology',['TopologyTopology',['../classxacc_1_1ibm__backend_1_1_topology_topology.html',1,'xacc::ibm_backend']]],
   ['trivialembeddingalgorithm',['TrivialEmbeddingAlgorithm',['../classxacc_1_1quantum_1_1_trivial_embedding_algorithm.html',1,'xacc::quantum']]],
-  ['type_5flist',['type_list',['../structxacc_1_1type__list.html',1,'xacc']]],
-  ['typemismatch',['TypeMismatch',['../classqpp_1_1exception_1_1_type_mismatch.html',1,'qpp::exception']]]
+  ['type_5flist',['type_list',['../structxacc_1_1type__list.html',1,'xacc']]]
 ];

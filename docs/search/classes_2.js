@@ -2,7 +2,6 @@ var searchData=
 [
   ['ch',['CH',['../classxacc_1_1quantum_1_1_c_h.html',1,'xacc::quantum']]],
   ['checkequalvisitor',['CheckEqualVisitor',['../classxacc_1_1_check_equal_visitor.html',1,'xacc']]],
-  ['circuit',['Circuit',['../classqpp_1_1qasm_1_1_circuit.html',1,'qpp::qasm']]],
   ['circuit',['Circuit',['../classxacc_1_1quantum_1_1_circuit.html',1,'xacc::quantum']]],
   ['circuitinstruction',['CircuitInstruction',['../classxacc_1_1ionq_1_1_circuit_instruction.html',1,'xacc::ionq']]],
   ['circuitoptimizer',['CircuitOptimizer',['../classxacc_1_1quantum_1_1_circuit_optimizer.html',1,'xacc::quantum']]],
@@ -19,15 +18,12 @@ var searchData=
   ['cmddef',['CmdDef',['../classxacc_1_1ibm__backend_1_1_cmd_def.html',1,'xacc::ibm_backend']]],
   ['cmrembedding',['CMREmbedding',['../classxacc_1_1cmr_1_1_c_m_r_embedding.html',1,'xacc::cmr']]],
   ['cnot',['CNOT',['../classxacc_1_1quantum_1_1_c_n_o_t.html',1,'xacc::quantum']]],
-  ['cnotgate',['CNOTGate',['../classqpp_1_1qasm_1_1_c_n_o_t_gate.html',1,'qpp::qasm']]],
-  ['codes',['Codes',['../classqpp_1_1_codes.html',1,'qpp']]],
   ['commutingsetgenerator',['CommutingSetGenerator',['../classxacc_1_1vqe_1_1_commuting_set_generator.html',1,'xacc::vqe']]],
   ['compiler',['Compiler',['../classxacc_1_1_compiler.html',1,'xacc']]],
   ['compositeargument',['CompositeArgument',['../classxacc_1_1_composite_argument.html',1,'xacc']]],
   ['compositeinstruction',['CompositeInstruction',['../classxacc_1_1_composite_instruction.html',1,'xacc']]],
   ['config',['Config',['../classxacc_1_1ibm__pulse_1_1_config.html',1,'xacc::ibm_pulse']]],
   ['configuration',['Configuration',['../classxacc_1_1ibm__backend_1_1_configuration.html',1,'xacc::ibm_backend']]],
-  ['context',['Context',['../classqpp_1_1qasm_1_1_context.html',1,'qpp::qasm']]],
   ['contrastivedivergenceexpectationstrategy',['ContrastiveDivergenceExpectationStrategy',['../classxacc_1_1algorithm_1_1_contrastive_divergence_expectation_strategy.html',1,'xacc::algorithm']]],
   ['controlledu',['ControlledU',['../classxacc_1_1circuits_1_1_controlled_u.html',1,'xacc::circuits']]],
   ['controloptimizer',['ControlOptimizer',['../classxacc_1_1_control_optimizer.html',1,'xacc']]],
@@ -36,7 +32,6 @@ var searchData=
   ['countqregs',['CountQregs',['../classxacc_1_1internal__staq_1_1_count_qregs.html',1,'xacc::internal_staq']]],
   ['cphase',['CPhase',['../classxacc_1_1quantum_1_1_c_phase.html',1,'xacc::quantum']]],
   ['crz',['CRZ',['../classxacc_1_1quantum_1_1_c_r_z.html',1,'xacc::quantum']]],
-  ['customexception',['CustomException',['../classqpp_1_1exception_1_1_custom_exception.html',1,'qpp::exception']]],
   ['cy',['CY',['../classxacc_1_1quantum_1_1_c_y.html',1,'xacc::quantum']]],
   ['cz',['CZ',['../classxacc_1_1quantum_1_1_c_z.html',1,'xacc::quantum']]]
 ];

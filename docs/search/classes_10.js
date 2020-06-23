@@ -1,17 +1,12 @@
 var searchData=
 [
-  ['randomdevices',['RandomDevices',['../classqpp_1_1_random_devices.html',1,'qpp']]],
   ['range',['Range',['../classxacc_1_1circuits_1_1_range.html',1,'xacc::circuits']]],
   ['rbm',['RBM',['../classxacc_1_1dwave_1_1_r_b_m.html',1,'xacc::dwave']]],
   ['rbmascircuittype',['RBMAsCircuitType',['../classxacc_1_1dwave_1_1_r_b_m_as_circuit_type.html',1,'xacc::dwave']]],
   ['rbmclassification',['RBMClassification',['../classxacc_1_1algorithm_1_1_r_b_m_classification.html',1,'xacc::algorithm']]],
   ['rdm',['RDM',['../classxacc_1_1algorithm_1_1_r_d_m.html',1,'xacc::algorithm']]],
   ['rdmpurificationdecorator',['RDMPurificationDecorator',['../classxacc_1_1quantum_1_1_r_d_m_purification_decorator.html',1,'xacc::quantum']]],
-  ['realexpr',['RealExpr',['../classqpp_1_1qasm_1_1_real_expr.html',1,'qpp::qasm']]],
-  ['register',['Register',['../classqpp_1_1qasm_1_1_register.html',1,'qpp::qasm']]],
-  ['registerdecl',['RegisterDecl',['../classqpp_1_1qasm_1_1_register_decl.html',1,'qpp::qasm']]],
   ['remoteaccelerator',['RemoteAccelerator',['../classxacc_1_1_remote_accelerator.html',1,'xacc']]],
-  ['resetstatement',['ResetStatement',['../classqpp_1_1qasm_1_1_reset_statement.html',1,'qpp::qasm']]],
   ['restclient',['RestClient',['../classxacc_1_1quantum_1_1_rest_client.html',1,'xacc::quantum']]],
   ['result',['Result',['../classxacc_1_1ibm_1_1_result.html',1,'xacc::ibm']]],
   ['resultsdecoder',['ResultsDecoder',['../classxacc_1_1quantum_1_1_results_decoder.html',1,'xacc::quantum']]],

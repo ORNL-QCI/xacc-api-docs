@@ -1,8 +1,7 @@
 var searchData=
 [
-  ['barriergate',['BarrierGate',['../classqpp_1_1qasm_1_1_barrier_gate.html#a95942a0b0f4571b43fe5f81c982e9bdb',1,'qpp::qasm::BarrierGate']]],
-  ['begin',['begin',['../classqpp_1_1_q_circuit.html#aa5d75f3a6969a051d5480ad65702c14c',1,'qpp::QCircuit::begin()'],['../classqpp_1_1_q_circuit.html#ad14b3917983d348a2e5e595e4eea462f',1,'qpp::QCircuit::begin() const noexcept']]],
-  ['bexpr',['BExpr',['../classqpp_1_1qasm_1_1_b_expr.html#a1b7f6fed3eeb608f7edbc16226b35156',1,'qpp::qasm::BExpr']]],
-  ['bit_5fcircuit',['Bit_circuit',['../classqpp_1_1_bit__circuit.html#a6a8127e64bbbf25a8a3be255eea02a72',1,'qpp::Bit_circuit::Bit_circuit(idx n)'],['../classqpp_1_1_bit__circuit.html#a45e0c880532e7be15b837b008b59053e',1,'qpp::Bit_circuit::Bit_circuit(const Dynamic_bitset &amp;dynamic_bitset)']]],
-  ['bloch2rho',['bloch2rho',['../namespaceqpp.html#a7e5c413d74d838e78264444307e81576',1,'qpp']]]
+  ['canparse',['canParse',['../classxacc_1_1_staq_compiler.html#a16df2db84889563b0eebffc339ef221c',1,'xacc::StaqCompiler']]],
+  ['cliparser',['CLIParser',['../classxacc_1_1_c_l_i_parser.html#a041f8ba22cf5e1dd1fdcdc6c9223b405',1,'xacc::CLIParser']]],
+  ['compile',['compile',['../classxacc_1_1quantum_1_1_quil_compiler.html#a2421482415ca4e09963ea4ecddff8100',1,'xacc::quantum::QuilCompiler::compile(const std::string &amp;src, std::shared_ptr&lt; Accelerator &gt; acc)'],['../classxacc_1_1quantum_1_1_quil_compiler.html#adf4d321ecb0df3fa7728999f941c83b2',1,'xacc::quantum::QuilCompiler::compile(const std::string &amp;src)']]],
+  ['compute',['compute',['../classxacc_1_1algorithm_1_1_m_m_d_loss_strategy.html#a6f079f54f644027895dd2c69786094d2',1,'xacc::algorithm::MMDLossStrategy']]]
 ];

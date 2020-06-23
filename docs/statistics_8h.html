@@ -40,7 +40,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="modules.html"><span>Modules</span></a></li>
-      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -86,9 +85,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 </div><!-- top -->
 <div class="header">
-  <div class="summary">
-<a href="#namespaces">Namespaces</a> &#124;
-<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">statistics.h File Reference</div>  </div>
 </div><!--header-->
@@ -98,45 +94,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a href="#details">More...</a></p>
 
 <p><a href="statistics_8h_source.html">Go to the source code of this file.</a></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:namespaceqpp"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceqpp.html">qpp</a></td></tr>
-<tr class="memdesc:namespaceqpp"><td class="mdescLeft">&#160;</td><td class="mdescRight">Quantum++ main namespace. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:abc09834bbfdd7aebe3cd95d01c99b869"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceqpp.html#abc09834bbfdd7aebe3cd95d01c99b869">qpp::uniform</a> (idx N)</td></tr>
-<tr class="memdesc:abc09834bbfdd7aebe3cd95d01c99b869"><td class="mdescLeft">&#160;</td><td class="mdescRight">Uniform probability distribution vector.  <a href="namespaceqpp.html#abc09834bbfdd7aebe3cd95d01c99b869">More...</a><br /></td></tr>
-<tr class="separator:abc09834bbfdd7aebe3cd95d01c99b869"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6231fc8c64c2d14bb701eb783d9d1e3a"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceqpp.html#a6231fc8c64c2d14bb701eb783d9d1e3a">qpp::marginalX</a> (const dmat &amp;probXY)</td></tr>
-<tr class="memdesc:a6231fc8c64c2d14bb701eb783d9d1e3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Marginal distribution.  <a href="namespaceqpp.html#a6231fc8c64c2d14bb701eb783d9d1e3a">More...</a><br /></td></tr>
-<tr class="separator:a6231fc8c64c2d14bb701eb783d9d1e3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a770cae0d7a05ca4590dec72390ebc7"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceqpp.html#a7a770cae0d7a05ca4590dec72390ebc7">qpp::marginalY</a> (const dmat &amp;probXY)</td></tr>
-<tr class="memdesc:a7a770cae0d7a05ca4590dec72390ebc7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Marginal distribution.  <a href="namespaceqpp.html#a7a770cae0d7a05ca4590dec72390ebc7">More...</a><br /></td></tr>
-<tr class="separator:a7a770cae0d7a05ca4590dec72390ebc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a01ac36cfcd131c44a35faf86c5bf4ebd"><td class="memTemplParams" colspan="2">template&lt;typename Container &gt; </td></tr>
-<tr class="memitem:a01ac36cfcd131c44a35faf86c5bf4ebd"><td class="memTemplItemLeft" align="right" valign="top">double&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceqpp.html#a01ac36cfcd131c44a35faf86c5bf4ebd">qpp::avg</a> (const std::vector&lt; double &gt; &amp;prob, const Container &amp;X, typename std::enable_if&lt; is_iterable&lt; Container &gt;::value &gt;::type *=nullptr)</td></tr>
-<tr class="memdesc:a01ac36cfcd131c44a35faf86c5bf4ebd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Average.  <a href="namespaceqpp.html#a01ac36cfcd131c44a35faf86c5bf4ebd">More...</a><br /></td></tr>
-<tr class="separator:a01ac36cfcd131c44a35faf86c5bf4ebd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf2dcd205e0f0075b067ea46d3755982"><td class="memTemplParams" colspan="2">template&lt;typename Container &gt; </td></tr>
-<tr class="memitem:aaf2dcd205e0f0075b067ea46d3755982"><td class="memTemplItemLeft" align="right" valign="top">double&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceqpp.html#aaf2dcd205e0f0075b067ea46d3755982">qpp::cov</a> (const dmat &amp;probXY, const Container &amp;X, const Container &amp;Y, typename std::enable_if&lt; is_iterable&lt; Container &gt;::value &gt;::type *=nullptr)</td></tr>
-<tr class="memdesc:aaf2dcd205e0f0075b067ea46d3755982"><td class="mdescLeft">&#160;</td><td class="mdescRight">Covariance.  <a href="namespaceqpp.html#aaf2dcd205e0f0075b067ea46d3755982">More...</a><br /></td></tr>
-<tr class="separator:aaf2dcd205e0f0075b067ea46d3755982"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a88a9f78049d7bf991a2d3c9bd81a05dd"><td class="memTemplParams" colspan="2">template&lt;typename Container &gt; </td></tr>
-<tr class="memitem:a88a9f78049d7bf991a2d3c9bd81a05dd"><td class="memTemplItemLeft" align="right" valign="top">double&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceqpp.html#a88a9f78049d7bf991a2d3c9bd81a05dd">qpp::var</a> (const std::vector&lt; double &gt; &amp;prob, const Container &amp;X, typename std::enable_if&lt; is_iterable&lt; Container &gt;::value &gt;::type *=nullptr)</td></tr>
-<tr class="memdesc:a88a9f78049d7bf991a2d3c9bd81a05dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Variance.  <a href="namespaceqpp.html#a88a9f78049d7bf991a2d3c9bd81a05dd">More...</a><br /></td></tr>
-<tr class="separator:a88a9f78049d7bf991a2d3c9bd81a05dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5dac002761cbcfb72cdb6a573e2689c3"><td class="memTemplParams" colspan="2">template&lt;typename Container &gt; </td></tr>
-<tr class="memitem:a5dac002761cbcfb72cdb6a573e2689c3"><td class="memTemplItemLeft" align="right" valign="top">double&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceqpp.html#a5dac002761cbcfb72cdb6a573e2689c3">qpp::sigma</a> (const std::vector&lt; double &gt; &amp;prob, const Container &amp;X, typename std::enable_if&lt; is_iterable&lt; Container &gt;::value &gt;::type *=nullptr)</td></tr>
-<tr class="memdesc:a5dac002761cbcfb72cdb6a573e2689c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Standard deviation.  <a href="namespaceqpp.html#a5dac002761cbcfb72cdb6a573e2689c3">More...</a><br /></td></tr>
-<tr class="separator:a5dac002761cbcfb72cdb6a573e2689c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acc5cef3ac2601b63d4afef384fd7499b"><td class="memTemplParams" colspan="2">template&lt;typename Container &gt; </td></tr>
-<tr class="memitem:acc5cef3ac2601b63d4afef384fd7499b"><td class="memTemplItemLeft" align="right" valign="top">double&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceqpp.html#acc5cef3ac2601b63d4afef384fd7499b">qpp::cor</a> (const dmat &amp;probXY, const Container &amp;X, const Container &amp;Y, typename std::enable_if&lt; is_iterable&lt; Container &gt;::value &gt;::type *=nullptr)</td></tr>
-<tr class="memdesc:acc5cef3ac2601b63d4afef384fd7499b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Correlation.  <a href="namespaceqpp.html#acc5cef3ac2601b63d4afef384fd7499b">More...</a><br /></td></tr>
-<tr class="separator:acc5cef3ac2601b63d4afef384fd7499b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Statistics functions. </p>
 </div></div><!-- contents -->

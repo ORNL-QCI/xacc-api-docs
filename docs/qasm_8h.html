@@ -40,7 +40,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="modules.html"><span>Modules</span></a></li>
-      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -86,9 +85,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 </div><!-- top -->
 <div class="header">
-  <div class="summary">
-<a href="#namespaces">Namespaces</a> &#124;
-<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">qasm.h File Reference</div>  </div>
 </div><!--header-->
@@ -98,80 +94,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a href="#details">More...</a></p>
 
 <p><a href="qasm_8h_source.html">Go to the source code of this file.</a></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:namespaceqpp"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceqpp.html">qpp</a></td></tr>
-<tr class="memdesc:namespaceqpp"><td class="mdescLeft">&#160;</td><td class="mdescRight">Quantum++ main namespace. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:ad543b0050f041bc5be18f93754805830"><td class="memItemLeft" align="right" valign="top">QCircuit&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="qasm_8h.html#ad543b0050f041bc5be18f93754805830">qpp::qasm::read</a> (std::istream &amp;stream)</td></tr>
-<tr class="memdesc:ad543b0050f041bc5be18f93754805830"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads a openQASM circuit from stdin and returns its <a class="el" href="classqpp_1_1_q_circuit.html" title="Quantum circuit description. ">qpp::QCircuit</a> representation.  <a href="qasm_8h.html#ad543b0050f041bc5be18f93754805830">More...</a><br /></td></tr>
-<tr class="separator:ad543b0050f041bc5be18f93754805830"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a32d89189b2762701d4408251e6df1f6c"><td class="memItemLeft" align="right" valign="top">QCircuit&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="qasm_8h.html#a32d89189b2762701d4408251e6df1f6c">qpp::qasm::read_from_file</a> (const std::string &amp;fname)</td></tr>
-<tr class="memdesc:a32d89189b2762701d4408251e6df1f6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads a openQASM circuit from a file and returns its <a class="el" href="classqpp_1_1_q_circuit.html" title="Quantum circuit description. ">qpp::QCircuit</a> representation.  <a href="qasm_8h.html#a32d89189b2762701d4408251e6df1f6c">More...</a><br /></td></tr>
-<tr class="separator:a32d89189b2762701d4408251e6df1f6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>openQASM to QCircuit interface </p>
-</div><h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="file_ad543b0050f041bc5be18f93754805830"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">QCircuit qpp::qasm::read </td>
-          <td>(</td>
-          <td class="paramtype">std::istream &amp;&#160;</td>
-          <td class="paramname"><em>stream</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Reads a openQASM circuit from stdin and returns its <a class="el" href="classqpp_1_1_q_circuit.html" title="Quantum circuit description. ">qpp::QCircuit</a> representation. </p>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="classqpp_1_1_q_circuit.html" title="Quantum circuit description. ">qpp::QCircuit</a> </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="file_a32d89189b2762701d4408251e6df1f6c"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">QCircuit qpp::qasm::read_from_file </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>fname</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Reads a openQASM circuit from a file and returns its <a class="el" href="classqpp_1_1_q_circuit.html" title="Quantum circuit description. ">qpp::QCircuit</a> representation. </p>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="classqpp_1_1_q_circuit.html" title="Quantum circuit description. ">qpp::QCircuit</a> </dd></dl>
-
-</div>
-</div>
-</div><!-- contents -->
+</div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by &#160;<a href="http://www.doxygen.org/index.html">

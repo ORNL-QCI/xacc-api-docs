@@ -40,7 +40,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li class="current"><a href="modules.html"><span>Modules</span></a></li>
-      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -77,52 +76,11 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#enum-members">Enumerations</a>  </div>
   <div class="headertitle">
 <div class="title">Enumerations</div>  </div>
 </div><!--header-->
 <div class="contents">
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:ga9b34b9135178db328adf5cb8a75da900"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___enumerations.html#ga9b34b9135178db328adf5cb8a75da900">LBFGSpp::LINE_SEARCH_ALGORITHM</a> { <a class="el" href="group___enumerations.html#gga9b34b9135178db328adf5cb8a75da900a422c28e40b2cffdebbeaa64070b10f2d">LBFGSpp::LBFGS_LINESEARCH_BACKTRACKING_ARMIJO</a> = 1, 
-<a class="el" href="group___enumerations.html#gga9b34b9135178db328adf5cb8a75da900a7cd5b47330ed088f18c73e0200c59209">LBFGSpp::LBFGS_LINESEARCH_BACKTRACKING</a> = 2, 
-<a class="el" href="group___enumerations.html#gga9b34b9135178db328adf5cb8a75da900ae62f6bb1965fc99923a4297da7de82d6">LBFGSpp::LBFGS_LINESEARCH_BACKTRACKING_WOLFE</a> = 2, 
-<a class="el" href="group___enumerations.html#gga9b34b9135178db328adf5cb8a75da900a1d24b804ba1b4a07c196d970b57a2f08">LBFGSpp::LBFGS_LINESEARCH_BACKTRACKING_STRONG_WOLFE</a> = 3
- }</td></tr>
-<tr class="separator:ga9b34b9135178db328adf5cb8a75da900"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Enumeration types for line search. </p>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a class="anchor" id="ga9b34b9135178db328adf5cb8a75da900"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="group___enumerations.html#ga9b34b9135178db328adf5cb8a75da900">LBFGSpp::LINE_SEARCH_ALGORITHM</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>The enumeration of line search algorithms. </p>
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="gga9b34b9135178db328adf5cb8a75da900a422c28e40b2cffdebbeaa64070b10f2d"></a>LBFGS_LINESEARCH_BACKTRACKING_ARMIJO&#160;</td><td class="fielddoc">
-<p>Backtracking method with the Armijo condition. The backtracking method finds the step length such that it satisfies the sufficient decrease (Armijo) condition, <img class="formulaInl" alt="$f(x + a \cdot d) \le f(x) + \beta' \cdot a \cdot g(x)^T d$" src="form_1.png"/>, where <img class="formulaInl" alt="$x$" src="form_2.png"/> is the current point, <img class="formulaInl" alt="$d$" src="form_3.png"/> is the current search direction, <img class="formulaInl" alt="$a$" src="form_4.png"/> is the step length, and <img class="formulaInl" alt="$\beta'$" src="form_5.png"/> is the value specified by <a class="el" href="class_l_b_f_g_spp_1_1_l_b_f_g_s_param.html#afd25aeda1f1a3cb9084e2e860ff6caf8">LBFGSParam::ftol</a>. <img class="formulaInl" alt="$f$" src="form_6.png"/> and <img class="formulaInl" alt="$g$" src="form_7.png"/> are the function and gradient values respectively. </p>
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="gga9b34b9135178db328adf5cb8a75da900a7cd5b47330ed088f18c73e0200c59209"></a>LBFGS_LINESEARCH_BACKTRACKING&#160;</td><td class="fielddoc">
-<p>The backtracking method with the defualt (regular Wolfe) condition. An alias of `LBFGS_LINESEARCH_BACKTRACKING_WOLFE`. </p>
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="gga9b34b9135178db328adf5cb8a75da900ae62f6bb1965fc99923a4297da7de82d6"></a>LBFGS_LINESEARCH_BACKTRACKING_WOLFE&#160;</td><td class="fielddoc">
-<p>Backtracking method with regular Wolfe condition. The backtracking method finds the step length such that it satisfies both the Armijo condition (`LBFGS_LINESEARCH_BACKTRACKING_ARMIJO`) and the curvature condition, <img class="formulaInl" alt="$g(x + a \cdot d)^T d \ge \beta \cdot g(x)^T d$" src="form_8.png"/>, where <img class="formulaInl" alt="$\beta$" src="form_9.png"/> is the value specified by <a class="el" href="class_l_b_f_g_spp_1_1_l_b_f_g_s_param.html#af0cea5445020fbda5449e6b167c42f85">LBFGSParam::wolfe</a>. </p>
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="gga9b34b9135178db328adf5cb8a75da900a1d24b804ba1b4a07c196d970b57a2f08"></a>LBFGS_LINESEARCH_BACKTRACKING_STRONG_WOLFE&#160;</td><td class="fielddoc">
-<p>Backtracking method with strong Wolfe condition. The backtracking method finds the step length such that it satisfies both the Armijo condition (`LBFGS_LINESEARCH_BACKTRACKING_ARMIJO`) and the following condition, <img class="formulaInl" alt="$\vert g(x + a \cdot d)^T d\vert \le \beta \cdot \vert g(x)^T d\vert$" src="form_10.png"/>, where <img class="formulaInl" alt="$\beta$" src="form_9.png"/> is the value specified by <a class="el" href="class_l_b_f_g_spp_1_1_l_b_f_g_s_param.html#af0cea5445020fbda5449e6b167c42f85">LBFGSParam::wolfe</a>. </p>
-</td></tr>
-</table>
-
-</div>
-</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

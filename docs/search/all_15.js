@@ -1,16 +1,7 @@
 var searchData=
 [
-  ['v_5f',['v_',['../classqpp_1_1_dynamic__bitset.html#a9d23eb180bc4405f4179b434c837dc9a',1,'qpp::Dynamic_bitset']]],
-  ['value',['Value',['../classqpp_1_1qasm_1_1_value.html',1,'qpp::qasm']]],
-  ['value_5f',['value_',['../classqpp_1_1qasm_1_1_number.html#a5264ef56345edb552a8f8be76bd3c3f9',1,'qpp::qasm::Number']]],
-  ['value_5ftype',['value_type',['../classqpp_1_1_q_circuit_1_1iterator.html#a6da6046afb3aa0715561c6e8886fe933',1,'qpp::QCircuit::iterator::value_type()'],['../classqpp_1_1_dynamic__bitset.html#a87abb7decde697b3275b5dc19c721315',1,'qpp::Dynamic_bitset::value_type()']]],
-  ['var',['var',['../namespaceqpp.html#a88a9f78049d7bf991a2d3c9bd81a05dd',1,'qpp']]],
-  ['varexpr',['VarExpr',['../classqpp_1_1qasm_1_1_var_expr.html',1,'qpp::qasm']]],
-  ['varexpr',['VarExpr',['../classqpp_1_1qasm_1_1_var_expr.html#a12efdd36f01d45b8cfcea03685d65d7d',1,'qpp::qasm::VarExpr']]],
   ['variant',['Variant',['../classxacc_1_1_variant.html',1,'xacc']]],
   ['variant_3c_20int_2c_20double_2c_20std_3a_3astring_20_3e',['Variant&lt; int, double, std::string &gt;',['../classxacc_1_1_variant.html',1,'xacc']]],
-  ['varinfo',['Varinfo',['../classqpp_1_1qasm_1_1_varinfo.html',1,'qpp::qasm']]],
-  ['varinfo',['Varinfo',['../classqpp_1_1qasm_1_1_varinfo.html#a9c7ff2cc4c978a157f654a08cea5ccb2',1,'qpp::qasm::Varinfo']]],
   ['visit',['visit',['../classxacc_1_1_instruction_visitor.html#af0fead298f5bfbb8e6680433063e2c4b',1,'xacc::InstructionVisitor::visit()'],['../classxacc_1_1quantum_1_1_count_gates_of_type_visitor.html#a9c40e6cb4b74e2d6714c531ffc3b2909',1,'xacc::quantum::CountGatesOfTypeVisitor::visit()'],['../classxacc_1_1quantum_1_1_open_pulse_visitor.html#affd3c9c66fbf6c2bcde378f040802057',1,'xacc::quantum::OpenPulseVisitor::visit()'],['../classxacc_1_1quantum_1_1_open_qasm_visitor.html#ae909c55145412f109a87e401430f4962',1,'xacc::quantum::OpenQasmVisitor::visit(Hadamard &amp;h)'],['../classxacc_1_1quantum_1_1_open_qasm_visitor.html#a02bf0231622d51af123d0f558da8e885',1,'xacc::quantum::OpenQasmVisitor::visit(CNOT &amp;cn)'],['../classxacc_1_1quantum_1_1_open_qasm_visitor.html#a2e250b784f170ae9768aa2882a76f601',1,'xacc::quantum::OpenQasmVisitor::visit(X &amp;x)'],['../classxacc_1_1quantum_1_1_open_qasm_visitor.html#a9e5b2e78492d080bdd83f80232538e1d',1,'xacc::quantum::OpenQasmVisitor::visit(Z &amp;z)'],['../classxacc_1_1quantum_1_1_open_qasm_visitor.html#a9ef378a70efd844d0b61965d9d39e96e',1,'xacc::quantum::OpenQasmVisitor::visit(Measure &amp;m)'],['../classxacc_1_1quantum_1_1_q_object_experiment_visitor.html#a095faeeac5add68d8221b9d7b1a8017c',1,'xacc::quantum::QObjectExperimentVisitor::visit(CNOT &amp;cn) override'],['../classxacc_1_1quantum_1_1_q_object_experiment_visitor.html#adbd45dc10c480992f0eefada679404a6',1,'xacc::quantum::QObjectExperimentVisitor::visit(X &amp;x) override']]],
   ['visitor_5fbase',['visitor_base',['../structxacc_1_1visitor__base.html',1,'xacc']]],
   ['visitor_5fbase_3c_20int_2c_20double_2c_20float_2c_20std_3a_3astring_2c_20std_3a_3avector_3c_20double_20_3e_20_3e',['visitor_base&lt; int, double, float, std::string, std::vector&lt; double &gt; &gt;',['../structxacc_1_1visitor__base.html',1,'xacc']]],

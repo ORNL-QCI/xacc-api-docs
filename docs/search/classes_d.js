@@ -11,6 +11,5 @@ var searchData=
   ['optionsprovider',['OptionsProvider',['../classxacc_1_1_options_provider.html',1,'xacc']]],
   ['oqasmcompiler',['OQASMCompiler',['../classxacc_1_1quantum_1_1_o_q_a_s_m_compiler.html',1,'xacc::quantum']]],
   ['oqasmerrorlistener',['OQASMErrorListener',['../class_o_q_a_s_m_error_listener.html',1,'']]],
-  ['oqasmtoxacclistener',['OQASMToXACCListener',['../classxacc_1_1quantum_1_1_o_q_a_s_m_to_x_a_c_c_listener.html',1,'xacc::quantum']]],
-  ['outofrange',['OutOfRange',['../classqpp_1_1exception_1_1_out_of_range.html',1,'qpp::exception']]]
+  ['oqasmtoxacclistener',['OQASMToXACCListener',['../classxacc_1_1quantum_1_1_o_q_a_s_m_to_x_a_c_c_listener.html',1,'xacc::quantum']]]
 ];
