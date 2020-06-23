@@ -133,10 +133,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1qasm_1_1_context.html#af54965a031f43c36ff74872d7a3f2e0e">exit_scope</a> ()</td></tr>
 <tr class="memdesc:af54965a031f43c36ff74872d7a3f2e0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Exit current scope. <br /></td></tr>
 <tr class="separator:af54965a031f43c36ff74872d7a3f2e0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d21e5b6477f67730e9dade8551317c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classqpp_1_1qasm_1_1_value.html">Value</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1qasm_1_1_context.html#a0d21e5b6477f67730e9dade8551317c1">lookup</a> (const <a class="el" href="structident.html">ident</a> &amp;<a class="el" href="structid.html">id</a>, const <a class="el" href="classqpp_1_1qasm_1_1_location.html">Location</a> &amp;loc)</td></tr>
+<tr class="memitem:a0d21e5b6477f67730e9dade8551317c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classqpp_1_1qasm_1_1_value.html">Value</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1qasm_1_1_context.html#a0d21e5b6477f67730e9dade8551317c1">lookup</a> (const ident &amp;id, const <a class="el" href="classqpp_1_1qasm_1_1_location.html">Location</a> &amp;loc)</td></tr>
 <tr class="memdesc:a0d21e5b6477f67730e9dade8551317c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lookup an identifier in the environment.  <a href="#a0d21e5b6477f67730e9dade8551317c1">More...</a><br /></td></tr>
 <tr class="separator:a0d21e5b6477f67730e9dade8551317c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3666f20455573a5b3f11362d7663d43b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1qasm_1_1_context.html#a3666f20455573a5b3f11362d7663d43b">set</a> (const <a class="el" href="structident.html">ident</a> &amp;<a class="el" href="structid.html">id</a>, std::unique_ptr&lt; <a class="el" href="classqpp_1_1qasm_1_1_value.html">Value</a> &gt; val)</td></tr>
+<tr class="memitem:a3666f20455573a5b3f11362d7663d43b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1qasm_1_1_context.html#a3666f20455573a5b3f11362d7663d43b">set</a> (const ident &amp;id, std::unique_ptr&lt; <a class="el" href="classqpp_1_1qasm_1_1_value.html">Value</a> &gt; val)</td></tr>
 <tr class="memdesc:a3666f20455573a5b3f11362d7663d43b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the value of an identifier in the current scope.  <a href="#a3666f20455573a5b3f11362d7663d43b">More...</a><br /></td></tr>
 <tr class="separator:a3666f20455573a5b3f11362d7663d43b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac1c73be3560330b847cd8ec98f956ad5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1qasm_1_1_context.html#ac1c73be3560330b847cd8ec98f956ad5">set_ccontrols</a> (const std::vector&lt; <a class="el" href="namespaceqpp.html#a1f5f7137e8551cf82db04d3b81cdd706">idx</a> &gt; &amp;cctrls, const std::vector&lt; <a class="el" href="namespaceqpp.html#a1f5f7137e8551cf82db04d3b81cdd706">idx</a> &gt; &amp;shift)</td></tr>
@@ -359,7 +359,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
         <tr>
           <td class="memname"><a class="el" href="classqpp_1_1qasm_1_1_value.html">Value</a>* qpp::qasm::Context::lookup </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structident.html">ident</a> &amp;&#160;</td>
+          <td class="paramtype">const ident &amp;&#160;</td>
           <td class="paramname"><em>id</em>, </td>
         </tr>
         <tr>
@@ -404,7 +404,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
         <tr>
           <td class="memname">void qpp::qasm::Context::set </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structident.html">ident</a> &amp;&#160;</td>
+          <td class="paramtype">const ident &amp;&#160;</td>
           <td class="paramname"><em>id</em>, </td>
         </tr>
         <tr>

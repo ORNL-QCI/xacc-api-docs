@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['exception',['exception',['../classnlohmann_1_1basic__json.html#a9a0aced019cb1d65bb49703406c84970',1,'nlohmann::basic_json']]]
+  ['ket',['ket',['../namespaceqpp.html#a5d7185dfc7bee58c937abc243c3692ea',1,'qpp']]]
 ];

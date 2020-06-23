@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['steptype',['StepType',['../classqpp_1_1_q_circuit.html#acb7804c99c55129760eade99214c3de8',1,'qpp::QCircuit']]]
+  ['type',['Type',['../classqpp_1_1_codes.html#a85e62bf712ed89202e8d1c6cc3f3a718',1,'qpp::Codes']]]
 ];

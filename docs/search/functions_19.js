@@ -2,7 +2,6 @@ var searchData=
 [
   ['_7ebaseinstructionvisitable',['~BaseInstructionVisitable',['../classxacc_1_1_base_instruction_visitable.html#a3a291d247b18ea7620dd8d97dfb595f4',1,'xacc::BaseInstructionVisitable']]],
   ['_7ebaseinstructionvisitor',['~BaseInstructionVisitor',['../classxacc_1_1_base_instruction_visitor.html#a5579c444efda0ce6cf043aac9d4eea77',1,'xacc::BaseInstructionVisitor']]],
-  ['_7ebasic_5fjson',['~basic_json',['../classnlohmann_1_1basic__json.html#aba01953d5d90e676d504863b8d9fdde5',1,'nlohmann::basic_json']]],
   ['_7ebit_5fcircuit',['~Bit_circuit',['../classqpp_1_1_bit__circuit.html#a1faf05df11c9ab60ab73f2db2da84443',1,'qpp::Bit_circuit']]],
   ['_7ecloneable',['~Cloneable',['../classxacc_1_1_cloneable.html#a717a08b3ba07ca1614651bf1c904c557',1,'xacc::Cloneable']]],
   ['_7edecl',['~Decl',['../classqpp_1_1qasm_1_1_decl.html#a125237985a7dc6e095d180d5046e303b',1,'qpp::qasm::Decl']]],

@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['key',['key',['../classnlohmann_1_1detail_1_1iter__impl.html#aa2e9909148c4df211d89a0a8608e556c',1,'nlohmann::detail::iter_impl::key()'],['../classnlohmann_1_1detail_1_1json__reverse__iterator.html#adc648a641e8e9a1072c5abd56ad06401',1,'nlohmann::detail::json_reverse_iterator::key()']]],
   ['kind',['kind',['../classqpp_1_1qasm_1_1_token.html#a99fe0d919dabf9c9ff3449b058e18632',1,'qpp::qasm::Token']]],
   ['kraus2choi',['kraus2choi',['../namespaceqpp.html#a9f23aa8ee0eb007532b29ada39091d4f',1,'qpp']]],
   ['kraus2super',['kraus2super',['../namespaceqpp.html#a474d2e8fdbac3fb577c835e5416fecaa',1,'qpp']]],

@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['v_5f',['v_',['../classqpp_1_1_dynamic__bitset.html#a9d23eb180bc4405f4179b434c837dc9a',1,'qpp::Dynamic_bitset']]],
-  ['value_5f',['value_',['../classqpp_1_1qasm_1_1_number.html#a5264ef56345edb552a8f8be76bd3c3f9',1,'qpp::qasm::Number']]]
+  ['x',['X',['../classqpp_1_1_gates.html#a57f1e0fc4e5cd8ea34ffec0a5aae969c',1,'qpp::Gates']]],
+  ['x0',['x0',['../classqpp_1_1_states.html#a478d95a9ad019692c48f9a8329d38c46',1,'qpp::States']]],
+  ['x1',['x1',['../classqpp_1_1_states.html#afcfdb0c09b7331950aa118aaaa4db248',1,'qpp::States']]]
 ];

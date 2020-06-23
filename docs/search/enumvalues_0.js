@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['array',['array',['../namespacenlohmann_1_1detail.html#a1ed8fc6239da25abcaf681d30ace4985af1f713c9e000f5d3f280adbd124df4f5',1,'nlohmann::detail']]],
-  ['array_5fend',['array_end',['../classnlohmann_1_1detail_1_1parser.html#a37ac88c864dda495f72cb62776b0bebea49642fb732aa2e112188fba1f9d3ef7f',1,'nlohmann::detail::parser']]],
-  ['array_5fstart',['array_start',['../classnlohmann_1_1detail_1_1parser.html#a37ac88c864dda495f72cb62776b0bebeaa4388a3d92419edbb1c6efd4d52461f3',1,'nlohmann::detail::parser']]]
+  ['custom',['CUSTOM',['../classqpp_1_1_q_circuit.html#a808fb10009cf37d1ac900b3b2e3dea7ea72baef04098f035e8a320b03ad197818',1,'qpp::QCircuit']]],
+  ['custom_5fcctrl',['CUSTOM_cCTRL',['../classqpp_1_1_q_circuit.html#a808fb10009cf37d1ac900b3b2e3dea7ea79b326efcb9013f059bd0e83470e150f',1,'qpp::QCircuit']]],
+  ['custom_5fctrl',['CUSTOM_CTRL',['../classqpp_1_1_q_circuit.html#a808fb10009cf37d1ac900b3b2e3dea7ead305923ad5ac78f0ef86ab4997d277ed',1,'qpp::QCircuit']]]
 ];

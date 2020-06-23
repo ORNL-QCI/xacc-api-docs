@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['base_5fiterator',['base_iterator',['../classnlohmann_1_1detail_1_1json__reverse__iterator.html#a6b2ef1d632fe49bfcc22fbd1abd62395',1,'nlohmann::detail::json_reverse_iterator']]],
-  ['bigint',['bigint',['../namespaceqpp.html#ad199ade0836f0d8488e7f6c7c8aa1949',1,'qpp']]],
-  ['boolean_5ft',['boolean_t',['../classnlohmann_1_1basic__json.html#a4c919102a9b4fe0d588af64801436082',1,'nlohmann::basic_json']]],
-  ['bra',['bra',['../namespaceqpp.html#a8886624a4a55a9b45c96a623a20bf163',1,'qpp']]]
+  ['cmat',['cmat',['../namespaceqpp.html#ab0de67006716bdc8fae52c6a49259276',1,'qpp']]],
+  ['const_5fiterator',['const_iterator',['../classqpp_1_1_q_circuit.html#a01bb392a75c36cb83b4d33c697c0c8e5',1,'qpp::QCircuit']]],
+  ['cplx',['cplx',['../namespaceqpp.html#aad7ccc50a6b139279d7b56d07112b183',1,'qpp']]]
 ];

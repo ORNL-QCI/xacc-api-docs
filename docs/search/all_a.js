@@ -1,17 +1,11 @@
 var searchData=
 [
-  ['jn',['jn',['../classqpp_1_1_states.html#a45f8ef049f7e9addd4b2109d618b7bae',1,'qpp::States']]],
-  ['jslossstrategy',['JSLossStrategy',['../classxacc_1_1algorithm_1_1_j_s_loss_strategy.html',1,'xacc::algorithm']]],
-  ['json',['json',['../namespacenlohmann.html#a2bfd99e845a2e5cd90aeaf1b1431f474',1,'nlohmann']]],
-  ['json_5fpointer',['json_pointer',['../classnlohmann_1_1json__pointer.html',1,'nlohmann']]],
-  ['json_5fpointer',['json_pointer',['../classnlohmann_1_1basic__json.html#a6886a5001f5b449ad316101a311ce536',1,'nlohmann::basic_json::json_pointer()'],['../classnlohmann_1_1json__pointer.html#a7f32d7c62841f0c4a6784cf741a6e4f8',1,'nlohmann::json_pointer::json_pointer()']]],
-  ['json_5fref',['json_ref',['../classnlohmann_1_1detail_1_1json__ref.html',1,'nlohmann::detail']]],
-  ['json_5freverse_5fiterator',['json_reverse_iterator',['../classnlohmann_1_1detail_1_1json__reverse__iterator.html',1,'nlohmann::detail']]],
-  ['json_5freverse_5fiterator',['json_reverse_iterator',['../classnlohmann_1_1detail_1_1json__reverse__iterator.html#a0246de16ece16293f2917dfa5d96e278',1,'nlohmann::detail::json_reverse_iterator::json_reverse_iterator(const typename base_iterator::iterator_type &amp;it) noexcept'],['../classnlohmann_1_1detail_1_1json__reverse__iterator.html#a6c2d025530114ed989188e8adfc8467e',1,'nlohmann::detail::json_reverse_iterator::json_reverse_iterator(const base_iterator &amp;it) noexcept']]],
-  ['jsonvisitor',['JsonVisitor',['../classxacc_1_1quantum_1_1_json_visitor.html',1,'xacc::quantum']]],
-  ['jsparametershiftgradientstrategy',['JSParameterShiftGradientStrategy',['../classxacc_1_1algorithm_1_1_j_s_parameter_shift_gradient_strategy.html',1,'xacc::algorithm']]],
-  ['jumpcontext',['JumpContext',['../classquil_1_1_quil_parser_1_1_jump_context.html',1,'quil::QuilParser']]],
-  ['jumpunlesscontext',['JumpUnlessContext',['../classquil_1_1_quil_parser_1_1_jump_unless_context.html',1,'quil::QuilParser']]],
-  ['jumpwhencontext',['JumpWhenContext',['../classquil_1_1_quil_parser_1_1_jump_when_context.html',1,'quil::QuilParser']]],
-  ['jw',['JW',['../classxacc_1_1quantum_1_1_j_w.html',1,'xacc::quantum']]]
+  ['kernels',['kernels',['../classxacc_1_1quantum_1_1_d_w_i_r.html#a10ad49e8dc61452c55bfd7e287bc1cf7',1,'xacc::quantum::DWIR']]],
+  ['ket',['ket',['../namespaceqpp.html#a5d7185dfc7bee58c937abc243c3692ea',1,'qpp']]],
+  ['kind',['kind',['../classqpp_1_1qasm_1_1_token.html#a99fe0d919dabf9c9ff3449b058e18632',1,'qpp::qasm::Token::kind() const '],['../classqpp_1_1qasm_1_1_token.html#a59efd5cc4d26a6790cb2882d0ac2f2da',1,'qpp::qasm::Token::Kind()']]],
+  ['kraus2choi',['kraus2choi',['../namespaceqpp.html#a9f23aa8ee0eb007532b29ada39091d4f',1,'qpp']]],
+  ['kraus2super',['kraus2super',['../namespaceqpp.html#a474d2e8fdbac3fb577c835e5416fecaa',1,'qpp']]],
+  ['kron',['kron',['../classqpp_1_1_q_circuit.html#adfa35ebe8e53946824041142e5f4f7e1',1,'qpp::QCircuit::kron(const QCircuit &amp;qc)'],['../classqpp_1_1_q_circuit.html#acc00b0ee425e0ca5ada67b79e4518153',1,'qpp::QCircuit::kron()'],['../namespaceqpp.html#a9294ebd345fe1c99731bf2b776e610d7',1,'qpp::kron(const T &amp;head)'],['../namespaceqpp.html#a2aa0ed825cfd6edb14d769012046e60d',1,'qpp::kron(const T &amp;head, const Args &amp;...tail)'],['../namespaceqpp.html#afaceac83c64e729f98b80f72359ad7a5',1,'qpp::kron(const std::vector&lt; Derived &gt; &amp;As)'],['../namespaceqpp.html#ad529abce5ec6d3b7c32ac3e9be65e577',1,'qpp::kron(const std::initializer_list&lt; Derived &gt; &amp;As)']]],
+  ['kronpow',['kronpow',['../namespaceqpp.html#a1693a6d2628b3f3b7f69692cd8af1a9f',1,'qpp']]],
+  ['ks_5f',['Ks_',['../classqpp_1_1_noise_base.html#aab074a86c18594172417017221e2b842',1,'qpp::NoiseBase']]]
 ];

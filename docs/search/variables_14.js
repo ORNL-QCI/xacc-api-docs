@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['w',['W',['../classqpp_1_1_states.html#abb7fad547373f8bda37595c84271d45f',1,'qpp::States']]],
-  ['wolfe',['wolfe',['../class_l_b_f_g_spp_1_1_l_b_f_g_s_param.html#af0cea5445020fbda5449e6b167c42f85',1,'LBFGSpp::LBFGSParam']]]
+  ['y',['Y',['../classqpp_1_1_gates.html#aadc5cf3c434afcd40c8e74b198fa59a3',1,'qpp::Gates']]],
+  ['y0',['y0',['../classqpp_1_1_states.html#a7fd1848edf82c24d337a3f946da074da',1,'qpp::States']]],
+  ['y1',['y1',['../classqpp_1_1_states.html#a8af5feccfe048c189769a920ab0a870f',1,'qpp::States']]]
 ];

@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['t',['T',['../classqpp_1_1_gates.html#ac24f89316c231a8831ee57d87d380e7e',1,'qpp::Gates']]],
-  ['target_5f',['target_',['../structqpp_1_1_q_circuit_1_1_gate_step.html#a2b37b9dfadf6a2ed2027d97571786859',1,'qpp::QCircuit::GateStep::target_()'],['../structqpp_1_1_q_circuit_1_1_measure_step.html#a15cb90f8467e525cdf907d998443bcd4',1,'qpp::QCircuit::MeasureStep::target_()']]],
-  ['tof',['TOF',['../classqpp_1_1_gates.html#a21ca22058677b4c85cda5ba4f6f8f7ca',1,'qpp::Gates']]]
+  ['w',['W',['../classqpp_1_1_states.html#abb7fad547373f8bda37595c84271d45f',1,'qpp::States']]],
+  ['wolfe',['wolfe',['../class_l_b_f_g_spp_1_1_l_b_f_g_s_param.html#af0cea5445020fbda5449e6b167c42f85',1,'LBFGSpp::LBFGSParam']]]
 ];
