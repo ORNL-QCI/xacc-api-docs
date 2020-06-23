@@ -2,8 +2,8 @@ var searchData=
 [
   ['data',['Data',['../classxacc_1_1ibm_1_1_data.html',1,'xacc::ibm']]],
   ['ddcl',['DDCL',['../classxacc_1_1algorithm_1_1_d_d_c_l.html',1,'xacc::algorithm']]],
-  ['defaultgradientstepper',['DefaultGradientStepper',['../struct_g_o_a_t___pulse_optim_1_1_default_gradient_stepper.html',1,'GOAT_PulseOptim']]],
-  ['defaultintegrator',['DefaultIntegrator',['../struct_g_o_a_t___pulse_optim_1_1_default_integrator.html',1,'GOAT_PulseOptim']]],
+  ['defaultgradientstepper',['DefaultGradientStepper',['../structxacc_1_1_g_o_a_t___pulse_optim_1_1_default_gradient_stepper.html',1,'xacc::GOAT_PulseOptim']]],
+  ['defaultintegrator',['DefaultIntegrator',['../structxacc_1_1_g_o_a_t___pulse_optim_1_1_default_integrator.html',1,'xacc::GOAT_PulseOptim']]],
   ['defaultparametersetter',['DefaultParameterSetter',['../classxacc_1_1quantum_1_1_default_parameter_setter.html',1,'xacc::quantum']]],
   ['defaultplacement',['DefaultPlacement',['../classxacc_1_1quantum_1_1_default_placement.html',1,'xacc::quantum']]],
   ['defaults',['Defaults',['../classxacc_1_1ibm__backend_1_1_defaults.html',1,'xacc::ibm_backend']]],

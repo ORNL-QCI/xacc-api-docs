@@ -7,7 +7,7 @@ var searchData=
   ['operations_2eh',['operations.h',['../operations_8h.html',1,'']]],
   ['operatorpool',['OperatorPool',['../classxacc_1_1algorithm_1_1_operator_pool.html',1,'xacc::algorithm']]],
   ['optfunction',['OptFunction',['../classxacc_1_1_opt_function.html',1,'xacc']]],
-  ['optimizationresult',['OptimizationResult',['../struct_g_o_a_t___pulse_optim_1_1_optimization_result.html',1,'GOAT_PulseOptim']]],
+  ['optimizationresult',['OptimizationResult',['../structxacc_1_1_g_o_a_t___pulse_optim_1_1_optimization_result.html',1,'xacc::GOAT_PulseOptim']]],
   ['optimizer',['Optimizer',['../classxacc_1_1_optimizer.html',1,'xacc']]],
   ['optionsprovider',['OptionsProvider',['../classxacc_1_1_options_provider.html',1,'xacc']]],
   ['oqasmcompiler',['OQASMCompiler',['../classxacc_1_1quantum_1_1_o_q_a_s_m_compiler.html',1,'xacc::quantum']]],
